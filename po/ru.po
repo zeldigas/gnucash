@@ -36,7 +36,7 @@ msgstr "Бизнес"
 #: ../src/business/business-gnome/dialog-vendor.c:726
 #: ../src/report/business-reports/taxinvoice.eguile.scm:159
 msgid "Company Name"
-msgstr "Название фирмы"
+msgstr "Название компании"
 
 #: ../src/app-utils/app-utils.scm:304
 msgid "Company Address"
@@ -229,7 +229,7 @@ msgstr "URL-адрес сайта предприятия"
 
 #: ../src/app-utils/business-prefs.scm:107
 msgid "The ID for your company (eg 'Tax-ID: 00-000000)."
-msgstr "ID вашей фирмы, например, Tax-ID:00-000000"
+msgstr "ID вашей компании, например, Tax-ID:00-000000"
 
 #: ../src/app-utils/business-prefs.scm:112
 msgid "Default Customer TaxTable"
@@ -1270,8 +1270,8 @@ msgstr "Эта проводка должна быть назначена пос�
 msgid "You must enter a company name. If this customer is an individual (and not a company) you should enter the same value for:\n"
 "Identification - Company Name, and\n"
 "Payment Address - Name."
-msgstr "Необходимо ввести название фирмы. Если клиент физическое лицо (не является организацией), то нужно указать одинаковые значения для:\n"
-"Идентификация - Название фирмы, и\n"
+msgstr "Необходимо ввести название компании. Если клиент физическое лицо (не является организацией), то нужно указать одинаковые значения для:\n"
+"Идентификация - Название компании, и\n"
 "Назначение платежа - Наименование"
 
 #: ../src/business/business-gnome/dialog-customer.c:341
@@ -1733,7 +1733,7 @@ msgstr "Дата открытия"
 #: ../src/business/business-gnome/dialog-invoice.c:2988
 #: ../src/business/business-gnome/dialog-invoice.c:3022
 msgid "Company Name "
-msgstr "Название фирмы "
+msgstr "Название компании "
 
 #: ../src/business/business-gnome/dialog-invoice.c:2992
 #: ../src/business/business-gnome/gtkbuilder/dialog-invoice.glade.h:3
@@ -1995,7 +1995,7 @@ msgstr "Необходимо ввести корректное название 
 
 #: ../src/business/business-gnome/dialog-payment.c:211
 msgid "You must select a company for payment processing."
-msgstr "Необходимо выбрать фирму для осуществления платежа"
+msgstr "Необходимо выбрать компанию для осуществления платежа"
 
 #: ../src/business/business-gnome/dialog-payment.c:232
 msgid "You must select a transfer account from the account tree."
@@ -2019,7 +2019,7 @@ msgid "You must enter a company name. If this vendor is an individual (and not a
 "Identification - Company Name, and\n"
 "Payment Address - Name."
 msgstr "Необходимо ввести название компании. Если поставщик является физическим лицом, необходимо ввести одинаковые значения для:\n"
-"Идентификация - Название фирмы, и\n"
+"Идентификация - Название компании, и\n"
 "Назначение платежа - Наименование"
 
 #: ../src/business/business-gnome/dialog-vendor.c:226
@@ -2435,11 +2435,11 @@ msgstr "Введите платеж для владельца этого сче�
 
 #: ../src/business/business-gnome/gnc-plugin-page-invoice.c:200
 msgid "_Company Report"
-msgstr "Отчет по _фирме"
+msgstr "Отчет по _компании"
 
 #: ../src/business/business-gnome/gnc-plugin-page-invoice.c:201
 msgid "Open a company report window for the owner of this Invoice"
-msgstr "Открыть окно отчета по фирме для владельца этого счета-фактуры"
+msgstr "Открыть окно отчета по компании для владельца этого счета-фактуры"
 
 #: ../src/business/business-gnome/gnc-plugin-page-invoice.c:209
 msgid "_Standard"
@@ -3113,7 +3113,7 @@ msgstr "Номер клиента: "
 #: ../src/business/business-gnome/gtkbuilder/dialog-customer.glade.h:3
 #: ../src/business/business-gnome/gtkbuilder/dialog-vendor.glade.h:3
 msgid "Company Name: "
-msgstr "Название фирмы: "
+msgstr "Название компании: "
 
 #: ../src/business/business-gnome/gtkbuilder/dialog-customer.glade.h:4
 #: ../src/business/business-gnome/gtkbuilder/dialog-employee.glade.h:4
@@ -16625,11 +16625,11 @@ msgstr "Проводки относящиеся к \"%s\" содержат бо�
 
 #: ../src/report/business-reports/aging.scm:350
 msgid "Sort companies by."
-msgstr "Упорядочить фирмы по."
+msgstr "Упорядочить компании по"
 
 #: ../src/report/business-reports/aging.scm:353
 msgid "Name of the company."
-msgstr "Название фирмы."
+msgstr "Название компании"
 
 #: ../src/report/business-reports/aging.scm:354
 msgid "Total Owed"
@@ -16637,7 +16637,7 @@ msgstr "Общей задолженности"
 
 #: ../src/report/business-reports/aging.scm:354
 msgid "Total amount owed to/from Company."
-msgstr "Общая задолженность этой фирме (фирмой)."
+msgstr "Общая задолженность указанной компании (компанией)"
 
 #: ../src/report/business-reports/aging.scm:355
 msgid "Bracket Total Owed"
@@ -17061,11 +17061,11 @@ msgstr "Показать столбец с расходами по клиент�
 
 #: ../src/report/business-reports/customer-summary.scm:63
 msgid "Show Company Address"
-msgstr "Показать адрес фирмы"
+msgstr "Показать адрес компании"
 
 #: ../src/report/business-reports/customer-summary.scm:64
 msgid "Show your own company's address and the date of printing."
-msgstr "Показать адрес вашей фирмы и дату формирования отчета."
+msgstr "Показать адрес компании и дату формирования отчета"
 
 #: ../src/report/business-reports/customer-summary.scm:66
 #: ../src/report/business-reports/easy-invoice.scm:249
@@ -17229,7 +17229,7 @@ msgstr "%s %s - %s"
 #: ../src/report/business-reports/customer-summary.scm:1018
 #: ../src/report/business-reports/job-report.scm:647
 msgid "No valid %s selected. Click on the Options button to select a company."
-msgstr "Подходящая %s не выбрана. Нажмите кнопку \"Настройки\" и выберите фирму."
+msgstr "Подходящая %s не выбрана. Нажмите кнопку \"Настройки\" и выберите компанию"
 
 #: ../src/report/business-reports/customer-summary.scm:1031
 msgid "Customer Summary"
@@ -17249,7 +17249,7 @@ msgstr "Тип оплаты"
 #: ../src/report/business-reports/invoice.scm:116
 #: ../src/report/business-reports/invoice.scm:274
 msgid "Taxable"
-msgstr "Налогооблагаемо"
+msgstr "Подлежит налогообложению"
 
 #: ../src/report/business-reports/easy-invoice.scm:124
 #: ../src/report/business-reports/easy-invoice.scm:284
@@ -17279,7 +17279,7 @@ msgstr "Собственный заголовок"
 #: ../src/report/business-reports/fancy-invoice.scm:254
 #: ../src/report/business-reports/invoice.scm:239
 msgid "A custom string to replace Invoice, Bill or Expense Voucher."
-msgstr "Особая строка, заменяющая \"Счёт-фактура\", \"Платёж\" или \"Товарный чек\"."
+msgstr "Особая строка, заменяющая \"Счет-фактура\", \"Счет\" или \"Товарный чек\""
 
 #. Elements page options
 #: ../src/report/business-reports/easy-invoice.scm:250
@@ -17325,7 +17325,7 @@ msgstr "Показать скидку записи?"
 #: ../src/report/business-reports/fancy-invoice.scm:290
 #: ../src/report/business-reports/invoice.scm:275
 msgid "Display the entry's taxable status?"
-msgstr "Показать облагается ли запись налогами?"
+msgstr "Показать, облагаются ли данные в записи налогами?"
 
 #: ../src/report/business-reports/easy-invoice.scm:285
 #: ../src/report/business-reports/fancy-invoice.scm:295
@@ -17414,15 +17414,15 @@ msgstr "Показать"
 
 #: ../src/report/business-reports/easy-invoice.scm:294
 msgid "My Company"
-msgstr "Моя фирма"
+msgstr "Компания"
 
 #: ../src/report/business-reports/easy-invoice.scm:295
 msgid "Display my company name and address?"
-msgstr "Показывать название и адрес моей фирмы?"
+msgstr "Показывать название и адрес компании?"
 
 #: ../src/report/business-reports/easy-invoice.scm:299
 msgid "My Company ID"
-msgstr "ID моей компании"
+msgstr "ID компании"
 
 #: ../src/report/business-reports/easy-invoice.scm:300
 msgid "Display my company ID?"
@@ -17513,7 +17513,7 @@ msgstr "Платежи"
 #: ../src/report/business-reports/fancy-invoice.scm:335
 #: ../src/report/business-reports/invoice.scm:320
 msgid "Display the payments applied to this invoice?"
-msgstr "Показать платежи по этому счету-фактуре?"
+msgstr "Показать платежи по данному счету-фактуре?"
 
 #: ../src/report/business-reports/easy-invoice.scm:349
 msgid "Invoice Width"
@@ -17521,7 +17521,7 @@ msgstr "Ширина счета-фактуры"
 
 #: ../src/report/business-reports/easy-invoice.scm:350
 msgid "The minimum width of the invoice."
-msgstr "Минимальная ширина счета-фактуры."
+msgstr "Минимальная ширина счета-фактуры"
 
 #: ../src/report/business-reports/easy-invoice.scm:355
 #: ../src/report/business-reports/easy-invoice.scm:361
@@ -17530,7 +17530,7 @@ msgstr "Текст"
 
 #: ../src/report/business-reports/easy-invoice.scm:356
 msgid "Extra notes to put on the invoice (simple HTML is accepted)."
-msgstr "Дополнительное примечание, помещаемое на счет-фактуры (допустим обычный HTML)"
+msgstr "Дополнительное примечание на счете-фактуре (допустим обычный HTML)"
 
 #: ../src/report/business-reports/easy-invoice.scm:357
 #: ../src/report/business-reports/fancy-invoice.scm:347
@@ -17649,19 +17649,19 @@ msgstr "Сделать все чеки оплачиваемыми для"
 
 #: ../src/report/business-reports/fancy-invoice.scm:364
 msgid "Company contact"
-msgstr "Контактное лицо фирмы"
+msgstr "Контактное лицо"
 
 #: ../src/report/business-reports/fancy-invoice.scm:365
 msgid "Display the Company contact information."
-msgstr "Отобразить контактное лицо фирмы."
+msgstr "Отобразить контактное лицо"
 
 #: ../src/report/business-reports/fancy-invoice.scm:371
 msgid "Company contact string"
-msgstr "Контактная строка фирмы"
+msgstr "Контактная информация о компании"
 
 #: ../src/report/business-reports/fancy-invoice.scm:372
 msgid "The phrase used to introduce the company contact."
-msgstr "Фраза предшествующая контактной информации фирмы."
+msgstr "Фраза предшествующая контактной информации компании"
 
 #: ../src/report/business-reports/fancy-invoice.scm:373
 msgid "Direct all inquiries to"
@@ -17761,33 +17761,33 @@ msgstr "Показать сумму проводки?"
 #: ../src/report/business-reports/job-report.scm:577
 #: ../src/report/business-reports/job-report.scm:689
 msgid "Job Report"
-msgstr "Отчёт об операции"
+msgstr "Отчет об операции"
 
 #: ../src/report/business-reports/owner-report.scm:77
 msgid "No valid customer selected."
-msgstr "Клиент не выбран."
+msgstr "Клиент не выбран"
 
 #: ../src/report/business-reports/owner-report.scm:78
 msgid "No valid employee selected."
-msgstr "Сотрудник не выбран."
+msgstr "Сотрудник не выбран"
 
 #. FALL THROUGH
 #: ../src/report/business-reports/owner-report.scm:80
 msgid "No valid company selected."
-msgstr "Фирма не выбрана."
+msgstr "Компания не выбрана"
 
 #: ../src/report/business-reports/owner-report.scm:83
 msgid "This report requires a customer to be selected."
-msgstr "Этот отчет требует, чтобы был выбран клиент."
+msgstr "Для данного отчета требуется выбрать клиента"
 
 #: ../src/report/business-reports/owner-report.scm:84
 msgid "This report requires a employee to be selected."
-msgstr "Этот отчет требует, чтобы был выбран сотрудник."
+msgstr "Для данного отчета требуется выбрать сотрудника"
 
 #. FALL THROUGH
 #: ../src/report/business-reports/owner-report.scm:86
 msgid "This report requires a company to be selected."
-msgstr "Этот отчет требует, чтоб была выбрана фирма."
+msgstr "Для данного отчета требуется выбрать компанию"
 
 #: ../src/report/business-reports/owner-report.scm:102
 msgid "No valid account selected"
@@ -17795,7 +17795,7 @@ msgstr "Счет не выбран"
 
 #: ../src/report/business-reports/owner-report.scm:103
 msgid "This report requires a valid account to be selected."
-msgstr "Этот отчет требует, чтобы был выбран счет."
+msgstr "Для данного отчета требуется выбрать счет"
 
 #: ../src/report/business-reports/owner-report.scm:432
 msgid "Period Totals"
@@ -17803,15 +17803,15 @@ msgstr "Итого по периоду"
 
 #: ../src/report/business-reports/owner-report.scm:496
 msgid "The company for this report."
-msgstr "Фирма для этого отчета."
+msgstr "Компания для данного отчета"
 
 #: ../src/report/business-reports/owner-report.scm:544
 msgid "Display the period credits column?"
-msgstr "Показать колонку кредита по периоду?"
+msgstr "Показать столбец кредита по периоду?"
 
 #: ../src/report/business-reports/owner-report.scm:549
 msgid "Display a period debits column?"
-msgstr "Показать колонку дебита по периоду?"
+msgstr "Показать столбец дебита по периоду?"
 
 #: ../src/report/business-reports/owner-report.scm:745
 msgid "Report:"
@@ -17823,7 +17823,7 @@ msgstr "Счет для оплат"
 
 #: ../src/report/business-reports/payables.scm:50
 msgid "The payable account you wish to examine."
-msgstr "Cчет для оплат, который желаете изучить."
+msgstr "Cчет для оплат, выбранный для изучения"
 
 #: ../src/report/business-reports/payables.scm:69
 msgid "Payable Aging"
@@ -17835,7 +17835,7 @@ msgstr "Счет для получений"
 
 #: ../src/report/business-reports/receivables.scm:50
 msgid "The receivables account you wish to examine."
-msgstr "Счет для получений, который желаете изучить."
+msgstr "Счет для получений, выбранный для изучения"
 
 #: ../src/report/business-reports/receivables.scm:70
 msgid "Receivable Aging"
@@ -17883,15 +17883,15 @@ msgstr "Отображаемые элементы"
 #. option names
 #: ../src/report/business-reports/taxinvoice.scm:96
 msgid "column: Date"
-msgstr "колонка: Дата"
+msgstr "столбец: Дата"
 
 #: ../src/report/business-reports/taxinvoice.scm:97
 msgid "column: Tax Rate"
-msgstr "колонка: Налоговая ставка"
+msgstr "столбец: Налоговая ставка"
 
 #: ../src/report/business-reports/taxinvoice.scm:98
 msgid "column: Units"
-msgstr "Колонка: Единицы"
+msgstr "столбец: Единицы"
 
 #: ../src/report/business-reports/taxinvoice.scm:99
 msgid "row: Address"
@@ -17907,7 +17907,7 @@ msgstr "строка: Номер счета-фактуры"
 
 #: ../src/report/business-reports/taxinvoice.scm:102
 msgid "row: Company Name"
-msgstr "строка: Название фирмы"
+msgstr "строка: Название компании"
 
 #: ../src/report/business-reports/taxinvoice.scm:103
 msgid "Report Currency"
@@ -18042,7 +18042,7 @@ msgstr "Показать номер счета-фактуры?"
 
 #: ../src/report/business-reports/taxinvoice.scm:172
 msgid "Display the Company Name?"
-msgstr "Показать название фирмы?"
+msgstr "Показать название компании?"
 
 #: ../src/report/business-reports/taxinvoice.scm:173
 msgid "Invoice Number next to title?"
@@ -19566,7 +19566,7 @@ msgstr "Итого по счету"
 #: ../src/report/standard-reports/sx-summary.scm:50
 #: ../src/report/standard-reports/trial-balance.scm:68
 msgid "Company name"
-msgstr "Название фирмы"
+msgstr "Наименование компании"
 
 #: ../src/report/standard-reports/account-summary.scm:70
 #: ../src/report/standard-reports/balance-sheet.scm:80
@@ -19577,17 +19577,17 @@ msgstr "Название фирмы"
 #: ../src/report/standard-reports/sx-summary.scm:51
 #: ../src/report/standard-reports/trial-balance.scm:69
 msgid "Name of company/individual."
-msgstr "Название фирмы/имя человека."
+msgstr "Наименование компании / имя человека"
 
 #: ../src/report/standard-reports/account-summary.scm:81
 #: ../src/report/standard-reports/sx-summary.scm:62
 msgid "Depth limit behavior"
-msgstr "Поведение ограничения глубины"
+msgstr "Установка ограничения уровня"
 
 #: ../src/report/standard-reports/account-summary.scm:83
 #: ../src/report/standard-reports/sx-summary.scm:64
 msgid "How to treat accounts which exceed the specified depth limit (if any)."
-msgstr "Что делать со счетами, которые выходят за указанный предел глубины."
+msgstr "Что делать со счетами, которые выходят за ограничение уровня"
 
 #: ../src/report/standard-reports/account-summary.scm:85
 #: ../src/report/standard-reports/balance-sheet.scm:98
@@ -21801,7 +21801,7 @@ msgstr "Автор"
 #: ../src/report/stylesheets/stylesheet-fancy.scm:42
 #: ../src/report/stylesheets/stylesheet-footer.scm:53
 msgid "Name of person preparing the report."
-msgstr "Имя человека, подготовившего отчет."
+msgstr "Имя человека, подготовившего отчет"
 
 #: ../src/report/stylesheets/stylesheet-easy.scm:53
 #: ../src/report/stylesheets/stylesheet-easy.scm:192
@@ -21816,7 +21816,7 @@ msgstr "Подготовлен для"
 #: ../src/report/stylesheets/stylesheet-fancy.scm:48
 #: ../src/report/stylesheets/stylesheet-footer.scm:59
 msgid "Name of organization or company prepared for."
-msgstr "Название организации или фирмы, для которой подготовлен отчет."
+msgstr "Название организации или компании, для которой сформирован отчет"
 
 #: ../src/report/stylesheets/stylesheet-easy.scm:59
 #: ../src/report/stylesheets/stylesheet-easy.scm:193
@@ -21831,7 +21831,7 @@ msgstr "Информация об авторе"
 #: ../src/report/stylesheets/stylesheet-fancy.scm:54
 #: ../src/report/stylesheets/stylesheet-footer.scm:65
 msgid "Name of organization or company."
-msgstr "Название организации или фирмы."
+msgstr "Наименование организации или компании"
 
 #: ../src/report/stylesheets/stylesheet-easy.scm:65
 #: ../src/report/stylesheets/stylesheet-easy.scm:194
@@ -21910,7 +21910,7 @@ msgstr "Шапка"
 #: ../src/report/stylesheets/stylesheet-footer.scm:90
 #: ../src/report/stylesheets/stylesheet-footer.scm:95
 msgid "Banner for top of report."
-msgstr "Шапка отчета."
+msgstr "Шапка отчета"
 
 #: ../src/report/stylesheets/stylesheet-easy.scm:82
 #: ../src/report/stylesheets/stylesheet-easy.scm:212
@@ -21925,13 +21925,13 @@ msgstr "Выравнивание шапки"
 #: ../src/report/stylesheets/stylesheet-fancy.scm:79
 #: ../src/report/stylesheets/stylesheet-footer.scm:98
 msgid "Left"
-msgstr "Лево"
+msgstr "Слева"
 
 #: ../src/report/stylesheets/stylesheet-easy.scm:86
 #: ../src/report/stylesheets/stylesheet-fancy.scm:80
 #: ../src/report/stylesheets/stylesheet-footer.scm:99
 msgid "Align the banner to the left."
-msgstr "Выровнять по левому краю."
+msgstr "Выровнять по левому краю"
 
 #: ../src/report/stylesheets/stylesheet-easy.scm:88
 #: ../src/report/stylesheets/stylesheet-fancy.scm:82
@@ -21943,19 +21943,19 @@ msgstr "Центр"
 #: ../src/report/stylesheets/stylesheet-fancy.scm:83
 #: ../src/report/stylesheets/stylesheet-footer.scm:102
 msgid "Align the banner in the center."
-msgstr "Выровнять шапку по центру."
+msgstr "Выровнять по центру"
 
 #: ../src/report/stylesheets/stylesheet-easy.scm:91
 #: ../src/report/stylesheets/stylesheet-fancy.scm:85
 #: ../src/report/stylesheets/stylesheet-footer.scm:104
 msgid "Right"
-msgstr "Право"
+msgstr "Справа"
 
 #: ../src/report/stylesheets/stylesheet-easy.scm:92
 #: ../src/report/stylesheets/stylesheet-fancy.scm:86
 #: ../src/report/stylesheets/stylesheet-footer.scm:105
 msgid "Align the banner to the right."
-msgstr "Выровнять шапку по правому краю."
+msgstr "Выровнять по правому краю"
 
 #: ../src/report/stylesheets/stylesheet-easy.scm:97
 #: ../src/report/stylesheets/stylesheet-easy.scm:211
@@ -21970,7 +21970,7 @@ msgstr "Логотип"
 #: ../src/report/stylesheets/stylesheet-fancy.scm:91
 #: ../src/report/stylesheets/stylesheet-footer.scm:110
 msgid "Company logo image."
-msgstr "Логотип фирмы."
+msgstr "Логотип компании"
 
 #: ../src/report/stylesheets/stylesheet-easy.scm:103
 #: ../src/report/stylesheets/stylesheet-easy.scm:195
@@ -21987,7 +21987,7 @@ msgstr "Цвет фона"
 #: ../src/report/stylesheets/stylesheet-fancy.scm:97
 #: ../src/report/stylesheets/stylesheet-footer.scm:116
 msgid "General background color for report."
-msgstr "Основной цвет фона отчетов."
+msgstr "Основной цвет фона отчетов"
 
 #: ../src/report/stylesheets/stylesheet-easy.scm:110
 #: ../src/report/stylesheets/stylesheet-easy.scm:196
@@ -23944,28 +23944,28 @@ msgstr "Для поиска по всем транзакциям, откройт
 #~ msgstr "Образец данных:"
 
 #~ msgid "You must enter an account name."
-#~ msgstr "Вы должны указать название счета."
+#~ msgstr "Необходимо указать наименование счета"
 
 #~ msgid "No valid customer selected. Click on the Options button to select a customer."
-#~ msgstr "Подходящий клиент не выбран. Нажмите кнопку \"Настройки\" и выберите клиента."
+#~ msgstr "Подходящий клиент не выбран. Нажмите на кнопку \"Настройки\" и выберите клиента"
 
 #~ msgid "No valid employee selected. Click on the Options button to select an employee."
-#~ msgstr "Подходящий работник не выбран. Нажмите кнопку \"Настройки\" и выберите работника."
+#~ msgstr "Подходящий сотрудник не выбран. Нажмите на кнопку \"Настройки\" и выберите сотрудника"
 
 #~ msgid "No valid company selected. Click on the Options button to select a company."
-#~ msgstr "Подходящая фирма не выбрана. Нажмите кнопку \"Настройки\" и выберите фирму."
+#~ msgstr "Подходящая компания не выбрана. Нажмите на кнопку \"Настройки\" и выберите компанию"
 
 #~ msgid "Blue items are exportable to a German Tax XML file. Press Export to actually export them."
-#~ msgstr "Голубые поля выгружатся в Германские налоговые XML файлы. Нажмите \"Экспорт\", чтобы выгрузить их."
+#~ msgstr "Данные полей с голубым фоном выгружатся в XML-файлы налогов, принятые в Германии. Нажмите на кнопку \"Экспорт\" для выгрузки данных"
 
 #~ msgid "No Tax Related accounts were found. Go to the Edit->Tax Options dialog to set up tax-related accounts."
-#~ msgstr "Нет налогооблагаемых счетов. Настройте их в \"Правка\" - \"Параметры налогов\"."
+#~ msgstr "Налогооблагаемые счета отсутствуют. Для настройки выберите пункты меню \"Правка\" - \"Параметры налогов\""
 
 #~ msgid "Asterisk"
 #~ msgstr "Звездочка"
 
 #~ msgid "A list of directories (strings) indicating where to look for html and parsed-html files. Each element must be a string representing a directory or a symbol where 'default expands to the default path, and 'current expands to the current value of the path."
-#~ msgstr "Список директорий, указывающих где искать html и обработанные html файлы. Каждый элемент должен быть строкой, представляющей собой директорию или символ, где \"'default\" означает путь по умолчанию и \"'current\" - текущей путь."
+#~ msgstr "Список каталогов, в которых могут находиться как обычные, так и обработанные html-файлы. Каждый элемент файла должен представлять собой строку, обозначающую каталог или символ, где \"'default\" означает путь по умолчанию и \"'current\" - текущей путь"
 
 #~ msgid "Set the search path for documentation files"
 #~ msgstr "Установка пути поиска файлов документации"

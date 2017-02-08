@@ -9383,7 +9383,7 @@ msgstr "Унаследовать потомками тот же тип?"
 #: ../src/gnome-utils/dialog-account.c:679
 #, c-format
 msgid "The children of the edited account have to be changed to type \"%s\" to make them compatible."
-msgstr "Потомки изменяемого счета изменены на \"%s\" для обеспечения их совместимости."
+msgstr "Потомки изменяемого счета изменены на \"%s\" для обеспечения их совместимости"
 
 #. children
 #: ../src/gnome-utils/dialog-account.c:690
@@ -9392,35 +9392,35 @@ msgstr "Показать счета-потомки"
 
 #: ../src/gnome-utils/dialog-account.c:763
 msgid "The account must be given a name."
-msgstr "У счёта должно быть название."
+msgstr "У счета должно быть наименование"
 
 #: ../src/gnome-utils/dialog-account.c:789
 msgid "There is already an account with that name."
-msgstr "Счет с таким именем уже существует."
+msgstr "Счет с таким наименованием уже существует"
 
 #: ../src/gnome-utils/dialog-account.c:798
 msgid "You must choose a valid parent account."
-msgstr "Вы должны выбрать допустимый родительский счет."
+msgstr "Необходимо выбрать допустимый родительский счет"
 
 #: ../src/gnome-utils/dialog-account.c:807
 msgid "You must select an account type."
-msgstr "Вы должны выбрать тип счета."
+msgstr "Необходимо выбрать тип счета"
 
 #: ../src/gnome-utils/dialog-account.c:816
 msgid "The selected account type is incompatible with the one of the selected parent."
-msgstr "Выбранный тип счета несовместим с одним из выбранных родителей."
+msgstr "Выбранный тип счета несовместим с одним из выбранных родительских счетов"
 
 #: ../src/gnome-utils/dialog-account.c:828
 msgid "You must choose a commodity."
-msgstr "Вы должны выбрать товар."
+msgstr "Необходимо выбрать товар"
 
 #: ../src/gnome-utils/dialog-account.c:884
 msgid "You must enter a valid opening balance or leave it blank."
-msgstr "Вы должны ввести допустимое начальное сальдо или оставить это поле пустым."
+msgstr "Необходимо ввести начальное сальдо или оставить это поле пустым"
 
 #: ../src/gnome-utils/dialog-account.c:908
 msgid "You must select a transfer account or choose the opening balances equity account."
-msgstr "Вы должны указать счет для передачи или выбрать начальное сальдо счета собственных средств."
+msgstr "Необходимо указать счет для передачи или выбрать начальное сальдо для счета \"Собственные средства\""
 
 #: ../src/gnome-utils/dialog-account.c:1458
 msgid "Edit Account"
@@ -9439,30 +9439,26 @@ msgstr "Новый счет"
 #: ../src/gnome-utils/dialog-account.c:2024
 #, c-format
 msgid "Renumber the immediate sub-accounts of %s? This will replace the account code field of each child account with a newly generated code."
-msgstr "Перенумеровать субсчета %s немедленно? Это заменит код каждого субсчета на новое значение."
+msgstr "Перенумеровать субсчета %s? Данная операция заменит код каждого субсчета на новое значение"
 
 #: ../src/gnome-utils/dialog-book-close.c:301
 msgid "Please select an Equity account to hold the total Period Income."
-msgstr "Пожалуйста, выберите счет \"Собственные средства\" для фиксации всех доходов за период."
+msgstr "Выберите счет \"Собственные средства\" для фиксирования всех доходов за период"
 
 #: ../src/gnome-utils/dialog-book-close.c:308
 msgid "Please select an Equity account to hold the total Period Expense."
-msgstr "Пожалуйста, выберите счет \"Собственные средства\" для фиксации всех расходов за период."
+msgstr "Выберите счет \"Собственные средства\" для фиксирования всех расходов за период"
 
 #: ../src/gnome-utils/dialog-commodity.c:174
-msgid ""
-"\n"
+msgid "\n"
 "Please select a commodity to match:"
-msgstr ""
-"\n"
+msgstr "\n"
 "Выберите соответствие для товара:"
 
 #: ../src/gnome-utils/dialog-commodity.c:181
-msgid ""
-"\n"
+msgid "\n"
 "Commodity: "
-msgstr ""
-"\n"
+msgstr "\n"
 "Товар: "
 
 #. Translators: Replace here and later CUSIP by the name of your local
@@ -9470,29 +9466,25 @@ msgstr ""
 #. like gb:SEDOL, de:WKN, ch:Valorennummer, fr:SICOVAM ...
 #. See http://en.wikipedia.org/wiki/ISIN for hints.
 #: ../src/gnome-utils/dialog-commodity.c:187
-msgid ""
-"\n"
+msgid "\n"
 "Exchange code (ISIN, CUSIP or similar): "
-msgstr ""
-"\n"
+msgstr "\n"
 "Биржевой код (ISIN, CUSIP и т.п.): "
 
 #: ../src/gnome-utils/dialog-commodity.c:189
-msgid ""
-"\n"
+msgid "\n"
 "Mnemonic (Ticker symbol or similar): "
-msgstr ""
-"\n"
+msgstr "\n"
 "Обозначение (тикер, символ банкноты и т.п.): "
 
 #: ../src/gnome-utils/dialog-commodity.c:284
 msgid "Select security/currency"
-msgstr "Выберите ценную бумагу/валюту"
+msgstr "Выберите ценную бумагу / валюту"
 
 #: ../src/gnome-utils/dialog-commodity.c:285
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:14
 msgid "_Security/currency:"
-msgstr "_Валюта/ценная бумага:"
+msgstr "_Валюта / ценная бумага:"
 
 #: ../src/gnome-utils/dialog-commodity.c:288
 msgid "Select security"
@@ -9504,7 +9496,7 @@ msgstr "Выберите валюту"
 
 #: ../src/gnome-utils/dialog-commodity.c:546
 msgid "You must select a commodity. To create a new one, click \"New\""
-msgstr "Вы должны выбрать товар. Чтобы создать новый, нажмите \"Новый\""
+msgstr "Необходимо выбрать товар. Чтобы добавить новый товар, нажмите \"Добавить\""
 
 #: ../src/gnome-utils/dialog-commodity.c:913
 msgid "Use local time"
@@ -9532,12 +9524,12 @@ msgstr "Информация о ценной бумаге"
 
 #: ../src/gnome-utils/dialog-commodity.c:1325
 msgid "You may not create a new national currency."
-msgstr "Вы не можете создать новую национальную валюту."
+msgstr "Вы не можете добавить новую национальную валюту"
 
 #: ../src/gnome-utils/dialog-commodity.c:1335
 #, c-format
 msgid "%s is a reserved commodity type. Please use something else."
-msgstr "%s является зарезервированным типом товара. Пожалуйста укажите что-нибудь другое."
+msgstr "%s является зарезервированным типом товара. Пожалуйста, укажите другое значение"
 
 #: ../src/gnome-utils/dialog-commodity.c:1350
 msgid "That commodity already exists."
@@ -9545,12 +9537,12 @@ msgstr "Этот товар уже существует."
 
 #: ../src/gnome-utils/dialog-commodity.c:1399
 msgid "You must enter a non-empty \"Full name\", \"Symbol/abbreviation\", and \"Type\" for the commodity."
-msgstr "Вы должны заполнить у товара поля: \"Полное наименование\", \"Символ/сокращение\" и \"Тип\"."
+msgstr "Для товара необходимо заполнить поля: \"Полное наименование\", \"Символ / сокращение\" и \"Тип\""
 
 #. The "date" and the "tnum" fields aren't being asked for, this is a split copy
 #: ../src/gnome-utils/dialog-dup-trans.c:235
 msgid "Action/Number:"
-msgstr "Номер/Действие:"
+msgstr "Номер / Операция:"
 
 #: ../src/gnome-utils/dialog-file-access.c:295
 msgid "Open..."
@@ -9573,7 +9565,7 @@ msgstr "Выбрать все"
 
 #: ../src/gnome-utils/dialog-options.c:813
 msgid "Select all accounts."
-msgstr "Выбрать все счета."
+msgstr "Выбрать все счета"
 
 #: ../src/gnome-utils/dialog-options.c:818
 #: ../src/gnome-utils/dialog-options.c:960
@@ -9582,15 +9574,15 @@ msgstr "Очистить все"
 
 #: ../src/gnome-utils/dialog-options.c:820
 msgid "Clear the selection and unselect all accounts."
-msgstr "Очистить выделенное и снять выделение со всех счетов."
+msgstr "Очистить выделенное и снять выделение со всех счетов"
 
 #: ../src/gnome-utils/dialog-options.c:825
 msgid "Select Children"
-msgstr "Выбрать потомка"
+msgstr "Выбрать субсчет"
 
 #: ../src/gnome-utils/dialog-options.c:827
 msgid "Select all descendents of selected account."
-msgstr "Выбрать все подсчета выбранного счёта."
+msgstr "Выбрать все субсчета указанного счета"
 
 #: ../src/gnome-utils/dialog-options.c:833
 #: ../src/gnome-utils/dialog-options.c:967
@@ -9599,7 +9591,7 @@ msgstr "Выбрать исходное"
 
 #: ../src/gnome-utils/dialog-options.c:835
 msgid "Select the default account selection."
-msgstr "Установить выбор счета по умолчанию."
+msgstr "Установить выбор счета по умолчанию"
 
 #: ../src/gnome-utils/dialog-options.c:849
 msgid "Show Hidden Accounts"
@@ -9607,19 +9599,19 @@ msgstr "Показывать скрытые счета"
 
 #: ../src/gnome-utils/dialog-options.c:851
 msgid "Show accounts that have been marked hidden."
-msgstr "Показать счета помеченные скрытыми."
+msgstr "Показать счета, отмеченные скрытыми"
 
 #: ../src/gnome-utils/dialog-options.c:955
 msgid "Select all entries."
-msgstr "Выбрать все пункты."
+msgstr "Выбрать все пункты"
 
 #: ../src/gnome-utils/dialog-options.c:962
 msgid "Clear the selection and unselect all entries."
-msgstr "Очистить выделенное и снять выделение со всех пунктов."
+msgstr "Очистить выделенное и снять выделение со всех пунктов"
 
 #: ../src/gnome-utils/dialog-options.c:969
 msgid "Select the default selection."
-msgstr "Установить выбор по умолчанию."
+msgstr "Определить выбор по умолчанию"
 
 #. The reset button on each option page
 #: ../src/gnome-utils/dialog-options.c:1129
@@ -9628,11 +9620,11 @@ msgstr "По умолчанию"
 
 #: ../src/gnome-utils/dialog-options.c:1131
 msgid "Reset all values to their defaults."
-msgstr "Сбросить все значения в исходные."
+msgstr "Вернуть все значения параметров в установленные по умолчанию"
 
 #: ../src/gnome-utils/dialog-options.c:1455
 msgid "Page"
-msgstr "Страница"
+msgstr "Вкладка"
 
 #: ../src/gnome-utils/dialog-options.c:2070
 msgid "Clear"
@@ -9640,15 +9632,15 @@ msgstr "Очистить"
 
 #: ../src/gnome-utils/dialog-options.c:2071
 msgid "Clear any selected image file."
-msgstr "Очистить каждый выбранный файл с изображением."
+msgstr "Очистить все выбранные файлы с изображением"
 
 #: ../src/gnome-utils/dialog-options.c:2073
 msgid "Select image"
-msgstr "Выберите картинку"
+msgstr "Выберите изображение"
 
 #: ../src/gnome-utils/dialog-options.c:2075
 msgid "Select an image file."
-msgstr "Выберите файл с изображением."
+msgstr "Выберите файл с изображением"
 
 #. Translators: Both %s will be the account separator character; the
 #. resulting string is a demonstration how the account separator
@@ -9659,41 +9651,41 @@ msgstr "Выберите файл с изображением."
 #: ../src/gnome-utils/dialog-preferences.c:163
 #, c-format
 msgid "Income%sSalary%sTaxable"
-msgstr "Приход%sЗарплата%sНалогооблагаемое"
+msgstr "Приход%sЗарплата%sНалог"
 
 #: ../src/gnome-utils/dialog-tax-table.c:116
 msgid "You must provide a name for this Tax Table."
-msgstr "Вы должны указать название для этой таблицы налогов."
+msgstr "Необходимо указать наименование для данной таблицы налогов"
 
 #: ../src/gnome-utils/dialog-tax-table.c:123
 #, c-format
 msgid "You must provide a unique name for this Tax Table. Your choice \"%s\" is already in use."
-msgstr "Вы должны указать уникальное название для этой таблицы налогов. Выбранный вами \"%s\" уже используется."
+msgstr "Необходимо указать уникальное наименование для данной таблицы налогов. Выбранное наименование \"%s\" уже используется"
 
 #: ../src/gnome-utils/dialog-tax-table.c:137
 msgid "Percentage amount must be between -100 and 100."
-msgstr "Величина процентов должна быть между -100 и 100."
+msgstr "Значение процентов должно находиться между -100 и 100"
 
 #: ../src/gnome-utils/dialog-tax-table.c:146
 msgid "You must choose a Tax Account."
-msgstr "Вы должны выбрать налоговый счет."
+msgstr "Необходимо выбрать налоговый счет"
 
 #: ../src/gnome-utils/dialog-tax-table.c:563
 #, c-format
 msgid "Tax table \"%s\" is in use. You cannot delete it."
-msgstr "Таблица налогов \"%s\" используется. Вы не можете удалить ее."
+msgstr "Таблица налогов \"%s\" уже используется, и не может быть удалена"
 
 #: ../src/gnome-utils/dialog-tax-table.c:611
 msgid "You cannot remove the last entry from the tax table. Try deleting the tax table if you want to do that."
-msgstr "Вы не можете удалить последнюю запись в таблице налогов. Попробуйте удалить саму таблицу налогов, если это действительно нужно."
+msgstr "Последняя запись в таблице налогов не может быть удалена. В случае необходимости попытайтесь удалить всю таблицу налогов"
 
 #: ../src/gnome-utils/dialog-tax-table.c:618
 msgid "Are you sure you want to delete this entry?"
-msgstr "Вы уверены, что хотите удалить эту позицию?"
+msgstr "Вы уверены, что хотите удалить данную позицию?"
 
 #: ../src/gnome-utils/dialog-transfer.c:606
 msgid "Show the income and expense accounts"
-msgstr "Показывать счета прихода и расхода"
+msgstr "Показывать счета приходов и расходов"
 
 #: ../src/gnome-utils/dialog-transfer.c:710
 msgid "Error"
@@ -9701,35 +9693,35 @@ msgstr "Ошибка"
 
 #: ../src/gnome-utils/dialog-transfer.c:1327
 msgid "Retrieve the current online quote. This will fail if there is a manually-created price for today."
-msgstr ""
+msgstr "Получить текущие котировки online. Если котировка на сегодня была введена вручную, это приведет к ошибке"
 
 #: ../src/gnome-utils/dialog-transfer.c:1331
 msgid "Finance::Quote must be installed to enable this button."
-msgstr "Для активации этой кнопки, должен быть установлен Finance::Quote."
+msgstr "Для активации данной кнопки должен быть установлен модуль Finance::Quote"
 
 #: ../src/gnome-utils/dialog-transfer.c:1433
 msgid "You must specify an account to transfer from, or to, or both, for this transaction. Otherwise, it will not be recorded."
-msgstr "Вы должны указать счет, с которого, на который производится передача или оба счета для этой проводки. Иначе она не будет записана."
+msgstr "Необходимо указать счет, с которого или на который производится перевод, либо оба счета для данной проводки. В противном случае проводка не может быть сохранена"
 
 #: ../src/gnome-utils/dialog-transfer.c:1443
 msgid "You can't transfer from and to the same account!"
-msgstr "Вы не можете передавать на тот же счет!"
+msgstr "Нельзя выполнить перевод на тот же счет!"
 
 #: ../src/gnome-utils/dialog-transfer.c:1470
 msgid "You can't transfer from a non-currency account. Try reversing the \"from\" and \"to\" accounts and making the \"amount\" negative."
-msgstr "Вы не можете передать с невалютного счета. Попробуйте поменять местами счета \"Откуда\" и \"Куда\" и сделайте \"сумму\" отрицательной."
+msgstr "Нельзя использовать для перевода невалютный счет. Попробуйте поменять местами счета \"Откуда\" и \"Куда\" и укажите в поле \"Сумма\" отрицательное значение"
 
 #: ../src/gnome-utils/dialog-transfer.c:1488
 msgid "You must enter a valid price."
-msgstr "Вы должны ввести правильную цену."
+msgstr "Необходимо ввести корректное значение цены"
 
 #: ../src/gnome-utils/dialog-transfer.c:1500
 msgid "You must enter a valid `to' amount."
-msgstr "Вы должны ввести правильную сумму в поле \"Куда\"."
+msgstr "Необходимо ввести корректное значение в поле \"Куда\""
 
 #: ../src/gnome-utils/dialog-transfer.c:1720
 msgid "You must enter an amount to transfer."
-msgstr "Вы должны ввести сумму для перевода."
+msgstr "Необходимо ввести значение суммы для операции перевода"
 
 #: ../src/gnome-utils/dialog-transfer.c:1960
 msgid "Debit Account"
@@ -9754,24 +9746,24 @@ msgstr "К сумме:"
 
 #: ../src/gnome-utils/dialog-utils.c:547
 msgid "Remember and don't _ask me again."
-msgstr "Запомнить и больше не спрашивать."
+msgstr "Запомнить и в дальнейшем не задавать этот вопрос"
 
 #: ../src/gnome-utils/dialog-utils.c:548
 msgid "Don't _tell me again."
-msgstr "Больше не повторять."
+msgstr "Не повторять в дальнейшем"
 
 #: ../src/gnome-utils/dialog-utils.c:551
 msgid "Remember and don't ask me again this _session."
-msgstr "Запомнить и больше не спрашивать в течение этой сессии."
+msgstr "Запомнить и не задавать данный вопрос в течение текущей сессии"
 
 #: ../src/gnome-utils/dialog-utils.c:552
 msgid "Don't tell me again this _session."
-msgstr "Больше не повторять в течение этой сессии."
+msgstr "Не задавать данный вопрос в течение текущей сессии"
 
 #. create the button.
 #: ../src/gnome-utils/gnc-account-sel.c:456
 msgid "New..."
-msgstr "Новый..."
+msgstr "Создать..."
 
 #: ../src/gnome-utils/gnc-autosave.c:98
 msgid "Save file automatically?"
@@ -9779,36 +9771,31 @@ msgstr "Сохранить файл автоматически?"
 
 #: ../src/gnome-utils/gnc-autosave.c:101
 #, c-format
-msgid ""
-"Your data file needs to be saved to your hard disk to save your changes. GnuCash has a feature to save the file automatically every %d minute, just as if you had pressed the \"Save\" button each time. \n"
+msgid "Your data file needs to be saved to your hard disk to save your changes. GnuCash has a feature to save the file automatically every %d minute, just as if you had pressed the \"Save\" button each time. \n"
 "\n"
 "You can change the time interval or turn off this feature under Edit -> Preferences -> General -> Auto-save time interval. \n"
 "\n"
 "Should your file be saved automatically?"
-msgid_plural ""
-"Your data file needs to be saved to your hard disk to save your changes. GnuCash has a feature to save the file automatically every %d minutes, just as if you had pressed the \"Save\" button each time. \n"
+msgid_plural "Your data file needs to be saved to your hard disk to save your changes. GnuCash has a feature to save the file automatically every %d minutes, just as if you had pressed the \"Save\" button each time. \n"
 "\n"
 "You can change the time interval or turn off this feature under Edit -> Preferences -> General -> Auto-save time interval. \n"
 "\n"
 "Should your file be saved automatically?"
-msgstr[0] ""
-"Файл данных должен быть записан на диск для сохранения изменений. GnuCash имеет возможность сохранять файл автоматически каждую %d минуту, причем так же, как-будто была нажата кнопка \"Сохранить\".\n"
+msgstr[0] "Необходимо сохранить изменения. GnuCash имеет возможность сохранять файл автоматически каждую %d минуту\n"
 "\n"
-"Вы можете изменить период времени или выключить эту возможность: \"Правка\" - \"Настройки\" - \"Основное\" - \"Период между автосохранениями\".\n"
+"Можно изменить период сохранения данных или отключить данную возможность, выбрав следующие пункты меню: \"Правка\" - \"Настройки\" - \"Основное\" - \"Период между автосохранениями\"\n"
 "\n"
-"Должен ли файл быть сохранен автоматически?"
-msgstr[1] ""
-"Файл данных должен быть записан на диск для сохранения изменений. GnuCash имеет возможность сохранять файл автоматически каждые %d минуты, причем так же, как-будто была нажата кнопка \"Сохранить\".\n"
+"Сохранять файл автоматически?"
+msgstr[1] "Необходимо сохранить изменения. GnuCash имеет возможность сохранять файл автоматически каждые %d минуты\n"
 "\n"
-"Вы можете изменить период времени или выключить эту возможность: \"Правка\" - \"Настройки\" - \"Основное\" - \"Период между автосохранениями\".\n"
+"Можно изменить период сохранения данных или отключить данную возможность, выбрав следующие пункты меню: \"Правка\" - \"Настройки\" - \"Основное\" - \"Период между автосохранениями\"\n"
 "\n"
-"Должен ли файл быть сохранен автоматически?"
-msgstr[2] ""
-"Файл данных должен быть записан на диск для сохранения изменений. GnuCash имеет возможность сохранять файл автоматически каждые %d минут, причем так же, как-будто была нажата кнопка \"Сохранить\".\n"
+"Сохранять файл автоматически?"
+msgstr[2] "Необходимо сохранить изменения. GnuCash имеет возможность сохранять файл автоматически каждые %d минут\n"
 "\n"
-"Вы можете изменить период времени или выключить эту возможность: \"Правка\" - \"Настройки\" - \"Основное\" - \"Период между автосохранениями\".\n"
+"Можно изменить период сохранения данных или отключить данную возможность, выбрав следующие пункты меню: \"Правка\" - \"Настройки\" - \"Основное\" - \"Период между автосохранениями\"\n"
 "\n"
-"Должен ли файл быть сохранен автоматически?"
+"Сохранять файл автоматически?"
 
 #: ../src/gnome-utils/gnc-autosave.c:116
 msgid "_Yes, this time"
@@ -9919,71 +9906,71 @@ msgstr "Не найдено подходящего драйвера для \"%s\
 #: ../src/gnome-utils/gnc-file.c:223
 #, c-format
 msgid "The URL %s is not supported by this version of GnuCash."
-msgstr "Ссылка \"%s\" не поддерживается этой версией GnuCash."
+msgstr "Данной версией GnuCash cсылка \"%s\" не поддерживается"
 
 #: ../src/gnome-utils/gnc-file.c:228
 #, c-format
 msgid "Can't parse the URL %s."
-msgstr "Не возможно обработать ссылку \"%s\"."
+msgstr "Невозможно обработать ссылку \"%s\"."
 
 #: ../src/gnome-utils/gnc-file.c:233
 #, c-format
 msgid "Can't connect to %s. The host, username or password were incorrect."
-msgstr "Невозможно соединиться с \"%s\". Адрес сервера, имя пользователя или пароль неверны."
+msgstr "Невозможно соединиться с \"%s\". Адрес сервера, имя пользователя или пароль неверны"
 
 #: ../src/gnome-utils/gnc-file.c:239
 #, c-format
 msgid "Can't connect to %s. Connection was lost, unable to send data."
-msgstr "Не возможно подключиться к \"%s\". Соединение разорвано, невозможно отправить данные."
+msgstr "Невозможно подключиться к \"%s\". Невозможно отправить данные по причине разрыва соединения"
 
 #: ../src/gnome-utils/gnc-file.c:245
 msgid "This file/URL appears to be from a newer version of GnuCash. You must upgrade your version of GnuCash to work with this data."
-msgstr "Возможно это файл или ссылка из более новой версии GnuCash. Вам необходимо обновить GnuCash для работы с этими данными."
+msgstr "Возможно, данный файл или ссылка соответствуют более новой версии GnuCash. Необходимо обновить GnuCash для работы с этими данными"
 
 #: ../src/gnome-utils/gnc-file.c:252
 #, c-format
 msgid "The database %s doesn't seem to exist. Do you want to create it?"
-msgstr "База данных \"%s\" не найдена. Вы хотите ее создать?"
+msgstr "База данных \"%s\" не найдена. Хотите ее создать?"
 
 #: ../src/gnome-utils/gnc-file.c:266
 #, c-format
 msgid "GnuCash could not obtain the lock for %s. That database may be in use by another user, in which case you should not open the database. Do you want to proceed with opening the database?"
-msgstr "GnuCash не может заблокировать \"%s\". Если в настоящий момент эта база данных используется другим пользователем, то вы не должны ее открывать. Открыть базу данных?"
+msgstr "GnuCash не может заблокировать \"%s\". Возможно, в настоящий момент база данных используется другим пользователем. В этом случае не рекомендуется открывать базу данных. Открыть базу данных?"
 
 #: ../src/gnome-utils/gnc-file.c:274
 #, c-format
 msgid "GnuCash could not obtain the lock for %s. That database may be in use by another user, in which case you should not import the database. Do you want to proceed with importing the database?"
-msgstr "GnuCash не может заблокировать \"%s\". Если в настоящий момент эта база данных используется другим пользователем, то вы не должны ее импортировать. Начать импорт базы данных?"
+msgstr "GnuCash не может заблокировать \"%s\". Возможно, в настоящий момент база данных используется другим пользователем. В этом случае не рекомендуется импортировать базу данных. Начать импорт базы данных?"
 
 #: ../src/gnome-utils/gnc-file.c:282
 #, c-format
 msgid "GnuCash could not obtain the lock for %s. That database may be in use by another user, in which case you should not save the database. Do you want to proceed with saving the database?"
-msgstr "GnuCash не может заблокировать \"%s\". Если в настоящий момент эта база данных используется другим пользователем, то вы не должны ее сохранять. Сохранить базу данных?"
+msgstr "GnuCash не может заблокировать \"%s\". Возможно, в настоящий момент база данных используется другим пользователем. В этом случае не рекомендуется сохранять базу данных. Сохранить базу данных?"
 
 #: ../src/gnome-utils/gnc-file.c:290
 #, c-format
 msgid "GnuCash could not obtain the lock for %s. That database may be in use by another user, in which case you should not export the database. Do you want to proceed with exporting the database?"
-msgstr "GnuCash не может заблокировать \"%s\". Если в настоящий момент эта база данных используется другим пользователем, то вы не должны ее экспортировать. Экспортировать базу данных?"
+msgstr "GnuCash не может заблокировать \"%s\". Возможно, в настоящий момент база данных используется другим пользователем. В этом случае не рекомендуется экспортировать базу данных. Экспортировать базу данных?"
 
 #: ../src/gnome-utils/gnc-file.c:315
 #, c-format
 msgid "GnuCash could not write to %s. That database may be on a read-only file system, or you may not have write permission for the directory."
-msgstr "GnuCash не может записать в \"%s\". Возможно, база данных расположена на файловой системе, смонтированной только для чтения, или вы не имеете прав на запись в этот каталог."
+msgstr "GnuCash не может записать в \"%s\". Возможно, файл базы данных имеет атрибут \"Только для чтения\", или у вас недостаточно прав для записи в данный каталог"
 
 #: ../src/gnome-utils/gnc-file.c:322
 #, c-format
 msgid "The file/URL %s does not contain GnuCash data or the data is corrupt."
-msgstr "Этот файл/URL \"%s\" не содержит данных GnuCash или данные повреждены."
+msgstr "Данный файл/URL \"%s\" не содержит данных GnuCash, или данные повреждены"
 
 #: ../src/gnome-utils/gnc-file.c:328
 #, c-format
 msgid "The server at URL %s experienced an error or encountered bad or corrupt data."
-msgstr "На сервере по адресу \"%s\" произошла ошибка, либо получены неожиданные или поврежденные данные."
+msgstr "На сервере по адресу \"%s\" произошла ошибка, либо получены некорректные или поврежденные данные"
 
 #: ../src/gnome-utils/gnc-file.c:334
 #, c-format
 msgid "You do not have permission to access %s."
-msgstr "У вас нет прав доступа к \"%s\"."
+msgstr "Отсутствуют права доступа к \"%s\""
 
 #: ../src/gnome-utils/gnc-file.c:339
 #: ../src/register/register-core/formulacell.c:118
@@ -10004,21 +9991,21 @@ msgstr "Произошла ошибка обработки файла \"%s\"."
 #: ../src/gnome-utils/gnc-file.c:358
 #, c-format
 msgid "The file %s is empty."
-msgstr "Файл \"%s\" пуст."
+msgstr "Файл \"%s\" не содержит данных"
 
 #: ../src/gnome-utils/gnc-file.c:369
 #, c-format
 msgid "The file %s could not be found."
-msgstr "Файл \"%s\" не найден."
+msgstr "Файл \"%s\" не найден"
 
 #: ../src/gnome-utils/gnc-file.c:375
 msgid "This file is from an older version of GnuCash. Do you want to continue?"
-msgstr "Это документ от более ранней версии GnuCash. Продолжить?"
+msgstr "Это документ создан в более ранней версии GnuCash. Продолжить?"
 
 #: ../src/gnome-utils/gnc-file.c:384
 #, c-format
 msgid "The file type of file %s is unknown."
-msgstr "Тип файла \"%s\" неизвестен."
+msgstr "Неизвестный тип файла \"%s\""
 
 #: ../src/gnome-utils/gnc-file.c:389
 #, c-format
@@ -10028,71 +10015,69 @@ msgstr "Невозможно создать резервную копию фай
 #: ../src/gnome-utils/gnc-file.c:394
 #, c-format
 msgid "Could not write to file %s. Check that you have permission to write to this file and that there is sufficient space to create it."
-msgstr "Невозможно записать файл \"%s\". Проверьте, имеются ли у вас права на запись в этот файл и достаточно ли места на диске."
+msgstr "Невозможно записать файл \"%s\". Проверьте наличие прав на запись в данный файл, и достаточно ли места на диске"
 
 #: ../src/gnome-utils/gnc-file.c:401
 #, c-format
 msgid "No read permission to read from file %s."
-msgstr "Нет прав на чтение файла \"%s\"."
+msgstr "Отсутствуют права на чтение файла \"%s\""
 
 #. Translators: the first %s is a path in the filesystem,
 #. * the second %s is PACKAGE_NAME, which by default is "GnuCash"
 #.
 #: ../src/gnome-utils/gnc-file.c:409
 #, c-format
-msgid ""
-"You attempted to save in\n"
+msgid "You attempted to save in\n"
 "%s\n"
 "or a subdirectory thereof. This is not allowed as %s reserves that directory for internal use.\n"
 "\n"
 "Please try again in a different directory."
-msgstr ""
-"Вы пытаетесь сохранить в\n"
+msgstr "Вы пытаетесь сохранить в\n"
 "%s\n"
-"или этот подкаталог. Что недопустимо, так как у %s этот каталог зарезервирован для внутреннего использования.\n"
+"или в данный подкаталог, что недопустимо, так как у %s данный каталог зарезервирован для внутреннего использования.\n"
 "\n"
 "Следует выбрать другой каталог."
 
 #: ../src/gnome-utils/gnc-file.c:416
 msgid "This database is from an older version of GnuCash. Select OK to upgrade it to the current version, Cancel to mark it read-only."
-msgstr "Эта база данных от более ранней версии GnuCash. Нажмите ОК для обновления базы или Отмену, чтобы отметить её только для чтения."
+msgstr "База данных создана в более ранней версии GnuCash. Нажмите \"ОК\" для обновления базы или \"Отмена\", чтобы отметить ее только для чтения"
 
 #: ../src/gnome-utils/gnc-file.c:425
 msgid "This database is from a newer version of GnuCash. This version can read it, but cannot safely save to it. It will be marked read-only until you do File>Save As, but data may be lost in writing to the old version."
-msgstr "Эта база данных от более новой версии GnuCash. Её можно прочитать, но сохранять в неё небезопасно. Она будет отмечена только для чтения пока не будет сохранена под другим именем, тем не менее при записи старой версией части данных может быть утеряна."
+msgstr "База данных создана в новой версии GnuCash. Данные могут быть прочитаны, но сохранять данные в БД небезопасно. База данных будет отмечена только для чтения, пока не будет сохранена под другим именем. При записи данных в старой версии программы некоторые данные могут быть утеряны"
 
 #: ../src/gnome-utils/gnc-file.c:434
 msgid "The SQL database is in use by other users, and the upgrade cannot be performed until they logoff. If there are currently no other users, consult the  documentation to learn how to clear out dangling login sessions."
-msgstr "База данных SQL используется другими пользователями, и обновление не может быть выполнено, пока они не отключаться. Если на самом деле в данный момент нет других пользователей, то обратитесь к документации, чтобы понять как очистить информацию об открытых сессиях."
+msgstr "База данных SQL используется другими пользователями, поэтому данные не могут быть обновлены, пока сессия работы с базой данных открыта. Если в настоящий момент другие пользователи отсутствуют, то следует удалить информацию об открытой сессии. Обратитесь к документации по БД"
 
 #: ../src/gnome-utils/gnc-file.c:444
 msgid "The library \"libdbi\" installed on your system doesn't correctly store large numbers. This means GnuCash cannot use SQL databases correctly. Gnucash will not open or save to SQL databases until this is fixed by installing a different version of \"libdbi\". Please see https://bugzilla.gnome.org/show_bug.cgi?id=611936 for more information."
-msgstr "Библиотека \"libdbi\" установленная в системе некорректно сохраняет большие числа. Это значит, что GnuCash не может безопасно использовать SQL базы данных. Он не будет открывать и сохранять SQL базы данных пока это не будет исправлено установкой другой версии \"libdbi\". По ссылке https://bugzilla.gnome.org/show_bug.cgi?id=611936 можно узнать подробности."
+msgstr "Библиотека \"libdbi\", установленная в системе, некорректно сохраняет большие числа, поэтому GnuCash не может безопасно использовать базы данных SQL. Для корректной работы с базами данных SQL необходимо обновить версию \"libdbi\". Подробности можно узнать по ссылке https://bugzilla.gnome.org/show_bug.cgi?id=611936"
 
 #: ../src/gnome-utils/gnc-file.c:456
 msgid "GnuCash could not complete a critical test for the presence of a bug in the \"libdbi\" library. This may be caused by a permissions misconfiguration of your SQL database. Please see https://bugzilla.gnome.org/show_bug.cgi?id=645216 for more information."
-msgstr "GnuCash не может завершить важный тест для проверки наличия ошибки в библиотеке \"libdbi\". Это может быть связано с неправильно настроенными правами доступа в вашей SQL БД. Более подробную информацию смотрите на странице https://bugzilla.gnome.org/show_bug.cgi?id=645216."
+msgstr "GnuCash не может завершить тест для проверки ошибки в библиотеке \"libdbi\". Это может быть связано с неправильно настроенными правами доступа к базе данных SQL. Подробную информацию можно узнать по ссылке https://bugzilla.gnome.org/show_bug.cgi?id=645216"
 
 #: ../src/gnome-utils/gnc-file.c:466
 msgid "This file is from an older version of GnuCash and will be upgraded when saved by this version. You will not be able to read the saved file from the older version of Gnucash (it will report an \"error parsing the file\"). If you wish to preserve the old version, exit without saving."
-msgstr "Этот файл от более ранней версии GnuCash и он будет обновлен при сохранении этой версией. Вы не сможете прочитать вновь сохраненный файл из старой версии (она выдаст ошибку \"ошибка при обработке файла\"). Если вы хотите сохранить совместимость со старой версией, выйдите без сохранения."
+msgstr "Данный файл создан в более ранней версии GnuCash. Файл будет обновлен при сохранении текущей версией программы. Вы не сможете прочитать вновь сохраненный файл из старой версии программы. Будет выдано сообщение \"Ошибка при обработке файла\"). Если необходимо сохранить совместимость со старой версией GnuCash, следует выйти без сохранения"
 
 #: ../src/gnome-utils/gnc-file.c:477
 #, c-format
 msgid "An unknown I/O error (%d) occurred."
-msgstr "Произошла неизвестная ошибка ввода-вывода (%d)."
+msgstr "Произошла неизвестная ошибка ввода-вывода (%d)"
 
 #: ../src/gnome-utils/gnc-file.c:573
 msgid "Save changes to the file?"
-msgstr "Сохранить изменения в файл?"
+msgstr "Сохранить изменения в файле?"
 
 #: ../src/gnome-utils/gnc-file.c:586 ../src/gnome-utils/gnc-main-window.c:1252
 #, c-format
 msgid "If you don't save, changes from the past %d minute will be discarded."
 msgid_plural "If you don't save, changes from the past %d minutes will be discarded."
-msgstr[0] "Если вы не сохранитесь, изменения за последнюю %d минуту будут потеряны."
-msgstr[1] "Если вы не сохранитесь, изменения за последние %d минуты будут потеряны."
-msgstr[2] "Если вы не сохранитесь, изменения за последние %d минут будут потеряны."
+msgstr[0] "Если изменения не будут сохранены, за последнюю %d минуту изменения будут потеряны"
+msgstr[1] "Если изменения не будут сохранены, за последние %d минуты изменения будут потеряны"
+msgstr[2] "Если изменения не будут сохранены, за последние %d минут изменения будут потеряны"
 
 #: ../src/gnome-utils/gnc-file.c:590
 msgid "Continue _Without Saving"
@@ -10101,15 +10086,15 @@ msgstr "Продолжить _без сохранения"
 #: ../src/gnome-utils/gnc-file.c:747
 #, c-format
 msgid "GnuCash could not obtain the lock for %s."
-msgstr "GnuCash не может заблокировать \"%s\"."
+msgstr "GnuCash не может заблокировать \"%s\""
 
 #: ../src/gnome-utils/gnc-file.c:749
 msgid "That database may be in use by another user, in which case you should not open the database. What would you like to do?"
-msgstr "Открываемый файл (база данных) может использоваться другим пользователем, в этом случае вы не должны его открывать. Продолжить?"
+msgstr "Файл (база данных) может быть открыт другим пользователем. В этом случае не рекомендуется работа с данным файлом. Продолжить?"
 
 #: ../src/gnome-utils/gnc-file.c:752
 msgid "That database may be on a read-only file system, or you may not have write permission for the directory. If you proceed you may not be able to save any changes. What would you like to do?"
-msgstr "Указанная база данных находится на файловой системе, доступной только для чтения, или у вас нет прав на запись на папку. Если вы продолжите, то не сможете сохранить изменения. Продолжить?"
+msgstr "Указанная база данных доступна только для чтения, или недостаточно прав на запись в указанный каталог. В случае продолжения изменения не могут быть сохранены. Продолжить?"
 
 #: ../src/gnome-utils/gnc-file.c:778
 msgid "_Open Read-Only"
@@ -10121,23 +10106,23 @@ msgstr "_Создать новый файл"
 
 #: ../src/gnome-utils/gnc-file.c:782
 msgid "Open _Anyway"
-msgstr "Всё равно _открыть"
+msgstr "_Открыть в любом случае"
 
 #. try to load once again
 #: ../src/gnome-utils/gnc-file.c:866 ../src/gnome-utils/gnc-file.c:886
 msgid "Loading user data..."
-msgstr "Загружаются данные..."
+msgstr "Загрузка данных..."
 
 #: ../src/gnome-utils/gnc-file.c:902
 msgid "Re-saving user data..."
-msgstr "Пересохраняются данные..."
+msgstr "Повторное сохранение данных..."
 
 #: ../src/gnome-utils/gnc-file.c:1207 ../src/gnome-utils/gnc-file.c:1442
 #: ../src/import-export/csv-exp/assistant-csv-export.c:123
 #: ../src/report/report-gnome/gnc-plugin-page-report.c:1456
 #, c-format
 msgid "The file %s already exists. Are you sure you want to overwrite it?"
-msgstr "Файл \"%s\" уже существует. Вы хотите перезаписать его?"
+msgstr "Файл \"%s\" уже существует. Перезаписать его?"
 
 #: ../src/gnome-utils/gnc-file.c:1236
 msgid "Exporting file..."
@@ -10146,22 +10131,20 @@ msgstr "Экспорт файла..."
 #. %s is the strerror(3) error string of the error that occurred.
 #: ../src/gnome-utils/gnc-file.c:1249
 #, c-format
-msgid ""
-"There was an error saving the file.\n"
+msgid "There was an error saving the file.\n"
 "\n"
 "%s"
-msgstr ""
-"Произошла ошибка при сохранении файла.\n"
+msgstr "Произошла ошибка при сохранении файла\n"
 "\n"
 "%s"
 
 #: ../src/gnome-utils/gnc-file.c:1281
 msgid "The database was opened read-only. Do you want to save it to a different place?"
-msgstr "База данных была открыта только для чтения. Вы хотите сохранить ее в другое место?"
+msgstr "База данных была открыта только для чтения. Сохранить БД в другом каталоге?"
 
 #: ../src/gnome-utils/gnc-general-select.c:218
 msgid "View..."
-msgstr "Просмотреть..."
+msgstr "Просмотр..."
 
 #: ../src/gnome-utils/gnc-gnome-utils.c:236
 msgid "GnuCash could not find the files for the help documentation. This is likely because the 'gnucash-docs' package is not installed"
@@ -10170,24 +10153,24 @@ msgstr "GnuCash не может найти файлы документации. 
 #: ../src/gnome-utils/gnc-gnome-utils.c:329
 #: ../src/gnome-utils/gnc-gnome-utils.c:391
 msgid "GnuCash could not find the files for the help documentation. This is likely because the 'gnucash-docs' package is not installed."
-msgstr "GnuCash не может найти файлы документации. Скорее всего, не был установлен пакет \"gnucash-docs\"."
+msgstr "GnuCash не может найти файлы документации. Скорее всего, не был установлен пакет \"gnucash-docs\""
 
 #: ../src/gnome-utils/gnc-gnome-utils.c:360
 msgid "GnuCash could not find the files for the help documentation."
-msgstr "GnuCash не может найти файлы документации."
+msgstr "GnuCash не может найти файлы документации"
 
 #: ../src/gnome-utils/gnc-gnome-utils.c:415
 msgid "GnuCash could not find the associated file."
-msgstr "GnuCash не может найти связанный файл."
+msgstr "GnuCash не может найти связанный файл"
 
 #: ../src/gnome-utils/gnc-gnome-utils.c:452
 #, fuzzy
 msgid "GnuCash could not find the associated file"
-msgstr "GnuCash не может найти связанный файл."
+msgstr "GnuCash не может найти связанный файл"
 
 #: ../src/gnome-utils/gnc-gnome-utils.c:478
 msgid "GnuCash could not open the associated URI:"
-msgstr "GnuCash не может открыть связаннфую ссылку."
+msgstr "GnuCash не может открыть связаннфую ссылку"
 
 #: ../src/gnome-utils/gnc-icons.c:39
 msgid "_Delete Account"
@@ -10212,7 +10195,7 @@ msgstr "_Открыть счет"
 #: ../src/gnome-utils/gnc-keyring.c:344
 #, c-format
 msgid "Enter a user name and password to connect to: %s"
-msgstr "Введите имя пользователя и пароль для подключения к: %s"
+msgstr "Для подключения к %s, введите имя пользователя и пароль"
 
 #: ../src/gnome-utils/gnc-main-window.c:123
 #, c-format
@@ -10258,7 +10241,7 @@ msgstr "_Печать..."
 
 #: ../src/gnome-utils/gnc-main-window.c:276
 msgid "Print the currently active page"
-msgstr "Закрыть текущую страницу"
+msgstr "Вывести на печать текущую активную страницу"
 
 #: ../src/gnome-utils/gnc-main-window.c:282
 msgid "Pa_ge Setup..."
@@ -10290,7 +10273,7 @@ msgstr "В_ыход"
 
 #: ../src/gnome-utils/gnc-main-window.c:298
 msgid "Quit this application"
-msgstr "Выйти из этой программы"
+msgstr "Выйти из программы"
 
 #: ../src/gnome-utils/gnc-main-window.c:320
 msgid "Pr_eferences"
@@ -10306,7 +10289,7 @@ msgstr "Выбрать способ сортировки на этой стра�
 
 #: ../src/gnome-utils/gnc-main-window.c:333
 msgid "Select the account types that should be displayed."
-msgstr "Выбор типов счета, которые должны быть показаны."
+msgstr "Выбор типов счетов, которые должны быть отображены"
 
 #. Actions menu
 #: ../src/gnome-utils/gnc-main-window.c:343
@@ -10320,15 +10303,15 @@ msgstr "Сбросить предупре_ждения..."
 
 #: ../src/gnome-utils/gnc-main-window.c:346
 msgid "Reset the state of all warning messages so they will be shown again."
-msgstr "Сбросить состояние всех предупреждений, чтобы они было показаны снова."
+msgstr "Сбросить все предупреждения, чтобы они могли быть выведены снова"
 
 #: ../src/gnome-utils/gnc-main-window.c:350
 msgid "Re_name Page"
-msgstr "_Переименовать страницу"
+msgstr "_Переименовать вкладку"
 
 #: ../src/gnome-utils/gnc-main-window.c:351
 msgid "Rename this page."
-msgstr "Переименовать эту страницу."
+msgstr "Переименовать эту вкладку"
 
 #: ../src/gnome-utils/gnc-main-window.c:358
 msgid "_New Window"
@@ -10336,19 +10319,19 @@ msgstr "_Новое окно"
 
 #: ../src/gnome-utils/gnc-main-window.c:359
 msgid "Open a new top-level GnuCash window."
-msgstr "Открыть новое окно GnuCash."
+msgstr "Открыть новое окно GnuCash"
 
 #: ../src/gnome-utils/gnc-main-window.c:363
 msgid "New Window with _Page"
-msgstr "Новое окно со страни_цей"
+msgstr "Новое окно с _вкладкой"
 
 #: ../src/gnome-utils/gnc-main-window.c:364
 msgid "Move the current page to a new top-level GnuCash window."
-msgstr "Переместить текущую страницу на новое окно GnuCash."
+msgstr "Переместить текущую вкладку в новое окно GnuCash"
 
 #: ../src/gnome-utils/gnc-main-window.c:371
 msgid "Tutorial and Concepts _Guide"
-msgstr "С_амоучитель и основные положения"
+msgstr "С_амоучитель"
 
 #: ../src/gnome-utils/gnc-main-window.c:372
 msgid "Open the GnuCash Tutorial"
@@ -10360,7 +10343,7 @@ msgstr "_Содержание"
 
 #: ../src/gnome-utils/gnc-main-window.c:377
 msgid "Open the GnuCash Help"
-msgstr "Открыть помощь по GnuCash"
+msgstr "Открыть помощь по программе GnuCash"
 
 #: ../src/gnome-utils/gnc-main-window.c:381
 msgid "_About"
@@ -10376,7 +10359,7 @@ msgstr "_Панель инструментов"
 
 #: ../src/gnome-utils/gnc-main-window.c:395
 msgid "Show/hide the toolbar on this window"
-msgstr "Показать/скрыть панель инструментов этого окна"
+msgstr "Показать / скрыть панель инструментов данного окна"
 
 #: ../src/gnome-utils/gnc-main-window.c:399
 msgid "Su_mmary Bar"

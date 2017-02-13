@@ -10367,7 +10367,7 @@ msgstr "Строка _итогов"
 
 #: ../src/gnome-utils/gnc-main-window.c:400
 msgid "Show/hide the summary bar on this window"
-msgstr "Показать/скрыть строку итогов у этого окна"
+msgstr "Показать / скрыть строку итогов данного окна"
 
 #: ../src/gnome-utils/gnc-main-window.c:404
 msgid "Stat_us Bar"
@@ -10375,7 +10375,7 @@ msgstr "Строка _состояния"
 
 #: ../src/gnome-utils/gnc-main-window.c:405
 msgid "Show/hide the status bar on this window"
-msgstr "Показать/скрыть строку состояния этого окна"
+msgstr "Показать / скрыть строку состояния данного окна"
 
 #: ../src/gnome-utils/gnc-main-window.c:417
 msgid "Window _1"
@@ -10420,17 +10420,17 @@ msgstr "Окно _0"
 #: ../src/gnome-utils/gnc-main-window.c:1207
 #, c-format
 msgid "Save changes to file %s before closing?"
-msgstr "Сохранить изменения в файл \"%s\" перед закрытием?"
+msgstr "Сохранить изменения в файле \"%s\" перед закрытием?"
 
 #: ../src/gnome-utils/gnc-main-window.c:1210
 #, c-format
 msgid "If you don't save, changes from the past %d hours and %d minutes will be discarded."
-msgstr "Если не сохраниться, то изменения за последние %d часов и %d минут будут потеряны."
+msgstr "Если не сохранить изменения, то за последние %d часов и %d минут мзменения будут потеряны"
 
 #: ../src/gnome-utils/gnc-main-window.c:1212
 #, c-format
 msgid "If you don't save, changes from the past %d days and %d hours will be discarded."
-msgstr "Если не сохраниться, то изменения за последние %d дней и %d часов будут потеряны."
+msgstr "Если не сохранить изменения, то за последние %d дней и %d часов изменения будут потеряны"
 
 #: ../src/gnome-utils/gnc-main-window.c:1220
 msgid "<unknown>"
@@ -10448,16 +10448,16 @@ msgstr "(только чтение)"
 
 #: ../src/gnome-utils/gnc-main-window.c:1503
 msgid "Unsaved Book"
-msgstr "Несохранённая книга"
+msgstr "Несохраненная книга"
 
 #: ../src/gnome-utils/gnc-main-window.c:1670
 msgid "Last modified on %a, %b %e, %Y at %I:%M%P"
-msgstr "Последнее изменение в %a, %b %e, %Y %I:%M%P"
+msgstr "Последнее изменение – %d.%m.%Y в %H:%M"
 
 #: ../src/gnome-utils/gnc-main-window.c:1671
 #, fuzzy, c-format
 msgid "Last modified on %x %X"
-msgstr "Последнее изменение в %a, %b %e, %Y %H:%M"
+msgstr "Последнее изменение в %x, %X"
 
 #. g_warning("got time %ld, str=%s\n", mtime, time_string);
 #. Translators: This message appears in the status bar after opening the file.
@@ -10468,11 +10468,11 @@ msgstr "Открыт файл %s. %s"
 
 #: ../src/gnome-utils/gnc-main-window.c:2701
 msgid "Unable to save to database."
-msgstr "Невозможно сохранить в базу данных"
+msgstr "Невозможно сохранить базу данных"
 
 #: ../src/gnome-utils/gnc-main-window.c:2703
 msgid "Unable to save to database: Book is marked read-only."
-msgstr "Невозможно сохранить в базу данных: Книга отмечена только для чтения."
+msgstr "Невозможно сохранить базу данных: Книга открыта только для чтения"
 
 #: ../src/gnome-utils/gnc-main-window.c:3992
 msgid "Book Options"
@@ -10480,12 +10480,12 @@ msgstr "Настройки книги"
 
 #: ../src/gnome-utils/gnc-main-window.c:4378
 msgid "The GnuCash personal finance manager. The GNU way to manage your money!"
-msgstr "Персональный финансовый менеджер GnuCash. GNU-способ распоряжения вашими деньгами!"
+msgstr "Персональный финансовый менеджер GnuCash – лучший помощник в управлении вашими денежными средствами!"
 
 #: ../src/gnome-utils/gnc-main-window.c:4380
 #, fuzzy
 msgid "© 1997-2015 Contributors"
-msgstr "© 1997-2014 Участники"
+msgstr "© 1997-2016 Участники проекта"
 
 #. Translators: the following string will be shown in Help->About->Credits
 #. * Enter your name or that of your team and an email contact for feedback.
@@ -10493,12 +10493,12 @@ msgstr "© 1997-2014 Участники"
 #. * contributors.
 #: ../src/gnome-utils/gnc-main-window.c:4417
 msgid "translator_credits"
-msgstr ""
-"Валек Филиппов\n"
+msgstr "Валек Филиппов\n"
 "Виталий Липатов\n"
 "Владимир Турбаевский\n"
 "Сергей Беляшов\n"
-"Дмитрий Павлов <zeldigas@gmail.com>"
+"Дмитрий Павлов <zeldigas@gmail.com>\n"
+"Игорь Обоймов <orion.msk@gmail.com>"
 
 #: ../src/gnome-utils/gnc-period-select.c:73
 msgid "Start of this quarter"
@@ -10507,24 +10507,24 @@ msgstr "Начало текущего квартала"
 #. FY Strings
 #: ../src/gnome-utils/gnc-period-select.c:79
 msgid "Start of this accounting period"
-msgstr "Начало этого отчётного периода"
+msgstr "Начало текущего отчетного периода"
 
 #: ../src/gnome-utils/gnc-period-select.c:80
 msgid "Start of previous accounting period"
-msgstr "Начало предыдущего учётного периода"
+msgstr "Начало предыдущего учетного периода"
 
 #: ../src/gnome-utils/gnc-period-select.c:89
 msgid "End of this quarter"
-msgstr "Конец текущегоо квартала"
+msgstr "Конец текущего квартала"
 
 #. FY Strings
 #: ../src/gnome-utils/gnc-period-select.c:95
 msgid "End of this accounting period"
-msgstr "Конец текущего учётного периода"
+msgstr "Конец текущего учетного периода"
 
 #: ../src/gnome-utils/gnc-period-select.c:96
 msgid "End of previous accounting period"
-msgstr "Конец предыдущего учётного периода"
+msgstr "Конец предыдущего учетного периода"
 
 #. Development version
 #. Translators: 1st %s is the GnuCash version (eg 2.4.11);
@@ -10534,7 +10534,7 @@ msgstr "Конец предыдущего учётного периода"
 #: ../src/gnome-utils/gnc-splash.c:95
 #, c-format
 msgid "Version: GnuCash-%s %s (rev %s built %s)"
-msgstr "Версия: Gnucash-%s %s (ревизия %s, дата сборки %s)"
+msgstr "Версия Gnucash %s %s (ревизия %s, дата сборки %s)"
 
 #. Dist Tarball
 #. Translators: 1st %s is the GnuCash version (eg 2.4.11);
@@ -10543,11 +10543,11 @@ msgstr "Версия: Gnucash-%s %s (ревизия %s, дата сборки %s
 #: ../src/gnome-utils/gnc-splash.c:103
 #, c-format
 msgid "Version: GnuCash-%s (rev %s built %s)"
-msgstr "Версия: Gnucash-%s (ревизия %s, дата сборки %s)"
+msgstr "Версия Gnucash %s (ревизия %s, дата сборки %s)"
 
 #: ../src/gnome-utils/gnc-splash.c:120
 msgid "Loading..."
-msgstr "Загружается..."
+msgstr "Загрузка..."
 
 #: ../src/gnome-utils/gnc-sx-list-tree-model-adapter.c:490
 msgid "never"
@@ -10555,39 +10555,39 @@ msgstr "никогда"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:113
 msgid "You can not change this transaction, the Book or Register is set to Read Only."
-msgstr "Вы не можете изменить эту проводку так книга или журнал достпны только для чтения."
+msgstr "Данная проводка не может быть изменена, так как книга или журнал доступны только для чтения"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:131
 msgid "Save Transaction before proceeding?"
-msgstr "Сохранить проводку перед продолжением?"
+msgstr "Сохранить проводку?"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:133
 msgid "The current transaction has been changed. Would you like to record the changes before proceeding, or cancel?"
-msgstr "Текущая проводка была изменена. Желаете записать изменения перед продолжением или отменить операцию?"
+msgstr "Текущая проводка была изменена. Желаете записать изменения или отменить операцию?"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:185
 msgid "This transaction is being edited in a different register."
-msgstr "Эта проводка в данный момент уже изменяется в другом журнале."
+msgstr "Изменения в этой проводке в данный момент уже вносятся в другом реестре"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:205
 #: ../src/register/ledger-core/split-register-control.c:58
 msgid "Rebalance Transaction"
-msgstr "Согласовать проводку"
+msgstr "Сбалансировать проводку"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:206
 #: ../src/register/ledger-core/split-register-control.c:59
 msgid "The current transaction is not balanced."
-msgstr "Текущая проводка не сбалансирована."
+msgstr "Текущая проводка не сбалансирована"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:287
 #: ../src/register/ledger-core/split-register-control.c:137
 msgid "Balance it _manually"
-msgstr "Сбалансировать ее _вручную"
+msgstr "Сбалансировать проводку _вручную"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:289
 #: ../src/register/ledger-core/split-register-control.c:139
 msgid "Let GnuCash _add an adjusting split"
-msgstr "Позволить GnuCash _добавить выравнивающую часть"
+msgstr "Разрешить GnuCash _добавить выравнивающую часть"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:294
 #: ../src/register/ledger-core/split-register-control.c:144
@@ -10602,26 +10602,26 @@ msgstr "Выровнять сумму частей _другого счета"
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:311
 #: ../src/register/ledger-core/split-register-control.c:161
 msgid "_Rebalance"
-msgstr "_Согласовать"
+msgstr "_Сбалансировать"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:405
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:413
 #: ../src/register/ledger-core/split-register-control.c:1317
 #: ../src/register/ledger-core/split-register-control.c:1330
 msgid "This register does not support editing exchange rates."
-msgstr "Этот журнал не поддерживает редактирование обменных курсов."
+msgstr "Данный журнал не поддерживает редактирование обменных курсов валют"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:421
 #: ../src/register/ledger-core/split-register-control.c:1371
 #: ../src/register/ledger-core/split-register-control.c:1446
 msgid "You need to expand the transaction in order to modify its exchange rates."
-msgstr "Вам необходимо развернуть проводку, с целью изменить курсы обмена."
+msgstr "Необходимо развернуть проводку с целью изменения курсов обмена валюты"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:461
 #: ../src/register/ledger-core/split-register-control.c:1418
 #: ../src/register/ledger-core/split-register-control.c:1431
 msgid "The two currencies involved equal each other."
-msgstr "Две валюты равноценно включают друг друга."
+msgstr "Две валюты взаимно равноценны"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1256
 #: ../src/register/ledger-core/split-register.c:508
@@ -10630,7 +10630,7 @@ msgstr "Информация по новой части"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1306
 msgid "This is the split anchoring this transaction to the register. You can not duplicate it from this register window."
-msgstr "Эта часть связыает проводку с журналом. Вы не можете продублировать её из окна текущего журнала."
+msgstr "Данная часть связыает проводку с журналом, и не может быть продублирована из окна текущего журнала"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1359
 #: ../src/gnome-utils/gnc-tree-util-split-reg.c:501
@@ -10642,7 +10642,7 @@ msgstr "Невозможно сохранить проводку на эту д�
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1361
 #: ../src/register/ledger-core/split-register.c:612
 msgid "The entered date of the duplicated transaction is older than the \"Read-Only Threshold\" set for this book. This setting can be changed in File -> Properties -> Accounts."
-msgstr "Введенная дата для дублируемой проводки  выходит за границу изменяемых проводок, установленной в настройках для этой книги. Эта настройка может быть изменена в меню Файл -> Свойства -> Счета."
+msgstr "Введенная дата для дублируемой проводки выходит за границу изменяемых проводок, установленной в настройках для этой книги. Эта настройка может быть изменена в меню Файл -> Свойства -> Счета"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1725
 msgid "Not enough information for Blank Transaction?"
@@ -10650,46 +10650,46 @@ msgstr "Недостаточно информации для пустой про
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1727
 msgid "The blank transaction does not have enough information to save it. Would you like to return to the transaction to update, or cancel the save?"
-msgstr "Пустая проводка содержит недостаточно информации, чтобы её сохранить. Вы хотите вернуться чтобы отредактировать проводку или отменить сохранение?"
+msgstr "Пустая проводка содержит недостаточно информации для ее сохранения. Вернуться к редактированию проводки или отменить сохранение?"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1738
 msgid "_Return"
-msgstr "Вернуться"
+msgstr "Возврат"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1781
 #: ../src/register/ledger-core/split-register-control.c:1828
 msgid "Mark split as unreconciled?"
-msgstr "Отметить часть, как несогласованную?"
+msgstr "Отметить часть, как несвереную?"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1783
 #: ../src/register/ledger-core/split-register-control.c:1830
 msgid "You are about to mark a reconciled split as unreconciled. Doing so might make future reconciliation difficult! Continue with this change?"
-msgstr "Вы действительно хотите пометить эту проводку, как несогласованную? Если вы так сделаете, то согласование в будущем будет усложнено! Продолжить?"
+msgstr "Отметить данную проводку, как несверенную? В этом случае впоследствии сверка будет усложнена! Продолжить?"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1827
 #: ../src/register/ledger-core/split-register-control.c:1847
 msgid "_Unreconcile"
-msgstr "_Отменить согласование"
+msgstr "_Отменить сверку"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1912
 #: ../src/register/ledger-core/split-register-model.c:2008
 msgid "Change reconciled split?"
-msgstr "Изменить согласованную часть?"
+msgstr "Изменить сверенную часть?"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1914
 #: ../src/register/ledger-core/split-register-model.c:2010
 msgid "You are about to change a reconciled split. Doing so might make future reconciliation difficult! Continue with this change?"
-msgstr "Вы действительно хотите изменить согласованную часть? Если вы так сделаете, то согласование в будущем будет усложнено!"
+msgstr "Изменить сверенную часть? В этом случае в дальнейшем сверка будет усложнена! Продолжить?"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1919
 #: ../src/register/ledger-core/split-register-model.c:2015
 msgid "Change split linked to a reconciled split?"
-msgstr "Изменить часть, связанную с согласованной частью?"
+msgstr "Изменить часть, связанную со сверенной частью?"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1921
 #: ../src/register/ledger-core/split-register-model.c:2017
 msgid "You are about to change a split that is linked to a reconciled split. Doing so might make future reconciliation difficult! Continue with this change?"
-msgstr "Вы действительно хотите изменить часть связанную с согласованной частью проводки?Если вы так сделаете, то согласование в будущем будет усложнено! Продолжить?"
+msgstr "Изменить часть, связанную со сверенной частью проводки? В этом случае в дальнейшем сверка будет усложнена! Продолжить?"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:1935
 #: ../src/register/ledger-core/split-register-model.c:2031
@@ -10698,7 +10698,7 @@ msgstr "_Изменить часть"
 
 #: ../src/gnome-utils/gnc-tree-control-split-reg.c:2123
 msgid "You can not paste from the general ledger to a register."
-msgstr "Вы не можете вставлять проводки из главной книги в журнал."
+msgstr "Вы не можете вставлять проводки из главной книги в журнал"
 
 #: ../src/gnome-utils/gnc-tree-model-account.c:630
 msgid "New top level account"
@@ -10714,7 +10714,7 @@ msgstr "Внести"
 #: ../src/gnome-utils/gnc-tree-model-split-reg.c:2880
 #: ../src/register/ledger-core/split-register.c:2469
 msgid "Withdraw"
-msgstr "Снято"
+msgstr "Списано"
 
 #: ../src/gnome-utils/gnc-tree-model-split-reg.c:2881
 #: ../src/register/ledger-core/split-register.c:2470
@@ -10788,7 +10788,7 @@ msgstr "Прямой дебет"
 #: ../src/register/ledger-core/split-register.c:2507
 #: ../src/register/ledger-core/split-register.c:2556
 msgid "Fee"
-msgstr "Гонорар"
+msgstr "Оплата"
 
 #: ../src/gnome-utils/gnc-tree-model-split-reg.c:2915
 msgid "ATM Withdraw"
@@ -10853,11 +10853,11 @@ msgstr "-- Разделение ценных бумаг --"
 #: ../src/gnome-utils/gnc-tree-util-split-reg.c:503
 #: ../src/register/register-gnome/datecell-gnome.c:100
 msgid "The entered date of the new transaction is older than the \"Read-Only Threshold\" set for this book. This setting can be changed in File -> Properties -> Accounts."
-msgstr "Введенная дата новой проводки выходит за границу изменяемых проводок, установленной в настройках для этой книги. Эта настройка может быть изменена в меню Файл -> Свойства -> Счета."
+msgstr "Введенная дата новой проводки выходит за границу изменяемых проводок, установленной в настройках для данной книги. Эта настройка может быть изменена в меню Файл -> Свойства -> Счета"
 
 #: ../src/gnome-utils/gnc-tree-util-split-reg.c:886
 msgid "Exchange Rate Canceled, using existing rate or default 1 to 1 rate if this is a new transaction."
-msgstr "Указание обменного курса отменено, будет использован существующий курс обмена или курс по умолчанию (1 к 1) если эта провожка новая."
+msgstr "Указанный обменный курс отменен, будет использован существующий курс обмена или курс по умолчанию (1 к 1) для новой проводки"
 
 #: ../src/gnome-utils/gnc-tree-util-split-reg.c:1148
 #: ../src/register/ledger-core/split-register.c:1921
@@ -10867,7 +10867,7 @@ msgstr "Пересчитать проводку"
 #: ../src/gnome-utils/gnc-tree-util-split-reg.c:1149
 #: ../src/register/ledger-core/split-register.c:1922
 msgid "The values entered for this transaction are inconsistent. Which value would you like to have recalculated?"
-msgstr "Значения, введенные для этой проводки, противоречивы. Какое значение должно быть пересчитано?"
+msgstr "Для проводки введены противоречивые значения. Какое значение должно быть пересчитано?"
 
 #: ../src/gnome-utils/gnc-tree-util-split-reg.c:1156
 #: ../src/gnome-utils/gnc-tree-util-split-reg.c:1158
@@ -10908,12 +10908,12 @@ msgstr "_Пересчитать"
 #: ../src/report/standard-reports/transaction.scm:949
 #: ../src/report/standard-reports/trial-balance.scm:664
 msgid "Account Name"
-msgstr "Название счета"
+msgstr "Наименование счета"
 
 #: ../src/gnome-utils/gnc-tree-view-account.c:737
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3016
 msgid "Commodity"
-msgstr "Предмет"
+msgstr "Товар"
 
 #: ../src/gnome-utils/gnc-tree-view-account.c:743
 #: ../src/report/report-system/options-utilities.scm:242
@@ -10958,7 +10958,7 @@ msgstr "Согласовано (отчет)"
 
 #: ../src/gnome-utils/gnc-tree-view-account.c:824
 msgid "Last Reconcile Date"
-msgstr "Последняя дата согласования"
+msgstr "Последняя дата сверки"
 
 #: ../src/gnome-utils/gnc-tree-view-account.c:830
 msgid "Future Minimum"
@@ -10982,7 +10982,7 @@ msgstr "Ц"
 
 #: ../src/gnome-utils/gnc-tree-view-account.c:877
 msgid "Account Color"
-msgstr "Цвет счёта"
+msgstr "Цвет счета"
 
 #: ../src/gnome-utils/gnc-tree-view-account.c:891
 msgid "Tax Info"
@@ -11017,7 +11017,7 @@ msgstr "Очищено (%s)"
 #: ../src/gnome-utils/gnc-tree-view-account.c:1710
 #, c-format
 msgid "Reconciled (%s)"
-msgstr "Согласованное (%s)"
+msgstr "Сверенное (%s)"
 
 #. Translators: %s is a currency mnemonic.
 #: ../src/gnome-utils/gnc-tree-view-account.c:1713
@@ -11041,7 +11041,7 @@ msgstr "Печатаемое название"
 
 #: ../src/gnome-utils/gnc-tree-view-commodity.c:408
 msgid "Display symbol"
-msgstr "Отобразить тикер"
+msgstr "Символ"
 
 #: ../src/gnome-utils/gnc-tree-view-commodity.c:414
 msgid "Unique Name"
@@ -11055,7 +11055,7 @@ msgstr "ISIN/CUSIP"
 
 #: ../src/gnome-utils/gnc-tree-view-commodity.c:427
 msgid "Fraction"
-msgstr "Часть"
+msgstr "Дробная часть"
 
 #: ../src/gnome-utils/gnc-tree-view-commodity.c:434
 msgid "Get Quotes"
@@ -11086,7 +11086,7 @@ msgstr "ID владельца"
 
 #: ../src/gnome-utils/gnc-tree-view-owner.c:418
 msgid "Address Name"
-msgstr "Название адреса"
+msgstr "Адрес"
 
 #: ../src/gnome-utils/gnc-tree-view-owner.c:423
 msgid "Address 1"
@@ -11138,12 +11138,12 @@ msgstr "Сохранить измененную проводку?"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:2415
 msgid "The current transaction has changed. Would you like to record the changes, or discard the changes?"
-msgstr "Текущая проводка была изменена. Вы хотите записать или отвергнуть изменения?"
+msgstr "Текущая проводка была изменена. Вы хотите записать или отменить изменения?"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:2453
 #: ../src/register/ledger-core/split-register-control.c:1546
 msgid "_Discard Changes"
-msgstr "О_твергнуть изменения"
+msgstr "О_тменить изменения"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:2455
 #: ../src/register/ledger-core/split-register-control.c:1548
@@ -11156,15 +11156,15 @@ msgstr "Дата ввода"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:2824
 msgid "Date Reconciled"
-msgstr "Дата согласования"
+msgstr "Дата сверки"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:2826
 msgid "Date Posted / Entered / Reconciled"
-msgstr "Дата ввода / заведения / согласования"
+msgstr "Дата ввода / заведения / сверки"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:2853
 msgid "Reference / Action"
-msgstr "Идентификатор / Действие"
+msgstr "Идентификатор / Операция"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:2867
 msgid "T-Number"
@@ -11172,19 +11172,19 @@ msgstr "Номер пров."
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:2873
 msgid "Number / Action"
-msgstr "Номер / Действие"
+msgstr "Номер / Операция"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:2889
 msgid "Customer / Memo"
-msgstr "Клиент / Памятка"
+msgstr "Клиент / Примечение"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:2900
 msgid "Vendor / Memo"
-msgstr "Поставщик / Памятка"
+msgstr "Поставщик / Примечение"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:2918
 msgid "Description / Notes / Memo"
-msgstr "Описание / Заметки / Памятка"
+msgstr "Описание / Комментарий / Примечание"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:2948
 msgid "Void Reason"
@@ -11210,12 +11210,12 @@ msgstr "Курс"
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3112
 #: ../src/register/ledger-core/split-register-model.c:482
 msgid "Credit Formula"
-msgstr "Формула кредита"
+msgstr "Формула Кредита"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3193
 #: ../src/register/ledger-core/split-register-model.c:475
 msgid "Debit Formula"
-msgstr "Формула дебита"
+msgstr "Формула Дебета"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3263
 msgid "Enter Due Date"
@@ -11228,11 +11228,11 @@ msgstr "Введите ссылку на проводку, например на
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3276
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3283
 msgid "Enter the type of transaction, or choose one from the list"
-msgstr "Введите тип проводки или выберите один из списка"
+msgstr "Введите тип проводки или выберите из списка"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3281
 msgid "Enter the transaction number, such as the check number"
-msgstr "Введите номер проводки, такой как номер чека"
+msgstr "Введите номер проводки, соответствующий номеру чека"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3293
 #: ../src/register/ledger-core/split-register-model.c:1021
@@ -11244,14 +11244,14 @@ msgstr "Введите имя клиента"
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3313
 #: ../src/register/ledger-core/split-register-model.c:1058
 msgid "Enter notes for the transaction"
-msgstr "Введите замечание к проводке"
+msgstr "Введите комментарий к проводке"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3297
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3306
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3315
 #: ../src/register/ledger-core/split-register-model.c:1217
 msgid "Enter a description of the split"
-msgstr "Введите описание части"
+msgstr "Введите описание части разноски"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3302
 #: ../src/register/ledger-core/split-register-model.c:1024
@@ -11277,7 +11277,7 @@ msgstr "Причина аннулирования проводки"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3339
 msgid "Enter the reconcile type"
-msgstr "Введите тип согласования"
+msgstr "Введите тип сверки"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3349
 msgid "Enter the type of transaction"
@@ -11286,7 +11286,7 @@ msgstr "Введите тип проводки"
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3359
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3379
 msgid "Enter the value of shares bought or sold"
-msgstr "Введите число проданных или купленных акций"
+msgstr "Введите число проданных или приобретенных акций"
 
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3369
 #: ../src/gnome-utils/gnc-tree-view-split-reg.c:3381
@@ -11345,7 +11345,7 @@ msgstr "Файл отрытый последним"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.history.gschema.xml.in.in.h:4
 msgid "This field contains the full path of the most recently opened file."
-msgstr "Это поле содержит полный путь к последнему открытому файлу."
+msgstr "Данное поле содержит полный путь к последнему открытому файлу"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.history.gschema.xml.in.in.h:5
 msgid "Next most recently opened file"
@@ -11353,7 +11353,7 @@ msgstr "Файл отрытый предпоследним"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.history.gschema.xml.in.in.h:6
 msgid "This field contains the full path of the next most recently opened file."
-msgstr "Это поле содержит полный путь к файлу, открытому предпоследним."
+msgstr "Данное поле содержит полный путь к файлу, открытому предпоследним"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:1
 msgid "Print checks from multiple accounts"
@@ -11361,7 +11361,7 @@ msgstr "Напечатать чеки с нескольких счетов"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:2
 msgid "This dialog is presented if you try to print checks from multiple accounts at the same time."
-msgstr "Этот диалог показывается попытке распечатать за один раз чеки с нескольких счетов."
+msgstr "Это диалоговое окно отображается при попытке распечатать за один раз чеки с нескольких счетов"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:3
 msgid "Commit changes to a invoice entry"
@@ -11369,7 +11369,7 @@ msgstr "Внести изменения в запись счета-фактур�
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:4
 msgid "This dialog is presented when you attempt to move out of a modified invoice entry. The changed data must be either saved or discarded."
-msgstr "Этот диалог показывается, когда вы пытаетесь переместить измененный товарный чек. Изменения должны быть либо сохранены, либо отменены."
+msgstr "Это диалоговое окно отображается при попытке перемещения измененного товарного чека. Изменения должны быть либо сохранены, либо отменены"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:5
 msgid "Duplicating a changed invoice entry"
@@ -11377,7 +11377,7 @@ msgstr "Дублировать измененную запись счета-фа
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:6
 msgid "This dialog is presented when you attempt to duplicate a modified invoice entry. The changed data must be saved or the duplication canceled."
-msgstr "Этот диалог показывается, когда вы пытаетесь дублировать измененный товарный чек. Измененные данные должны быть сохранены или отменено дублирование."
+msgstr "Это диалоговое окно отображается при попытке дублирования измененного товарного чека. Измененные данные должны быть сохранены, или дублирование отменено"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:7
 msgid "Delete a commodity"
@@ -11385,7 +11385,7 @@ msgstr "Удалить товар"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:8
 msgid "This dialog is presented before allowing you to delete a commodity."
-msgstr "Этот диалог показывается перед разрешением удаления товара."
+msgstr "Это диалоговое окно отображается перед разрешением удаления товара"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:9
 msgid "Delete a commodity with price quotes"
@@ -11393,7 +11393,7 @@ msgstr "Удалить товар вместе с котировками"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:10
 msgid "This dialog is presented before allowing you to delete a commodity that has price quotes attached. Deleting the commodity will delete the quotes as well."
-msgstr "Этот диалог показывается перед позволением удалить товар, у которого есть котировки. Удаление такого товара, приведет к удалению и его котировок."
+msgstr "Это диалоговое окно отображается перед разрешением удаления товара, у которого существуют котировки. Удаление такого товара приведет к удалению и его котировок"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:11
 msgid "Delete multiple price quotes"
@@ -11401,15 +11401,15 @@ msgstr "Удалить множество котировок цен"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:12
 msgid "This dialog is presented before allowing you to delete multiple price quotes at one time."
-msgstr "Этот диалог показывается перед разрешением удалить несколько котировок цен за один раз."
+msgstr "Это диалоговое окно отображается перед разрешением удаления нескольких котировок цен за один раз"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:13
 msgid "Edit account payable/accounts receivable register"
-msgstr "Редактрировать журнал расчетного счета (на оплату/получение)"
+msgstr "Редактрировать журнал расчетного счета (на оплату / получение)"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:14
 msgid "This dialog is presented before allowing you to edit an accounts payable/accounts receivable account. These account types are reserved for the business features and should rarely be manipulated manually."
-msgstr "Этот диалог отображается прежде чем разрешить вам редактировать журнал счета на оплату или получение. Эти типы счетов зарезервированы для бизнес "
+msgstr "Это диалоговое окно отображается перед разрешением редактирования журнала счета на оплату или получение. Данные типы счетов зарезервированы для бизнеса "
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:15
 msgid "Read only register"
@@ -11417,23 +11417,23 @@ msgstr "Журнал только для чтения"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:16
 msgid "This dialog is presented when a read-only register is opened."
-msgstr "Этот диалог показывается, когда открывается журнал только для чтения."
+msgstr "Это диалоговое окно отображается при открытии журнала только на чтение"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:17
 msgid "Change contents of reconciled split"
-msgstr "Изменить содержимое согласованной части"
+msgstr "Изменить содержимое сверенной части"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:18
 msgid "This dialog is presented before allowing you to change the contents of a reconciled split. Allowing these changes can make it hard to perform future reconciliations."
-msgstr "Этот диалог показывается перед тем, как будет позволено изменить согласованную часть проводки. Разрешение изменений может осложнить будущие согласования."
+msgstr "Это диалоговое окно отображается перед разрешением изменения сверенной части проводки. Разрешение изменений может осложнить сверку проводок в дальнейшем"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:19
 msgid "Mark transaction split as unreconciled"
-msgstr "Отметить часть проводки, что она не сбалансирована"
+msgstr "Отметить часть проводки, как несверенную"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:20
 msgid "This dialog is presented before allowing you to mark a transaction split as unreconciled. Doing so will throw off the reconciled value of the register and can make it hard to perform future reconciliations."
-msgstr "Этот диалог показывается перед разрешением пометить часть проводки, как несогласованную. Если это сделать, то согласование журнала будет утеряно и затруднит будущие согласования."
+msgstr "Это диалоговое окно отображается перед разрешением отметить часть проводки, как несверенную. В этом случае сверка журнала будет утеряна, и последующие сверки будут затруднены"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:21
 msgid "Remove a split from a transaction"
@@ -11441,15 +11441,15 @@ msgstr "Удалить часть из проводки"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:22
 msgid "This dialog is presented before allowing you to remove a split from a transaction."
-msgstr "Этот диалог показывается перед разрешением удалить часть из проводки."
+msgstr "Это диалоговое окно отображается перед разрешением удаления части из проводки"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:23
 msgid "Remove a reconciled split from a transaction"
-msgstr "Удалить сбалансированную часть из проводки"
+msgstr "Удалить сверенную часть из проводки"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:24
 msgid "This dialog is presented before allowing you to remove a reconciled split from a transaction. Doing so will throw off the reconciled value of the register and can make it hard to perform future reconciliations."
-msgstr "Этот диалог показывается перед разрешением удалить согласованную часть проводки. Если это сделать, то согласование журнала будет утеряно и затруднит будущие согласования."
+msgstr "Это диалоговое окно отображается перед разрешением удаления сверенной части проводки. В этом случае сверка журнала будет утеряна, и последующие сверки затрудннены"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:25
 msgid "Remove all the splits from a transaction"
@@ -11457,11 +11457,11 @@ msgstr "Удалить все части из проводки"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:26
 msgid "This dialog is presented before allowing you to remove all splits from a transaction."
-msgstr "Этот диалог показывается перед разрешением удалить все части из проводки."
+msgstr "Это диалоговое окно отображается перед разрешением удаления всех частей проводки"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:27
 msgid "This dialog is presented before allowing you to remove all splits (including some reconciled splits) from a transaction. Doing so will throw off the reconciled value of the register and can make it hard to perform future reconciliations."
-msgstr "Этот диалог показывается перед разрешением удалить все части, включая согласованные, из проводки. Если это сделать, то согласование журнала будет утеряно и затруднит будущие согласования."
+msgstr "Это диалоговое окно отображается перед разрешением удаления всех частей проводки, включая сверенные. В этом случае сверка журнала будет утеряна, и последующие сверки затруднены"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:28
 msgid "Delete a transaction"
@@ -11469,15 +11469,15 @@ msgstr "Удалить проводку"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:29
 msgid "This dialog is presented before allowing you to delete a transaction."
-msgstr "Этот диалог показывается перед разрешением удалить проводку."
+msgstr "Это диалоговое окно отображается перед разрешением удаления проводки"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:30
 msgid "Delete a transaction with reconciled splits"
-msgstr "Удаление проводки с согласованными частями"
+msgstr "Удаление проводки со сверенными составляющими"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:31
 msgid "This dialog is presented before allowing you to delete a transaction that contains reconciled splits. Doing so will throw off the reconciled value of the register and can make it hard to perform future reconciliations."
-msgstr "Этот диалог показывается перед разрешением удалить проводку, содержащую согласованные части. Если это сделать, то согласование журнала будет утеряно и затруднит будущие согласования."
+msgstr "Это диалоговое окно отображается перед разрешением удаления проводки, содержащей сверенные части. В этом случае сверка журнала будет утеряна, и последующие сверки затруднены"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:32
 msgid "Duplicating a changed transaction"
@@ -11485,7 +11485,7 @@ msgstr "Дублировать измененную проводку"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:33
 msgid "This dialog is presented when you attempt to duplicate a modified transaction. The changed data must be saved or the duplication canceled."
-msgstr "Этот диалог показывается, когда вы пытаетесь дублировать измененную проводку. Измененные данные должны быть сохранены или отменено дублирование."
+msgstr "Это диалоговое окно отображается при попытке дублирования измененной проводки. Измененные данные должны быть сохранены, или дублирование отменено"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:34
 msgid "Commit changes to a transaction"
@@ -11493,11 +11493,11 @@ msgstr "Внести изменения в проводку"
 
 #: ../src/gnome-utils/gschemas/org.gnucash.warnings.gschema.xml.in.in.h:35
 msgid "This dialog is presented when you attempt to move out of a modified transaction. The changed data must be either saved or discarded."
-msgstr "Этот диалог показывается, когда вы пытаетесь переместить измененную проводку. Измененные данные должны быть либо сохранены, либо отменены."
+msgstr "Это диалоговое окно отображается при попытке перемещения измененной проводки. Измененные данные должны быть сохранены или изменение отменено"
 
 #: ../src/gnome-utils/gtkbuilder/assistant-xml-encoding.glade.h:1
 msgid "Edit the list of encodings"
-msgstr "Изменить список кодировок"
+msgstr "Изменить перечень кодировок"
 
 #: ../src/gnome-utils/gtkbuilder/assistant-xml-encoding.glade.h:2
 msgid "<b>S_ystem input encodings</b>"
@@ -11573,7 +11573,7 @@ msgstr "<b>Идентификация</b>"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:11
 msgid "Account _name:"
-msgstr "Название счета:"
+msgstr "Наименование счета:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:12
 msgid "_Account code:"
@@ -11589,7 +11589,7 @@ msgstr "Наименьшая часть:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:16
 msgid "Account _Color:"
-msgstr "_Цвет счёта:"
+msgstr "_Подсветка счета:"
 
 #. instantiate a default style sheet
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:17
@@ -11601,7 +11601,7 @@ msgstr "По умолчанию"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:18
 msgid "No_tes:"
-msgstr "З_аметки:"
+msgstr "К_омментарий:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:19
 msgid "Ta_x related"
@@ -11609,19 +11609,19 @@ msgstr "Относящиеся к налогам"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:20
 msgid "Use Edit->Tax Report Options to set the tax-related flag and assign a tax code to this account."
-msgstr "Используйте Правка->Параметры налогов для установки флага налогооблажения и ассоциации налогового кода этого счета."
+msgstr "Используйте пункты меню Правка -> Параметры налогов для установки флага налогооблажения и ассоциации налогового кода данного счета"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:21
 msgid "Placeholde_r"
-msgstr "Виртуальный"
+msgstr "Виртуальный счет"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:22
 msgid "This account is present solely as a placeholder in the hierarchy. Transactions may not be posted to this account, only to sub-accounts of this account."
-msgstr "Этот счет является полностью виртуальным в иерархии. Он не может содержать проводок. Их необходимо размещать на субсчетах этого счета."
+msgstr "Этот счет является виртуальным в иерархии счетов и не может содержать проводок. Их необходимо размещать на субсчетах данного счета"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:23
 msgid "H_idden"
-msgstr "Скрытый"
+msgstr "Скрытый счет"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:24
 msgid "This account (and any sub-accounts) will be hidden in the account tree and will not appear in the popup account list in the register. To reset this option, you will first need to open the \"Filter By...\" dialog for the account tree and check the \"show hidden accounts\" option. Doing so will allow you to select the account and reopen this dialog."
@@ -11629,7 +11629,7 @@ msgstr "Этот счет (и любой субсчет) будет скрыт �
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:25
 msgid "Smallest fraction of this commodity that can be referenced."
-msgstr "Наименьшая часть товара, которой можно оперировать."
+msgstr "Наименьшая часть товара, с которой можно проводить операции"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:26
 msgid "<b>Acco_unt Type</b>"
@@ -11679,7 +11679,7 @@ msgstr "<b>Родительский счет</b>"
 #: ../src/report/utility-reports/view-column.scm:58
 #: ../src/report/utility-reports/view-column.scm:84
 msgid "General"
-msgstr "Основные"
+msgstr "Параметры"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:29
 msgid "<b>Balance Information</b>"
@@ -11723,7 +11723,7 @@ msgstr "Данный счет содержит проводки. Что вы х�
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:41
 msgid "This account contains read-only transactions which may not be deleted."
-msgstr "Этот счет содержит неизменяемые проводки, которые не могут быть удалены."
+msgstr "Данный счет содержит неизменяемые проводки, которые не могут быть удалены"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:42
 msgid "<b>Sub-accounts</b>"
@@ -11731,7 +11731,7 @@ msgstr "<b>Субсчета</b>"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:43
 msgid "This account contains sub-accounts. What would you like to do with these sub-accounts?"
-msgstr "Этот счет содержит субсчета. Что вы хотите с ними сделать?"
+msgstr "Данный счет содержит субсчета. Что нужно сделать с субсчетами?"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:44
 msgid "_Move to:"
@@ -11747,11 +11747,11 @@ msgstr "<b>Проводки субсчета</b>"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:47
 msgid "One or more sub-accounts contain transactions. What would you like to do with these transactions?"
-msgstr "Один или больше подсчетов содержат проводки. Что вы хотите сделать с этими проводками?"
+msgstr "Один или более субсчетов содержат проводки. Что сделать с этими проводками?"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:48
 msgid "One or more sub-accounts contain read-only transactions which may not be deleted."
-msgstr "Один или более подсчетов содержат неизменяемые проводки, которые не могут быть удалены."
+msgstr "Один или более подсчетов содержат неизменяемые проводки, которые не могут быть удалены"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:49
 #: ../src/gnome-utils/gtkbuilder/gnc-tree-view-owner.glade.h:1
@@ -11771,19 +11771,19 @@ msgstr "Тип счета"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:54
 msgid "Show _hidden accounts"
-msgstr "Показывать скрытые счета"
+msgstr "Отображать скрытые счета"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:55
 msgid "Show accounts which have the option \"Hidden\" checked."
-msgstr "Показать счета, с включенным флагом \"Скрытый\"."
+msgstr "Показать счета с признаком \"Скрытый\""
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:56
 msgid "Show _zero total accounts"
-msgstr "Показывать счета с нулевым балансом"
+msgstr "Отображать счета с нулевым балансом"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:57
 msgid "Show accounts which have a zero total value."
-msgstr "Показать счета, имеющие нулевой остаток."
+msgstr "Показать счета, имеющие нулевой остаток"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-account.glade.h:59
 msgid "Renumber sub-accounts"
@@ -11820,23 +11820,23 @@ msgstr "Описание:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-commodity.glade.h:1
 msgid "Select security/currency "
-msgstr "Выберите ценную бумагу/валюту"
+msgstr "Выберите ценную бумагу / валюту"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-commodity.glade.h:2
 msgid "Select user information here..."
-msgstr "Выберите здесь информацию о пользователе..."
+msgstr "Выберите данные о пользователе..."
 
 #: ../src/gnome-utils/gtkbuilder/dialog-commodity.glade.h:4
 msgid "Enter the full name of the commodity. Example: Cisco Systems Inc., or Apple Computer, Inc."
-msgstr "Введите полное название товара. Например: ОАО \"Кондитерский концерн Бабаевский\", Apple Computer, Inc."
+msgstr "Введите полное наименование товара, например ОАО \"Кондитерский концерн Бабаевский\", Apple Computer, Inc."
 
 #: ../src/gnome-utils/gtkbuilder/dialog-commodity.glade.h:5
 msgid "Enter the ticker symbol for the commodity (e.g. CSCO or AAPL). If you are retrieving quotes online, this field must exactly match the ticker symbol used by the quote source (including case). "
-msgstr "Введите символ тикера для товара (например, CSCO или AAPL). Если вы получаете котировки в режиме реального времени, то это поле должно совпадать с символом, используемом в источнике котировок (включая регистр)."
+msgstr "Введите код товара (тикер), например, CSCO или AAPL. Если вы получаете котировки в режиме реального времени, то это значение должно совпадать с символом, используемом в источнике котировок (включая регистр)"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-commodity.glade.h:6
 msgid "Enter a unique code used to identify the commodity. Or, you may safely leave this field blank."
-msgstr "Введите уникальный код, используемый для идентификации товара. Это поле можно оставить пустым."
+msgstr "Введите уникальный код, используемый для идентификации товара. Это поле можно оставить пустым"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-commodity.glade.h:7
 msgid "1 /"
@@ -11844,7 +11844,7 @@ msgstr "1 /"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-commodity.glade.h:8
 msgid "Enter the smallest fraction of the commodity which can be traded. For stocks which can only be traded in whole numbers, enter 1."
-msgstr "Введите наименьшую часть товара, которая может быть продана. Для ценных бумаг, которые могут продаваться только целиком, введите 1."
+msgstr "Введите наименьшую часть товара, которая может быть продана. Для ценных бумаг, которые могут продаваться только целиком, введите значение 1"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-commodity.glade.h:9
 msgid "<b>Quote Source Information</b>"
@@ -11860,7 +11860,7 @@ msgstr "Полное название:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-commodity.glade.h:12
 msgid "_Symbol/abbreviation:"
-msgstr "Символ/аббревиатура:"
+msgstr "Символ / аббревиатура:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-commodity.glade.h:13
 msgid "ISIN, CUSI_P or other code:"
@@ -11872,7 +11872,7 @@ msgstr "Часть для продажи:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-commodity.glade.h:15
 msgid "Warning: Finance::Quote not installed properly."
-msgstr "Внимание: Finance::Quote не установлено должным образом."
+msgstr "Внимание: Модуль Finance::Quote установлен некорректно"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-commodity.glade.h:16
 msgid "_Get Online Quotes"
@@ -11884,7 +11884,7 @@ msgstr "Одиночное:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-commodity.glade.h:18
 msgid "These are F::Q quote sources that retrieve information from a single site on the internet. If that site is unavailable, you will not be able to retrieve quotes."
-msgstr "Это F::Q источники котировок, получающие информацию с единственного интернет-сайта. Если этот сайт станет недоступен, то будет невозможно получить котировки."
+msgstr "Это F::Q источники котировок, получающие информацию с единственного интернет-сайта. Если этот сайт станет недоступен, то получить котировки будет невозможно"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-commodity.glade.h:19
 msgid "_Multiple:"
@@ -11892,7 +11892,7 @@ msgstr "Множественный:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-commodity.glade.h:20
 msgid "These are F::Q quote sources that retrieve information from multiple sites on the internet. If one of the sites is unavailable, F::Q will attempt to retrieve the information from another site."
-msgstr "Это F::Q источники котировок, получающие информацию с нескольких интернет-сайтов. Если один из них станет недоступен, то F::Q попытается получить котировки с другого."
+msgstr "Модуль F::Q получает данные с нескольких интернет-сайтов. Если один из источников котировок окажется недоступен, то F::Q попытается получить котировки с другого сайта"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-commodity.glade.h:21
 msgid "_Unknown:"
@@ -11900,7 +11900,7 @@ msgstr "Неизвестный:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-commodity.glade.h:22
 msgid "These are quote sources that were recently added to F::Q. GnuCash does not know if these sources retrieve information from a single site or from multiple sites on the internet."
-msgstr "Эти источники котировок были недавно добавлены в F::Q. GnuCash не знает, получают ли они информацию с одного интернет-сайта или с нескольких."
+msgstr "Эти источники котировок были недавно добавлены в F::Q. Неизвестно, получают ли они информацию с одного или с нескольких интернет-сайтов"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-commodity.glade.h:23
 msgid "Time_zone:"
@@ -11908,11 +11908,11 @@ msgstr "Часовой пояс:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-commodity.glade.h:24
 msgid "Enter a display symbol. This can safely be left blank, in which case the ticker symbol or the currency ISO code will be used."
-msgstr "Введите символ для отображения. Это поле можно не заполнять, в этом случае будет использован тикер или ISO код валюты."
+msgstr "Введите символьный код для отображения. Это поле можно оставить пустым, в этом случае будет использован тикер или ISO-код валюты."
 
 #: ../src/gnome-utils/gtkbuilder/dialog-commodity.glade.h:25
 msgid "_Display symbol"
-msgstr "_Отобразить тикер"
+msgstr "_Отобразить символьный код"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-file-access.glade.h:1
 msgid "<b>Data Format:</b>"
@@ -11976,7 +11976,7 @@ msgstr "Включить невал_ютные итоги"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:6
 msgid "If checked, non-currency commodities will be shown in the summary bar. If clear, only currencies will be shown."
-msgstr "Если включено, то невалютные предметы будут отображаться в итоговой строке. В противном случае только валютные будут отображаться."
+msgstr "Если флажок установлен, то товары, не являющиеся валютой, будут отображаться в итоговой строке. В противном случае в строке будут отображаться только значения в валюте"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:7
 msgid "<b>Start Date</b>"
@@ -11992,7 +11992,7 @@ msgstr "_Относительно:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:10
 msgid "Use the specified relative starting date for profit/loss calculations."
-msgstr "Использовать указанную относительную начальную дату для расчетов прибыли/убытков."
+msgstr "Использовать указанную относительную начальную дату для расчетов прибыли / убытков"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:11
 msgid "_Absolute:"
@@ -12000,7 +12000,7 @@ msgstr "_Абсолютный:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:12
 msgid "Use the specified absolute starting date for profit/loss calculations."
-msgstr "Использовать указанную абсолютную начальную дату для расчетов прибыли/убытков."
+msgstr "Использовать указанную абсолютную начальную дату для расчетов прибыли / убытков"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:13
 msgid "Re_lative:"
@@ -12008,7 +12008,7 @@ msgstr "_Относительная:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:14
 msgid "Use the specified relative ending date for profit/loss calculations. Also use this date for net assets calculations."
-msgstr "Использовать указанную относительную конечную дату для расчетов прибыли/убытков. Так же эта дата используется для подсчета чистых активов."
+msgstr "Использовать указанную относительную конечную дату для расчетов прибыли / убытков. Эта дата используется также для рассчета чистых активов"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:15
 msgid "Ab_solute:"
@@ -12016,7 +12016,7 @@ msgstr "_Абсолютная:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:16
 msgid "Use the specified absolute ending date for profit/loss calculations. Also use this date for net assets calculations."
-msgstr "Использовать указанную абсолютную конечную дату для расчетов прибыли/убытков. Так же эта дата используется для подсчета чистых активов."
+msgstr "Использовать указанную абсолютную конечную дату для расчетов прибыли / убытков. Эта дата используется также для рассчета чистых активов"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:17
 msgid "Accounting Period"
@@ -12028,15 +12028,15 @@ msgstr "<b>Разделитель</b>"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:19
 msgid "Use _formal accounting labels"
-msgstr "Использовать формальные обозначения счетов"
+msgstr "Использовать наименования столбцов \"Дебет\" и \"Кредит\""
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:20
 msgid "Use only 'debit' and 'credit' instead of informal synonyms."
-msgstr "Использовать только 'дебет' и 'кредит' вместо неформальных синонимов."
+msgstr "В качестве наименований столбцов с суммами операций использовать только термины \"Дебет\" и \"Кредит\""
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:21
 msgid "<b>Labels</b>"
-msgstr "<b>Метки</b>"
+msgstr "<b>Наименования столбцов</b>"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:22
 msgid "_None"
@@ -12064,7 +12064,7 @@ msgstr "Доллары США (USD)"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:31
 msgid "Loc_ale:"
-msgstr "_Местный:"
+msgstr "_Национальная:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:33
 msgid "Ch_oose:"
@@ -12072,7 +12072,7 @@ msgstr "_Выберите:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:35
 msgid "The character that will be used between components of an account name. A legal value is any single character except letters and numbers, or any of the following strings: \"colon\" \"slash\", \"backslash\", \"dash\" and \"period\"."
-msgstr "Символ, используемый для разделения частей названия счета. Допустимы любые не буквенно-цифровые символы или следующие значения: \"colon\" (двоеточие), \"slash\" (дробь), \"backslash\" (обратная дробь), \"dash\" (дефис) и \"period\" (точка)."
+msgstr "Символ, используемый для разделения компонентов счета. Допустимы любые небуквенно-цифровые символы или следующие значения: \"colon\" (двоеточие), \"slash\" (косая черта), \"backslash\" (обратная косая черта), \"dash\" (дефис) и \"period\" (точка)"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:36
 msgid "Character:"
@@ -12085,23 +12085,23 @@ msgstr "Пример:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:38
 msgid "<b>Account Color</b>"
-msgstr "<b>Цвет счета</b>"
+msgstr "<b>Подсветка счета</b>"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:39
 msgid "Show the Account Color as background"
-msgstr "Использовать цвет счета для фонового цвета в названии"
+msgstr "Использовать подсветку счета для фонового цвета в названии"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:40
 msgid "Show the Account Color as Account Name Background."
-msgstr "Использовать цвет счета в качестве цвета в фона в колонке \"Название счета\"."
+msgstr "Использовать подсветку счета в качестве цвета в фона в столбце \"Наименование счета\""
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:41
 msgid "Show the Account Color on tabs"
-msgstr "Показывать цвет счета на вкладках"
+msgstr "Показывать подсветку счета на вкладках"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:42
 msgid "Show the Account Color as tab background."
-msgstr "Использовать цвет счета в качестве цвета фона в заголовке вкладки."
+msgstr "Использовать подсветку счета в качестве фона в заголовке вкладки"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:44
 msgid "<b>Fancy Date Format</b>"
@@ -12121,7 +12121,7 @@ msgstr "Использовать 24-х часовой формат времен�
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:48
 msgid "Use a 24 hour (instead of a 12 hour) time format."
-msgstr "Использовать 24-х часовой формат времени вместо 12-ти часового."
+msgstr "Использовать 24-х часовой формат времени вместо 12-ти часового"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:49
 msgid "<b>Date Completion</b>"
@@ -12136,24 +12136,22 @@ msgid "Dates will be completed so that they are within the current calendar year
 msgstr "Даты будут дополнятся так, как будто они в текущем календарном году."
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:53
-msgid ""
-"In a sliding 12-month window starting this\n"
+msgid "In a sliding 12-month window starting this\n"
 "many months before the current month:"
-msgstr ""
-"В скользящем 12-ти месячном окне. \n"
-"Число прошедших месяцев входящих в окно:"
+msgstr "В скользящем 12-ти месячном окне. \n"
+"Количество месяцев за прошедший период:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:56
 msgid "Enter number of months."
-msgstr "Введите количество месяцев."
+msgstr "Введите количество месяцев"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:57
 msgid "Use the date format specified by the system locale."
-msgstr "Использовать формат даты, определенный региональными настройками системы."
+msgstr "Использовать формат даты, определенный региональными настройками системы"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:58
 msgid "Date/Time"
-msgstr "Дата/время"
+msgstr "Дата / время"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:60
 msgid "Perform account list _setup on new file"

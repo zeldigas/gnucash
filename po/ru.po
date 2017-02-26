@@ -12159,7 +12159,7 @@ msgstr "_Настраивать набор счетов при создании 
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:61
 msgid "Present the new account list dialog when you choose File -> New File."
-msgstr "Показывать диалог создания нового списка счетов при выборе \"Новый файл\" из меню \"Файл\""
+msgstr "Показывать диалоговое окно создания нового плана счетов при выборе \"Новый файл\" из меню \"Файл\""
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:64
 msgid "Display \"_tip of the day\" dialog"
@@ -12167,11 +12167,11 @@ msgstr "Показывать советы дня"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:65
 msgid "Display hints for using GnuCash at startup."
-msgstr "Показывать при запуске подсказки по использованию GnuCash."
+msgstr "При запуске программы показывать советы по использованию GnuCash"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:66
 msgid "How many days to keep old log/backup files."
-msgstr "Время (дни) хранения старых логов и файлов резервных копий."
+msgstr "Время (дни) хранения старых журналов и файлов резервных копий"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:68
 msgid "_Retain log/backup files:"
@@ -12183,7 +12183,7 @@ msgstr "Сжимать файлы"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:70
 msgid "Compress the data file with gzip when saving it to disk."
-msgstr "Сжимать файл данных с помощью gzip при сохранении на диск."
+msgstr "Сжимать файл данных с помощью gzip при сохранении на диске"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:71
 msgid "<b>Files</b>"
@@ -12195,23 +12195,23 @@ msgstr "Количество десятичных знаков для автоз
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:73
 msgid "How many automatic decimal places will be filled in."
-msgstr "Как много знаков числа должно быть задействовано при автоматической расстановке десятичных точек."
+msgstr "Сколько знаков числа должно быть использовано при автоматической расстановке десятичного разделителя"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:74
 msgid "_Automatic decimal point"
-msgstr "_Автоматическая десятичная точка"
+msgstr "_Автоматический десятичный разделитель"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:75
 msgid "Automatically insert a decimal point into values that are entered without one."
-msgstr "Автоматически вставлять десятичную точку в значения, которые введены без нее."
+msgstr "Автоматически вставлять десятичный разделитель в значения, которые введены без разделителя"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:76
 msgid "Display ne_gative amounts in red"
-msgstr "Показывать отрицательные суммы красным"
+msgstr "Показывать отрицательные значения сумм красным цветом"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:77
 msgid "Display negative amounts in red."
-msgstr "Показывать отрицательные суммы красным."
+msgstr "Показывать отрицательные значения сумм красным цветом"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:78
 msgid "<b>Numbers</b>"
@@ -12227,7 +12227,7 @@ msgstr "Предел нового по_иска:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:81
 msgid "Default to 'new search' if fewer than this number of items is returned."
-msgstr "По умолчанию для нового поиска, если найдено меньше этого количества значений."
+msgstr "По умолчанию для нового поиска, если результат поиска меньше заданного значения"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:82
 msgid "Show splash scree_n"
@@ -12235,7 +12235,7 @@ msgstr "Показывать _заставку"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:83
 msgid "Show splash screen at startup."
-msgstr "Показывать заставку при запуске."
+msgstr "Показывать заставку при запуске программы"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:84
 msgid "Auto-save time _interval:"
@@ -12251,11 +12251,11 @@ msgstr "Спрашивать перед автосо_хранением"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:88
 msgid "If active, GnuCash shows a confirmation question each time the auto-save feature is started. Otherwise no extra explanation is shown."
-msgstr "Если включено, GnuCash будет каждый раз при автосохранении спрашивать разрешение. В противном случае не будет."
+msgstr "Если флажок установлен, каждый раз при автосохранении GnuCash спрашивает разрешение на сохранение"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:97
 msgid "Time to wait for answer:"
-msgstr "Время для ожидания ответа:"
+msgstr "Время ожидания ответа:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:99
 msgid "seconds"
@@ -12271,7 +12271,7 @@ msgstr "Печатать формат _даты"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:103
 msgid "Below the actual date, print the format of that date in 8 point type."
-msgstr "Выводить формат даты под фактической датой шрифтом 8-го размера."
+msgstr "Выводить формат даты под фактической датой шрифтом 8-го размера"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:104
 msgid "Default _font:"
@@ -12279,7 +12279,7 @@ msgstr "Шрифт по умолчанию:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:105
 msgid "The default check printing font."
-msgstr "Шрифт печати чеков по умолчанию."
+msgstr "Шрифт печати чеков по умолчанию"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:106
 msgid "Print _blocking chars"
@@ -12287,7 +12287,7 @@ msgstr "Печатать _ограничивающие символы"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:107
 msgid "Print '***' before and after each text field on the check."
-msgstr "Печатать '***' до и после каждого текстового поля на чеке."
+msgstr "Печатать '***' до и после каждого текстового поля в чеке"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:108
 msgid "Printing"
@@ -12296,35 +12296,35 @@ msgstr "Печать"
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:109
 #: ../src/import-export/dialog-import.glade.h:29
 msgid "<b>Actions</b>"
-msgstr "<b>Действия</b>"
+msgstr "<b>Операции</b>"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:110
 msgid "'_Enter' moves to blank transaction"
-msgstr "\"_Enter\" перемещает к пустой проводке"
+msgstr "Нажатие на клавишу \"_Enter\" перемещает курсор на следующую пустую строку"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:111
 msgid "If checked, pressing the 'Enter' key will move to the blank transaction at the bottom of the register. If clear, pressing the 'Enter' key will move down one row."
-msgstr "Если выбрано, по нажатию пользователем клавиши \"Enter\" происходит переход к пустой проводке. Если же не выбран, то курсор перемещается на следующую строчку."
+msgstr "Если флажок установлен, при нажатии на клавишу \"Enter\" происходит переход к следующей пустой проводке. Если флажок не установлен, то курсор перемещается на следующую строку"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:112
 msgid "_Auto-raise lists"
-msgstr "_Автоматически раскрывать списки"
+msgstr "_Автоматическое раскрытие списков"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:113
 msgid "Automatically raise the list of accounts or actions during input."
-msgstr "Автоматически открывать список счетов или действий в процессе ввода."
+msgstr "Автоматически открывать список счетов или операций в процессе ввода"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:114
 msgid "<b>Reconciling</b>"
-msgstr "<b>Согласование</b>"
+msgstr "<b>Сверка</b>"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:115
 msgid "Check cleared _transactions"
-msgstr "_Проверять очищенные проводки"
+msgstr "_Отмечать проверенные проводки"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:116
 msgid "Pre-check cleared transactions when creating a reconcile dialog."
-msgstr "Проверять очищенную проводку при создании диалога согласования."
+msgstr "Отмечать проверенную проводку при выводе диалога сверки"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:117
 msgid "Automatic _interest transfer"
@@ -12336,31 +12336,31 @@ msgstr "Автоматический плате_ж по кредитной ка�
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:120
 msgid "After reconciling a credit card statement, prompt the user to enter a credit card payment."
-msgstr "После согласования наличия денег на кредитной карте, предложить пользователю ввести платеж по кредитной карте."
+msgstr "После согласования наличия денежных средств на кредитной карте, предложить пользователю ввести платеж по кредитной карте"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:121
 msgid "Always reconcile to t_oday"
-msgstr "Всегда согласовывать по се_годняший день"
+msgstr "Всегда сверять по се_годняший день"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:122
 msgid "Always open the reconcile dialog using today's date for the statement date, regardless of previous reconciliations."
-msgstr "Всегда открывать диалог согласования используя текущую дату для операции, вместо даты последнего согласования."
+msgstr "Всегда открывать диалоговое окно сверки, используя текущую дату для операции вместо даты последней сверки"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:123
 msgid "Draw _vertical lines between columns"
-msgstr "Рисовать вертикальные линии между столбцами"
+msgstr "Отображать вертикальные линии между столбцами"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:124
 msgid "Show vertical borders on the cells."
-msgstr "Показывать вертикальные рамки ячеек."
+msgstr "Отображать вертикальные границы ячеек"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:125
 msgid "Draw hori_zontal lines between rows"
-msgstr "Рисовать горизонтальные линии между строками"
+msgstr "Отображать горизонтальные линии между строками"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:126
 msgid "Show horizontal borders on the cells."
-msgstr "Показывать горизонтальные рамки ячеек."
+msgstr "Отображать горизонтальные границы ячеек"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:127
 msgid "Double _mode colors alternate with transactions"
@@ -12368,15 +12368,15 @@ msgstr "Чередовать цвета, выделяющие проводки"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:128
 msgid "Alternate the primary and secondary colors by transaction instead of by alternating by row."
-msgstr "Чередовать первичный и вторичный цвета каждую проводку, а не каждую строку."
+msgstr "Чередовать цвета для каждой проводки, а не для каждой строки"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:129
 msgid "Don't _use GnuCash built-in colors"
-msgstr ""
+msgstr "Не использовать цвета GnuCash, установленные по умолчанию"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:130
 msgid "GnuCash uses a yellow/green theme by default for register windows. Check this if you want to use the system color theme instead."
-msgstr ""
+msgstr "GnuCash использует тему желто-зеленых цветов при отображении окон реестров. Установите флажок, если вы хотите использовать системные цвета"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:131
 msgid "<b>Graphics</b>"
@@ -12384,11 +12384,11 @@ msgstr "<b>Графики</b>"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:132
 msgid "Tab order in_cludes Transfer on Memorised Transactions"
-msgstr "Порядок обхода _включает колонку \"Перевести\" в запомненных проводках"
+msgstr "Порядок обхода _включает столбец \"Перевести\" в сохраненные проводки"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:133
 msgid "Move to Transfer field when memorised transaction auto filled."
-msgstr "Переместиться в поле передачи при автозаполнении запомненной проводки."
+msgstr "Переместиться в поле \"Перевести\" при автозаполнении проводки"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:135
 msgid "<b>Default Style</b>"
@@ -12396,7 +12396,7 @@ msgstr "<b>Стиль по умолчанию</b>"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:136
 msgid "<b>Other Defaults</b>"
-msgstr "<b>Другое Умолчания</b>"
+msgstr "<b>Другие настройки по умолчанию</b>"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:137
 msgid "_Basic ledger"
@@ -12404,7 +12404,7 @@ msgstr "_Простой"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:139
 msgid "_Auto-split ledger"
-msgstr "_Авторазворачиваемый"
+msgstr "_Раскрывающийся"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:143
 msgid "Number of _transactions:"
@@ -12416,7 +12416,7 @@ msgstr "_Двустрочный режим"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:146
 msgid "Show two lines of information for each transaction instead of one. Does not affect expanded transactions."
-msgstr "Показывать двухстрочную информацию о каждой проводке. Не распространяется на разворачиваемые проводки."
+msgstr "Показывать информацию о каждой проводке в двух строках. Не распространяется на раскрывающиеся проводки"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:147
 msgid "Register opens in a new _window"
@@ -12424,15 +12424,15 @@ msgstr "Открывать журнал в _новом окне"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:148
 msgid "If checked, each register will be opened in its own top level window. If clear, the register will be opened in the current window."
-msgstr "Если включено, то каждый журнал будет открываться в своем собственном окне. В противном случае, он будет открываться в текущем окне."
+msgstr "Если флажок установлен, то каждый реестр будет открываться в своем собственном окне. В противном случае реестр будет открываться в текущем окне"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:149
 msgid "_Only display leaf account names"
-msgstr "Показывать т_олько названия подсчетов"
+msgstr "Показывать т_олько наименования субсчетов"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:150
 msgid "If checked, only the names of the leaf accounts are displayed in the register and in the account selection popup. The default behaviour is to display the full name, including the path in the account tree. Checking this option implies that you use unique leaf names."
-msgstr "Если отмечено, то только названия нижних подсчетов будут отображаться в журнале и в диалоге выбора счетов. По умолчанию, показывается полное название, включая путь по дереву счетов. Включение этого параметра подразумевает, что используются уникальные названия подсчетов."
+msgstr "Если флажок установлен, то в реестре и в диалоговом окне выбора счета будут отображаться только наименования субсчетов нижнего уровня. По умолчанию отображается полное наименование счета, включая путь по плану счетов. Включение этого параметра подразумевает, что используются уникальные наименования субсчетов"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:151
 msgid "Number of _characters for auto complete:"
@@ -12440,7 +12440,7 @@ msgstr "Число символов для автозаполнения:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:153
 msgid "Show the _entered and reconcile dates"
-msgstr "Отображать даты ввода и согласования"
+msgstr "Отображать даты ввода и сверки"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:155
 msgid "Show the calendar b_uttons"
@@ -12448,15 +12448,15 @@ msgstr "Показать кнопки календаря"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:157
 msgid "_Move the selection to the blank split on expand"
-msgstr "При разворачивании выбирать пустую строчку"
+msgstr "При разворачивании выбирать пустую строку"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:159
 msgid "_Show entered and reconciled dates on selection"
-msgstr "Отображать даты создания и согласования при выборе"
+msgstr "При выборе отображать даты создания и сверки"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:161
 msgid "Register Defaults"
-msgstr "Умолчания журнала"
+msgstr "Журнал"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:164
 msgid "<b>Default Report Currency</b>"
@@ -12472,7 +12472,7 @@ msgstr "Отчеты открываются в _новом окне"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:167
 msgid "If checked, each report will be opened in its own top level window. If clear, the report will be opened in the current window."
-msgstr "Если включено, каждый отчет будет открываться в новом окне. В противном случае, в текущем окне."
+msgstr "Если флажок установлен, каждый отчет будет открываться в новом окне. В противном случае в текущем окне"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:168
 msgid "Reports"
@@ -12488,15 +12488,15 @@ msgstr "Со_хранять размер и положение окна"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:171
 msgid "Save window size and location when it is closed."
-msgstr "Запоминать размеры и положения окна при закрытии."
+msgstr "Запоминать размеры и положение окна при закрытии"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:172
 msgid "Bring the most _recent tab to the front"
-msgstr "Перенести наиболее часто используемую закладку вперед"
+msgstr "Перенести наиболее часто используемые вкладки в начало панели вкладок"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:174
 msgid "<b>Tab Position</b>"
-msgstr "<b>Размещение закладки</b>"
+msgstr "<b>Расположение панели вкладок</b>"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:175
 msgid "To_p"
@@ -12520,15 +12520,15 @@ msgstr "<b>Расположение строки итогов</b>"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:188
 msgid "<b>Tabs</b>"
-msgstr "<b>Закладки</b>"
+msgstr "<b>Вкладки</b>"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:189
 msgid "Show close button on _notebook tabs"
-msgstr "Показывать кнопку закрытия на закладках _блокнота"
+msgstr "Показывать кнопку закрытия на вкладках _реестров счетов"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:190
 msgid "Show a close button on each notebook tab. These function identically to the 'Close' menu item."
-msgstr "Показывать кнопку закрытия на каждой вкладке. Ее функция аналогична пункту меню \"Закрыть\"."
+msgstr "Показывать кнопку закрытия на каждой вкладке. Ее функция аналогична пункту меню \"Закрыть\""
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:191
 msgid "_Width:"
@@ -12536,7 +12536,7 @@ msgstr "_Ширина:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:192
 msgid "If the text in the tab is longer than this value (the test is approximate) then the tab label will have the middle cut and replaced with an ellipsis."
-msgstr "Если текст в заголовке вкладки превышает заданную ширину (проверка приблизительная), то у него вырезается средняя часть и заменяется на многоточие."
+msgstr "Если текст в заголовке вкладки превышает заданную ширину (проверка приблизительная), то у заголовка вырезается средняя часть и заменяется на многоточие"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:193
 msgid "characters"
@@ -12586,7 +12586,7 @@ msgstr "Региональные настройки"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-preferences.glade.h:204
 msgid "(dummy)"
-msgstr ""
+msgstr "(макет)"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-reset-warnings.glade.h:1
 msgid "Reset Warnings"
@@ -12594,7 +12594,7 @@ msgstr "Сбросить предупреждения"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-reset-warnings.glade.h:2
 msgid "You have requested that the following warning dialogs not be presented. To re-enable any of these dialogs, select the check box next to the dialog, then click OK."
-msgstr "Вы потребовали, чтобы указанные диалоги предупреждений не показывались. Для их включения, поставьте галочку рядом с названием и нажмите \"ОК\"."
+msgstr "Указанные диалоги предупреждений не выводятся на экран. Для их отображения установите флажок рядом с наименованием и нажмите на кнопку \"ОК\""
 
 #: ../src/gnome-utils/gtkbuilder/dialog-reset-warnings.glade.h:4
 msgid "_Unselect All"
@@ -12602,7 +12602,7 @@ msgstr "Снять все выделение"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-reset-warnings.glade.h:5
 msgid "No warnings to reset."
-msgstr "Нет предупреждений для сброса."
+msgstr "Нет предупреждений для сброса"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-reset-warnings.glade.h:6
 msgid "Permanent Warnings"
@@ -12659,7 +12659,7 @@ msgstr "Процент %"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-totd.glade.h:1
 msgid "GnuCash Tip Of The Day"
-msgstr "Советы дня GnuCash"
+msgstr "Советы дня от GnuCash"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-totd.glade.h:2
 msgid "<b>Tip of the Day:</b>"
@@ -12667,11 +12667,11 @@ msgstr "<b>Совет дня:</b>"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-totd.glade.h:3
 msgid "_Show tips at startup"
-msgstr "Показывать _советы при запуске"
+msgstr "Показывать _Советы дня при запуске"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-transfer.glade.h:1
 msgid "Transfer Funds"
-msgstr "Передача фондов"
+msgstr "Перевод средств"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-transfer.glade.h:2
 msgid "<b>Basic Information</b>"
@@ -12687,7 +12687,7 @@ msgstr "Номер:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-transfer.glade.h:7
 msgid "Memo:"
-msgstr "Памятки:"
+msgstr "Примечание:"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-transfer.glade.h:8
 msgid "<b>Transfer From</b>"
@@ -12703,7 +12703,7 @@ msgstr "Валюта:"
 #: ../src/report/standard-reports/net-linechart.scm:51
 #: ../src/report/standard-reports/price-scatter.scm:49
 msgid "Show Income/Expense"
-msgstr "Показывать Приход/Расход"
+msgstr "Показывать Приход / Расход"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-transfer.glade.h:11
 msgid "<b>Transfer To</b>"
@@ -12727,7 +12727,7 @@ msgstr "Имя пользователя и пароль"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-userpass.glade.h:2
 msgid "Enter your username and password"
-msgstr "Введите ваше имя и пароль"
+msgstr "Введите имя и пароль"
 
 #: ../src/gnome-utils/gtkbuilder/dialog-userpass.glade.h:3
 msgid "_Username:"
@@ -12753,7 +12753,7 @@ msgstr "%Y-%m-%d"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-date-format.glade.h:5
 msgid "Include Century"
-msgstr "Включить век"
+msgstr "Включить значение века"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-date-format.glade.h:7
 msgid "Abbreviation"
@@ -12802,7 +12802,7 @@ msgstr "Не запланировано"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:5
 msgid "Select occurrence date above."
-msgstr "Выберите дату события выше."
+msgstr "Выберите дату события в поле "Начальная дата"."
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:12
 #: ../src/report/standard-reports/daily-reports.scm:355
@@ -12867,111 +12867,111 @@ msgstr "На"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:35
 msgid "5th"
-msgstr ""
+msgstr "5-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:36
 msgid "6th"
-msgstr ""
+msgstr "6-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:37
 msgid "7th"
-msgstr ""
+msgstr "7-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:38
 msgid "8th"
-msgstr ""
+msgstr "8-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:39
 msgid "9th"
-msgstr ""
+msgstr "9-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:40
 msgid "10th"
-msgstr ""
+msgstr "10-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:41
 msgid "11th"
-msgstr ""
+msgstr "11-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:42
 msgid "12th"
-msgstr ""
+msgstr "12-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:43
 msgid "13th"
-msgstr ""
+msgstr "13-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:44
 msgid "14th"
-msgstr ""
+msgstr "14-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:45
 msgid "15th"
-msgstr ""
+msgstr "15-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:46
 msgid "16th"
-msgstr ""
+msgstr "16-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:47
 msgid "17th"
-msgstr ""
+msgstr "17-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:48
 msgid "18th"
-msgstr ""
+msgstr "18-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:49
 msgid "19th"
-msgstr ""
+msgstr "19-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:50
 msgid "20th"
-msgstr ""
+msgstr "20-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:51
 msgid "21st"
-msgstr ""
+msgstr "21-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:52
 msgid "22nd"
-msgstr ""
+msgstr "22-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:53
 msgid "23rd"
-msgstr ""
+msgstr "23-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:54
 msgid "24th"
-msgstr ""
+msgstr "24-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:55
 msgid "25th"
-msgstr ""
+msgstr "25-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:56
 msgid "26th"
-msgstr ""
+msgstr "26-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:57
 msgid "27th"
-msgstr ""
+msgstr "27-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:58
 msgid "28th"
-msgstr ""
+msgstr "28-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:59
 msgid "29th"
-msgstr ""
+msgstr "29-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:60
 msgid "30th"
-msgstr ""
+msgstr "30-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:61
 msgid "31st"
-msgstr ""
+msgstr "31-е"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:62
 msgid "Last day of month"
@@ -13019,119 +13019,119 @@ msgstr "Первый рабочий день после"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:73
 msgid "1st Mon"
-msgstr ""
+msgstr "Первый понедельник"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:74
 msgid "1st Tue"
-msgstr ""
+msgstr "Первый вторник"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:75
 msgid "1st Wed"
-msgstr ""
+msgstr "Первая среда"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:76
 msgid "1st Thu"
-msgstr ""
+msgstr "Первый четверг"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:77
 msgid "1st Fri"
-msgstr ""
+msgstr "Первая пятница"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:78
 msgid "1st Sat"
-msgstr ""
+msgstr "Первая суббота"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:79
 msgid "1st Sun"
-msgstr ""
+msgstr "Первое воскресенье"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:80
 msgid "2nd Mon"
-msgstr ""
+msgstr "Второй понедельник"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:81
 msgid "2nd Tue"
-msgstr ""
+msgstr "Второй вторник"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:82
 msgid "2nd Wed"
-msgstr ""
+msgstr "Вторая среда"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:83
 msgid "2nd Thu"
-msgstr ""
+msgstr "Второй четверг"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:84
 msgid "2nd Fri"
-msgstr ""
+msgstr "Вторая пятница"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:85
 msgid "2nd Sat"
-msgstr ""
+msgstr "Вторая суббота"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:86
 msgid "2nd Sun"
-msgstr ""
+msgstr "Второе воскресенье"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:87
 msgid "3rd Mon"
-msgstr ""
+msgstr "Третий понедельник"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:88
 msgid "3rd Tue"
-msgstr ""
+msgstr "Третий вторник"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:89
 msgid "3rd Wed"
-msgstr ""
+msgstr "Третья среда"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:90
 msgid "3rd Thu"
-msgstr ""
+msgstr "Третий четверг"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:91
 msgid "3rd Fri"
-msgstr ""
+msgstr "Третья пятница"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:92
 msgid "3rd Sat"
-msgstr ""
+msgstr "Третья суббота"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:93
 msgid "3rd Sun"
-msgstr ""
+msgstr "Третье воскресенье"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:94
 msgid "4th Mon"
-msgstr ""
+msgstr "Четвертый понедельник"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:95
 msgid "4th Tue"
-msgstr ""
+msgstr "Четвертый вторник"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:96
 msgid "4th Wed"
-msgstr ""
+msgstr "Четвертая среда"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:97
 msgid "4th Thu"
-msgstr ""
+msgstr "Четвертый четверг"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:98
 msgid "4th Fri"
-msgstr ""
+msgstr "Четвертая пятница"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:99
 msgid "4th Sat"
-msgstr ""
+msgstr "Четвертая суббота"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-frequency.glade.h:100
 msgid "4th Sun"
-msgstr ""
+msgstr "Четвертое воскресенье"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-recurrence.glade.h:1
 msgid "day(s)"
-msgstr ""
+msgstr "день (дни)"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-recurrence.glade.h:2
 msgid "week(s)"
@@ -13139,7 +13139,7 @@ msgstr "недель"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-recurrence.glade.h:3
 msgid "month(s)"
-msgstr "месяцев"
+msgstr "месяц(-ев)"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-recurrence.glade.h:4
 msgid "year(s)"
@@ -13151,7 +13151,7 @@ msgstr "Каждый "
 
 #: ../src/gnome-utils/gtkbuilder/gnc-recurrence.glade.h:6
 msgid "Number of calendar units in the recurrence:  E.g. Biweekly = every 2 weeks; Quarterly = every 3 months"
-msgstr "Количество календарных единниц в перерасчете."
+msgstr "Количество календарных единниц в перерасчете"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-recurrence.glade.h:7
 msgid "beginning on: "
@@ -13159,7 +13159,7 @@ msgstr "начать с: "
 
 #: ../src/gnome-utils/gtkbuilder/gnc-recurrence.glade.h:8
 msgid "last of month"
-msgstr "последний месяца"
+msgstr "последний месяц"
 
 #: ../src/gnome-utils/gtkbuilder/gnc-recurrence.glade.h:9
 msgid "Always use the last day (or day of week) in the month?"
@@ -13194,7 +13194,7 @@ msgstr "%s, Всего по невалютным активам:"
 #: ../src/gnome-utils/window-main-summarybar.c:304
 #, c-format
 msgid "%s, Grand Total:"
-msgstr "%s, вообще всего:"
+msgstr "ВСЕГО, %s:"
 
 #: ../src/gnome-utils/window-main-summarybar.c:308
 #, c-format
@@ -13211,15 +13211,15 @@ msgstr "Прибыль:"
 
 #: ../src/gnome/window-autoclear.c:138
 msgid "Searching for splits to clear ..."
-msgstr "Ищем части проводок для очистки..."
+msgstr "Поиск составляющих проводок для подтверждения..."
 
 #: ../src/gnome/window-autoclear.c:240
 msgid "Cannot uniquely clear splits. Found multiple possibilities."
-msgstr "Невозможно однозначно очистить части проводок. Найдено несколько решений"
+msgstr "Невозможно однозначно подтвердить составляющие проводок. Найдено несколько решений"
 
 #: ../src/gnome/window-autoclear.c:247
 msgid "The selected amount cannot be cleared."
-msgstr "Указанная сумма не может быть очищена."
+msgstr "Указанная сумма не может быть очищена"
 
 #: ../src/gnome/window-reconcile2.c:455 ../src/gnome/window-reconcile.c:455
 msgid "Interest Payment"
@@ -13236,7 +13236,7 @@ msgstr "Платеж от"
 #: ../src/gnome/window-reconcile2.c:482 ../src/gnome/window-reconcile2.c:492
 #: ../src/gnome/window-reconcile.c:482 ../src/gnome/window-reconcile.c:492
 msgid "Reconcile Account"
-msgstr "Счет согласования"
+msgstr "Счет сверки"
 
 #: ../src/gnome/window-reconcile2.c:497 ../src/gnome/window-reconcile.c:497
 msgid "Payment To"
@@ -13244,11 +13244,11 @@ msgstr "Платеж в"
 
 #: ../src/gnome/window-reconcile2.c:510 ../src/gnome/window-reconcile.c:510
 msgid "No Auto Interest Payments for this Account"
-msgstr "Автоматических выплат процентов для данного счета не установлено"
+msgstr "Автоматические выплаты процентов для данного счета не предусмотрены"
 
 #: ../src/gnome/window-reconcile2.c:511 ../src/gnome/window-reconcile.c:511
 msgid "No Auto Interest Charges for this Account"
-msgstr "Автоматических процентных издержек для данного счета не установлено"
+msgstr "Автоматические проценты издержек для данного счета не предусмотрены"
 
 #: ../src/gnome/window-reconcile2.c:764 ../src/gnome/window-reconcile.c:764
 msgid "Enter _Interest Charge..."
@@ -13267,7 +13267,7 @@ msgstr "Кредиты"
 
 #: ../src/gnome/window-reconcile2.c:1270 ../src/gnome/window-reconcile.c:1270
 msgid "Are you sure you want to delete the selected transaction?"
-msgstr "Вы действительно хотите удалить выбранную проводку?"
+msgstr "Удалить выбранную проводку?"
 
 #. statement date title/value
 #: ../src/gnome/window-reconcile2.c:1800 ../src/gnome/window-reconcile.c:1800
@@ -13282,7 +13282,7 @@ msgstr "Конечные остатки:"
 #. reconciled balance title/value
 #: ../src/gnome/window-reconcile2.c:1830 ../src/gnome/window-reconcile.c:1830
 msgid "Reconciled Balance:"
-msgstr "Согласованные остатки:"
+msgstr "Сверенные остатки:"
 
 #. difference title/value
 #: ../src/gnome/window-reconcile2.c:1840 ../src/gnome/window-reconcile.c:1840
@@ -13291,20 +13291,20 @@ msgstr "Разница:"
 
 #: ../src/gnome/window-reconcile2.c:1929 ../src/gnome/window-reconcile.c:1929
 msgid "You have made changes to this reconcile window. Are you sure you want to cancel?"
-msgstr "Вы сделали некоторые изменения в этом окне согласования. Вы уверены, что хотите их отменить?"
+msgstr "В окне сверки внесены некоторые изменения. Вы уверены, что хотите отменить изменения?"
 
 #: ../src/gnome/window-reconcile2.c:2047 ../src/gnome/window-reconcile.c:2047
 msgid "The account is not balanced. Are you sure you want to finish?"
-msgstr "Счет не согласован. Вы уверены, что хотите закончить?"
+msgstr "Счет не согласован. Завершить выполнение?"
 
 #: ../src/gnome/window-reconcile2.c:2104 ../src/gnome/window-reconcile.c:2104
 msgid "Do you want to postpone this reconciliation and finish it later?"
-msgstr "Вы ходите отложить данное согласование и закончить его позднее?"
+msgstr "Отложить данную сверку и завершить ее позднее?"
 
 #. Toplevel
 #: ../src/gnome/window-reconcile2.c:2142 ../src/gnome/window-reconcile.c:2142
 msgid "_Reconcile"
-msgstr "Со_гласовать"
+msgstr "Св_ерить"
 
 #: ../src/gnome/window-reconcile2.c:2143 ../src/gnome/window-reconcile.c:2143
 msgid "_Account"
@@ -13312,11 +13312,11 @@ msgstr "_Счет"
 
 #: ../src/gnome/window-reconcile2.c:2150 ../src/gnome/window-reconcile.c:2150
 msgid "_Reconcile Information..."
-msgstr "Информация о _Согласовании..."
+msgstr "Информация о _сверке..."
 
 #: ../src/gnome/window-reconcile2.c:2151 ../src/gnome/window-reconcile.c:2151
 msgid "Change the reconcile information including statement date and ending balance."
-msgstr "Изменение информации о согласовании включая дату утверждения и конечный баланс."
+msgstr "Изменение информации о сверке, включая дату утверждения и конечный баланс"
 
 #: ../src/gnome/window-reconcile2.c:2156 ../src/gnome/window-reconcile.c:2156
 msgid "_Finish"
@@ -13324,7 +13324,7 @@ msgstr "_Завершить"
 
 #: ../src/gnome/window-reconcile2.c:2157 ../src/gnome/window-reconcile.c:2157
 msgid "Finish the reconciliation of this account"
-msgstr "Завершить согласование этого счета"
+msgstr "Завершить согласование данного счета"
 
 #: ../src/gnome/window-reconcile2.c:2161 ../src/gnome/window-reconcile.c:2161
 msgid "_Postpone"
@@ -13332,11 +13332,11 @@ msgstr "_Отложить"
 
 #: ../src/gnome/window-reconcile2.c:2162 ../src/gnome/window-reconcile.c:2162
 msgid "Postpone the reconciliation of this account"
-msgstr "Отложить согласование этого счета"
+msgstr "Отложить согласование данного счета"
 
 #: ../src/gnome/window-reconcile2.c:2167 ../src/gnome/window-reconcile.c:2167
 msgid "Cancel the reconciliation of this account"
-msgstr "Отменить согласование этого счета"
+msgstr "Отменить сверку данного счета"
 
 #: ../src/gnome/window-reconcile2.c:2175 ../src/gnome/window-reconcile.c:2175
 msgid "Open the account"
@@ -13344,7 +13344,7 @@ msgstr "Открыть счет"
 
 #: ../src/gnome/window-reconcile2.c:2180 ../src/gnome/window-reconcile.c:2180
 msgid "Edit the main account for this register"
-msgstr "Редактировать главный счет этого журнала"
+msgstr "Редактировать главный счет в данном реестре"
 
 #: ../src/gnome/window-reconcile2.c:2198 ../src/gnome/window-reconcile.c:2198
 msgid "_Balance"
@@ -13364,19 +13364,19 @@ msgstr "Удалить выбранную проводку"
 
 #: ../src/gnome/window-reconcile2.c:2213 ../src/gnome/window-reconcile.c:2213
 msgid "_Reconcile Selection"
-msgstr "_Согласовать выбранные"
+msgstr "_Сверить выбранные"
 
 #: ../src/gnome/window-reconcile2.c:2214 ../src/gnome/window-reconcile.c:2214
 msgid "Reconcile the selected transactions"
-msgstr "Согласовать выбранные проводки"
+msgstr "Сверить выбранные проводки"
 
 #: ../src/gnome/window-reconcile2.c:2218 ../src/gnome/window-reconcile.c:2218
 msgid "_Unreconcile Selection"
-msgstr "_Отменить согласование выбранных"
+msgstr "_Отменить сверку выбранных"
 
 #: ../src/gnome/window-reconcile2.c:2219 ../src/gnome/window-reconcile.c:2219
 msgid "Unreconcile the selected transactions"
-msgstr "Отменить согласование выбранных проводок"
+msgstr "Отменить сверку выбранных проводок"
 
 #: ../src/gnome/window-reconcile2.c:2227 ../src/gnome/window-reconcile.c:2227
 msgid "Open the GnuCash help window"
@@ -13388,15 +13388,15 @@ msgstr "Не найдено"
 
 #: ../src/html/gnc-html-webkit.c:81
 msgid "The specified URL could not be loaded."
-msgstr "Указанный URL не может быть загружен."
+msgstr "Указанный URL не может быть загружен"
 
 #: ../src/html/gnc-html-webkit.c:509 ../src/html/gnc-html-webkit.c:907
 msgid "Secure HTTP access is disabled. You can enable it in the Network section of the Preferences dialog."
-msgstr "Защищенный HTTP доступ выключен. Вы можете включить его в разделе \"Сеть\" меню \"Настройки\"."
+msgstr "Защищенный HTTP-доступ отключен. Вы можете включить его в разделе \"Сеть\" меню \"Настройки\""
 
 #: ../src/html/gnc-html-webkit.c:519 ../src/html/gnc-html-webkit.c:919
 msgid "Network HTTP access is disabled. You can enable it in the Network section of the Preferences dialog."
-msgstr "Доступ по HTTP выключен. Вы можете включить его в разделе \"Сеть\" меню \"Настройки\"."
+msgstr "Доступ по HTTP отключен. Вы можете включить его в разделе \"Сеть\" меню \"Настройки\""
 
 #. %s is a URL (some location somewhere).
 #: ../src/html/gnc-html-webkit.c:840
@@ -13413,38 +13413,41 @@ msgstr "Экспортировать в PDF"
 
 #: ../src/import-export/aqb/assistant-ab-initial.c:372
 #, c-format
-msgid ""
-"The external program \"AqBanking Setup Wizard\" has not been found. \n"
+msgid "The external program \"AqBanking Setup Wizard\" has not been found. \n"
 "\n"
 "The %s package should include the program \"qt3-wizard\". Please check your installation to ensure this program is present. On some distributions this may require installing additional packages."
-msgstr ""
+msgstr "Внешняя программа \"Мастер установки AqBanking\" не найдена\n"
+"Пакет %s должен включать программу \"qt3-мастер\". Пожалуйста, проверьте установку, чтобы убедиться, что данная программа присутствует. В некоторых дистрибутивах может потребоваться установка дополнительных пакетов."
 
 #: ../src/import-export/aqb/assistant-ab-initial.c:529
-msgid ""
-"The external program \"AqBanking Setup Wizard\" failed to run successfully because the additional software \"Qt\" was not found. Please install the \"Qt/Windows Open Source Edition\" from Trolltech by downloading it from www.trolltech.com\n"
+msgid "The external program \"AqBanking Setup Wizard\" failed to run successfully because the additional software \"Qt\" was not found. Please install the \"Qt/Windows Open Source Edition\" from Trolltech by downloading it from www.trolltech.com\n"
 "\n"
 "If you have installed Qt already, you will have to adapt the PATH variable of your system appropriately. Contact the GnuCash developers if you need further assistance on how to install Qt correctly.\n"
 "\n"
 "Online Banking cannot be setup without Qt. Press \"Close\" now, then \"Cancel\" to cancel the Online Banking setup."
-msgstr ""
+msgstr "Внешняя программа \"Мастер установки AqBanking\" не может быть запущена, так как внешняя программа \"Qt\" не найдена. Пожалуйста, установите \"Qt/Windows Open Source Edition\", которую можно загрузить с сайта www.trolltech.com\n"
+"\n"
+"Если Qt уже установлена, необходимо скорретировать пути системных переменных. Свяжитесь с разработчиками GnuCash, если вам необходима консультация по корректной установке Qt.\n"
+"\n"
+"Интернет-банкинг не может быть установлен без Qt. Нажмите \"Закрыть\", а затем \"Отменить\" чтобы отменить установку Интернет-банкинга"
 
 #: ../src/import-export/aqb/assistant-ab-initial.c:550
 msgid "The external program \"AqBanking Setup Wizard\" failed to run successfully. Online Banking can only be setup if this wizard has run successfully. Please try running the \"AqBanking Setup Wizard\" again."
-msgstr ""
+msgstr "Внешняя программа \"Мастер установки AqBanking\" не может быть запущена. Интернет-банкинг может быть установлен только в случае, если мастер установки успешно завершит свою работу. Пожалуйста, попытайтесь запустить \"Мастер установки AqBanking\" еще раз"
 
 #. Translators: Strings are 1. Account code, 2. Bank name, 3. Bank code.
 #: ../src/import-export/aqb/assistant-ab-initial.c:581
 #, c-format
 msgid "Bank code %s (%s), Account %s (%s)"
-msgstr ""
+msgstr "Код банка %s (%s), счет %s (%s)"
 
 #: ../src/import-export/aqb/assistant-ab-initial.c:874
 msgid "Online Banking Account Name"
-msgstr "Название счёта интернет-банкинга"
+msgstr "Наименование счета в Интернет-банкинге"
 
 #: ../src/import-export/aqb/assistant-ab-initial.c:879
 msgid "GnuCash Account Name"
-msgstr "Название счёта GnuCash"
+msgstr "Наименование счета GnuCash"
 
 #: ../src/import-export/aqb/assistant-ab-initial.c:885
 #: ../src/import-export/qif-imp/assistant-qif-import.c:545
@@ -13454,7 +13457,7 @@ msgstr "Новый?"
 
 #: ../src/import-export/aqb/assistant-ab-initial.glade.h:1
 msgid "AqBanking Initial Assistant"
-msgstr ""
+msgstr "Программа инициализации AdBanking"
 
 #: ../src/import-export/aqb/assistant-ab-initial.glade.h:2
 msgid ""
@@ -13492,11 +13495,11 @@ msgstr ""
 
 #: ../src/import-export/aqb/assistant-ab-initial.glade.h:18
 msgid "Initial Online Banking Setup"
-msgstr "Начальная настройка интернет банкинга"
+msgstr "Начальная настройка Интернет-банкинга"
 
 #: ../src/import-export/aqb/assistant-ab-initial.glade.h:19
 msgid "The Setup of your Online Banking connection is handled by the external program \"AqBanking Setup Wizard\". Please press the button below to start this program."
-msgstr "Настройка вашего подключения интернет-банкинга производится через внешнюю програграмму \"AqBanking Setup Wizard\". Пожалуйста, нажмите кнопку снизу для ее запуска."
+msgstr "Настройка подключения Интернет-банкинга производится через внешнюю программу \"AqBanking Setup Wizard\". Для запуска программы нажмите кнопку внизу"
 
 #: ../src/import-export/aqb/assistant-ab-initial.glade.h:20
 msgid "_Start AqBanking Wizard"
@@ -13504,29 +13507,27 @@ msgstr "_Запуск мастера AqBanking"
 
 #: ../src/import-export/aqb/assistant-ab-initial.glade.h:21
 msgid "Start Online Banking Wizard"
-msgstr "Запустить мастер настройки интернет банкинга"
+msgstr "Запуск мастера настройки Интернет-банкинга"
 
 #: ../src/import-export/aqb/assistant-ab-initial.glade.h:22
 msgid "Double Click on the line of an Online Banking account name if you want to match it to a GnuCash account. Click \"Forward\" when all desired accounts are matching."
-msgstr "Дважды кликните на строку со счетов интернет-банкинга, если желаете сопоставить его со счетов GnuCash. Кликните \"Вперёд\", когда все желаемые счета будут сопоставлены."
+msgstr "Дважды кликните по строке счета в Интернет-банкинге для сопоставления его со счетами в GnuCash. Нажмите \"Вперед\", когда все требуемые счета будут сопоставлены"
 
 #: ../src/import-export/aqb/assistant-ab-initial.glade.h:23
 msgid "Match Online accounts with GnuCash accounts"
-msgstr "Сопоставление счетов интернет-банкинга со счетами GnuCash"
+msgstr "Сопоставление счетов в Интернет-банкинге со счетами в GnuCash"
 
 #: ../src/import-export/aqb/assistant-ab-initial.glade.h:24
-msgid ""
-"The setup for matching Online Banking accounts to GnuCash accounts is now finished. You can now invoke Online Banking actions on those accounts.\n"
+msgid "The setup for matching Online Banking accounts to GnuCash accounts is now finished. You can now invoke Online Banking actions on those accounts.\n"
 "\n"
 "If you want to add another bank, user, or account, you can start this assistant again anytime.\n"
 "\n"
 "Press \"Apply\" now."
-msgstr ""
-"Настройка сопоставления счетов интернет-банкинга со счетами GnuCash завершена. Теперь можно для этих счетов использовать операции интернет-банка.\n"
+msgstr "Настройка сопоставления счетов в Интернет-банкинге со счетами в GnuCash завершена. Теперь для этих счетов можно использовать операции Интернет-банкинга\n"
 "\n"
-"В любое время можно запустить этот мастер при необходимости добавить другой банк, пользователя или учётную запись.\n"
+"В любое время можно запустить этот мастер для добавления банка, пользователя или учетной записи\n"
 "\n"
-"А сейчас нажмите \"Применить\"."
+"Нажмите \"Применить\"."
 
 #: ../src/import-export/aqb/assistant-ab-initial.glade.h:29
 msgid "Online Banking Setup Finished"
@@ -13550,7 +13551,7 @@ msgstr "Ход выполнения"
 
 #: ../src/import-export/aqb/dialog-ab.glade.h:5
 msgid "Current Action"
-msgstr "Текущее действие"
+msgstr "Текущая операция"
 
 #: ../src/import-export/aqb/dialog-ab.glade.h:6
 msgid "<b>Log Messages</b>"
@@ -13562,7 +13563,7 @@ msgstr "Закрыть после завершения"
 
 #: ../src/import-export/aqb/dialog-ab.glade.h:8
 msgid "Get Transactions Online"
-msgstr "Получить онлайн проводки"
+msgstr "Получить онлайн-проводки"
 
 #: ../src/import-export/aqb/dialog-ab.glade.h:9
 msgid "Date range of transactions to retrieve:"
@@ -13602,7 +13603,7 @@ msgstr "Введите пароль"
 
 #: ../src/import-export/aqb/dialog-ab.glade.h:18
 msgid "Enter your password"
-msgstr "Введите ваш пароль"
+msgstr "Введите пароль"
 
 #: ../src/import-export/aqb/dialog-ab.glade.h:19
 msgid "Password:"
@@ -13618,15 +13619,15 @@ msgstr "Запомнить _PIN-код"
 
 #: ../src/import-export/aqb/dialog-ab.glade.h:22
 msgid "<b>Online Banking</b>"
-msgstr "<b>Интернет банкинг</b>"
+msgstr "<b>Интернет-банкинг</b>"
 
 #: ../src/import-export/aqb/dialog-ab.glade.h:23
 msgid "_Close log window when finished"
-msgstr "_Закрывать окно лога после завершения"
+msgstr "_Закрывать окно журнала после завершения"
 
 #: ../src/import-export/aqb/dialog-ab.glade.h:24
 msgid "_Verbose debug messages"
-msgstr "_Расширенные отладочные сообщения"
+msgstr "_Расширенные сообщения для отладки"
 
 #: ../src/import-export/aqb/dialog-ab.glade.h:25
 msgid "Name for new template"
@@ -13638,11 +13639,11 @@ msgstr "Ввести название нового шаблона:"
 
 #: ../src/import-export/aqb/dialog-ab.glade.h:27
 msgid "Online Transaction"
-msgstr "Онлайн проводка"
+msgstr "Онлайн-проводка"
 
 #: ../src/import-export/aqb/dialog-ab.glade.h:28
 msgid "Enter an Online Transaction"
-msgstr "Введите онлайновую проводку"
+msgstr "Введите онлайн-проводку"
 
 #: ../src/import-export/aqb/dialog-ab.glade.h:29
 msgid "Recipient Account Number"
@@ -13654,7 +13655,7 @@ msgstr "Код банка получателя"
 
 #: ../src/import-export/aqb/dialog-ab.glade.h:31
 msgid "Recipient Name"
-msgstr "Название получателя"
+msgstr "Наименование получателя"
 
 #: ../src/import-export/aqb/dialog-ab.glade.h:32
 msgid "at Bank"
@@ -13674,7 +13675,7 @@ msgstr "Продолжение назначения платежа"
 
 #: ../src/import-export/aqb/dialog-ab.glade.h:37
 msgid "Originator Name"
-msgstr "Название инициатора"
+msgstr "Имя инициатора"
 
 #: ../src/import-export/aqb/dialog-ab.glade.h:38
 msgid "something"
@@ -13690,7 +13691,7 @@ msgstr "Код банка"
 
 #: ../src/import-export/aqb/dialog-ab.glade.h:41
 msgid "Add the current online transaction as a new transaction template"
-msgstr "Добавить текущую интернет проводку в качестве нового шаблона"
+msgstr "Добавить текущую Интернет-проводку в качестве нового шаблона"
 
 #: ../src/import-export/aqb/dialog-ab.glade.h:42
 msgid "Add current"
@@ -13726,7 +13727,7 @@ msgstr "Выполнить позже (не реализовано)"
 
 #: ../src/import-export/aqb/dialog-ab.glade.h:50
 msgid "Execute this online transaction now"
-msgstr "Выполнить эту онлановую проводку сейчас"
+msgstr "Выполнить онлан-проводку"
 
 #: ../src/import-export/aqb/dialog-ab.glade.h:51
 msgid "Execute Now"
@@ -13753,11 +13754,11 @@ msgstr "(неизвестно)"
 #: ../src/import-export/aqb/dialog-ab-trans.c:371
 #, fuzzy
 msgid "Enter a SEPA Online Transfer"
-msgstr "Введите онлайновую проводку"
+msgstr "Введите онлайн-проводку SEPA"
 
 #: ../src/import-export/aqb/dialog-ab-trans.c:373
 msgid "Recipient IBAN (International Account Number)"
-msgstr "IBAN получателя (международный номер банковского счета)"
+msgstr "Код IBAN получателя (международный номер банковского счета)"
 
 #: ../src/import-export/aqb/dialog-ab-trans.c:375
 msgid "Recipient BIC (Bank Code)"
@@ -13765,7 +13766,7 @@ msgstr "БИК банка получателя"
 
 #: ../src/import-export/aqb/dialog-ab-trans.c:378
 msgid "Originator IBAN (International Account Number)"
-msgstr "IBAN отправителя (международный номер банковского счета)"
+msgstr "Код IBAN отправителя (международный номер банковского счета)"
 
 #: ../src/import-export/aqb/dialog-ab-trans.c:380
 msgid "Originator BIC (Bank Code)"
@@ -13773,7 +13774,7 @@ msgstr "БИК банка отправителя"
 
 #: ../src/import-export/aqb/dialog-ab-trans.c:385
 msgid "Enter an Online Direct Debit Note"
-msgstr ""
+msgstr "Введите примечание к операции прямого дебетования в Интернет-банкинге"
 
 #: ../src/import-export/aqb/dialog-ab-trans.c:388
 #: ../src/import-export/aqb/dialog-ab-trans.c:407
@@ -13804,7 +13805,7 @@ msgstr "Банковский код кредитуемого счета"
 #: ../src/import-export/aqb/dialog-ab-trans.c:404
 #, fuzzy
 msgid "Enter a SEPA Online Direct Debit Note"
-msgstr "Введите онлайновую проводку"
+msgstr "Введите онлайн-проводку"
 
 #: ../src/import-export/aqb/dialog-ab-trans.c:409
 #, fuzzy
@@ -13829,29 +13830,35 @@ msgstr "Банковский код дебетуемого счета"
 #: ../src/import-export/aqb/dialog-ab-trans.c:497
 #, fuzzy, c-format
 msgid "The internal check of the destination IBAN '%s' failed. This means the account number might contain an error."
-msgstr "Возникла ошибка при внутренней проверке номера счёта назначения \"%s\" с указанным кодом банка \"%s\". Это означает, что номер счёта может содержать ошибки. Продолжить отправку запроса на интернет-перевод с этим номером счёта?"
+msgstr "Возникла ошибка при внутренней проверке номера счета назначения \"%s\" с указанным кодом банка \"%s\". Это означает, что номер счета может быть некорректным. Продолжить отправку запроса на интернет-перевод с этим номером счета?"
 
 #: ../src/import-export/aqb/dialog-ab-trans.c:537
 #, fuzzy, c-format
 msgid "The internal check of the destination account number '%s' at the specified bank with bank code '%s' failed. This means the account number might contain an error."
-msgstr "Возникла ошибка при внутренней проверке номера счёта назначения \"%s\" с указанным кодом банка \"%s\". Это означает, что номер счёта может содержать ошибки. Продолжить отправку запроса на интернет-перевод с этим номером счёта?"
+msgstr "Возникла ошибка во время внутренней проверки номера счета назначения \"%s\" с указанным кодом банка \"%s\". Это означает, что номер счета может быть некорректным. Продолжить отправку запроса на интернет-перевод с этим номером счета?"
 
 #: ../src/import-export/aqb/dialog-ab-trans.c:610
 #, c-format
 msgid "Your local bank account does not yet have the SEPA account information stored. We are sorry, but in this development version one additional step is necessary which has not yet been implemented directly in gnucash. Please execute the command line program \"aqhbci-tool\" for your account, as follows: aqhbci-tool4 getaccsepa -b %s -a %s"
-msgstr ""
+msgstr "Для Вашего счета в банке отсутствуют данные об учетной записи SEPA. К сожалению, в данной версии программы GnuCash необходим еще один шаг, который еще не был реализован в программе. Выполните команду \"aqhbci-tool\" для вашего счета, например, aqhbci-tool4 getaccsepa -b %s -a %s"
 
 #: ../src/import-export/aqb/dialog-ab-trans.c:625
 msgid "You did not enter a recipient name. A recipient name is required for an online transfer.\n"
-msgstr "Вы не ввели имя получателя. Оно необходимо для интернет-перевода.\n"
+""
+msgstr "Не введено имя получателя, которое необходимо для перевода через Интернет\n"
+""
 
 #: ../src/import-export/aqb/dialog-ab-trans.c:645
 msgid "You did not enter a recipient account. A recipient account is required for an online transfer.\n"
-msgstr "Вы не ввели счет получателя. Он необходим для интернет-перевода.\n"
+""
+msgstr "Не введен счет получателя, который необходим для перевода через Интернет\n"
+""
 
 #: ../src/import-export/aqb/dialog-ab-trans.c:661
 msgid "You did not enter a recipient bank. A recipient bank is required for an online transfer.\n"
-msgstr "Вы не ввели банк получателя. Он необходим для интернет-перевода.\n"
+""
+msgstr "Не введен банк получателя, который необходим для перевода через Интернет\n"
+""
 
 #: ../src/import-export/aqb/dialog-ab-trans.c:679
 msgid "The amount is zero or the amount field could not be interpreted correctly. You might have mixed up decimal point and comma, compared to your locale settings. This does not result in a valid online transfer job."
@@ -13859,18 +13866,21 @@ msgstr ""
 
 #: ../src/import-export/aqb/dialog-ab-trans.c:696
 msgid "You did not enter any transaction purpose. A purpose is required for an online transfer.\n"
+""
 msgstr "Вы не ввели назначение платежа. Оно необходимо для интернет-перевода.\n"
+""
 
 #: ../src/import-export/aqb/dialog-ab-trans.c:718
-msgid ""
-"The text you entered contained at least one character that is invalid for a SEPA transaction. In SEPA, unfortunately only exactly the following characters are allowed: a...z, A...Z, 0...9, and the following punctuations: ' : ? , - ( + . ) / \n"
+msgid "The text you entered contained at least one character that is invalid for a SEPA transaction. In SEPA, unfortunately only exactly the following characters are allowed: a...z, A...Z, 0...9, and the following punctuations: ' : ? , - ( + . ) / \n"
 "\n"
 "In particular, neither Umlauts nor an ampersand (&) is allowed, neither in the recipient or sender name nor in any purpose line."
-msgstr ""
+msgstr "Введенный текст содержит по крайней мере один символ, недопустимый в транзакциях SEPA.Пазрешены только следующие символы: a...z, A...Z, 0...9, и следующие символы: ' : ? , - ( + . ) / \n"
+"\n"
+"В частности, ни в имени получателя, ни отправителя, ни в каких иных словосочетаниях недопустимы символы умляута и амперсенда (&)"
 
 #: ../src/import-export/aqb/dialog-ab-trans.c:1183
 msgid "A template with the given name already exists. Please enter another name."
-msgstr "Шаблон с таким именем уже существует. Введите другое имя."
+msgstr "Шаблон с таким именем уже существует. Введите другое имя"
 
 #: ../src/import-export/aqb/dialog-ab-trans.c:1318
 #, c-format
@@ -13881,76 +13891,74 @@ msgstr "Вы действительно хотите удалить шаблон
 #: ../src/import-export/aqb/gnc-ab-gettrans.c:137
 #: ../src/import-export/aqb/gnc-ab-transfer.c:117
 msgid "No valid online banking account assigned."
-msgstr "Не назначен ни один счёт интернет-банкинга."
+msgstr "Не назначен ни один счет в Интернет-банкинге"
 
 #: ../src/import-export/aqb/gnc-ab-getbalance.c:97
 msgid "Online action \"Get Balance\" not available for this account."
-msgstr ""
+msgstr "Операция \"Получить баланс\" online недопустима для данного счета"
 
 #: ../src/import-export/aqb/gnc-ab-getbalance.c:130
 #: ../src/import-export/aqb/gnc-ab-gettrans.c:195
 #, c-format
-msgid ""
-"Error on executing job.\n"
+msgid "Error on executing job.\n"
 "\n"
 "Status: %s - %s"
-msgstr ""
-"Ошибка выполнения задания.\n"
+msgstr "Ошибка выполнения задания.\n"
 "\n"
 "Состояние: %s - %s"
 
 #: ../src/import-export/aqb/gnc-ab-gettrans.c:160
 msgid "Online action \"Get Transactions\" not available for this account."
-msgstr ""
+msgstr "Операция \"Получить транзакцию\" online недопустима для данного счета"
 
 #: ../src/import-export/aqb/gnc-ab-gettrans.c:213
 msgid "The Online Banking import returned no transactions for the selected time period."
-msgstr ""
+msgstr "Операция импорта в Интернет-банкинге для указанного периода времени завершилась безуспешно"
 
 #: ../src/import-export/aqb/gnc-ab-transfer.c:61
 msgid "You have changed the list of online transfer templates, but you cancelled the transfer dialog. Do you nevertheless want to store the changes?"
-msgstr ""
+msgstr "Перечень шаблонов передачи online был изменен, но Вы закрыли диалоговое окно передачи данных. Хотите сохранить изменения?"
 
 #: ../src/import-export/aqb/gnc-ab-transfer.c:186
-msgid ""
-"The backend found an error during the preparation of the job. It is not possible to execute this job. \n"
+msgid "The backend found an error during the preparation of the job. It is not possible to execute this job. \n"
 "\n"
 "Most probable the bank does not support your chosen job or your Online Banking account does not have the permission to execute this job. More error messages might be visible on your console log.\n"
 "\n"
 "Do you want to enter the job again?"
-msgstr ""
+msgstr "Во время подготовки задания обнаружена ошибка. Задание не может быть выполнено. \n"
+"\n"
+"Наиболее вероятно, что банк не поддерживает указанную операцию, или отсутствуют права на выполрнение данной операции с вашим счетом в Интернет-банкинге. Более подробное сообщение об ошибке может содержаться в журнале ошибок.\n"
+"\n"
+"Повторить выполнение операции?"
 
 #: ../src/import-export/aqb/gnc-ab-transfer.c:208
 msgid "Online Banking Direct Debit Note"
-msgstr ""
+msgstr "Примечание к операции прямого дебетования в Интернет-банкинге"
 
 #: ../src/import-export/aqb/gnc-ab-transfer.c:213
 msgid "Online Banking Bank-Internal Transfer"
-msgstr ""
+msgstr "Операция внутреннего перевода в Интернет-банкинге"
 
 #: ../src/import-export/aqb/gnc-ab-transfer.c:218
-#, fuzzy
 msgid "Online Banking European (SEPA) Transfer"
-msgstr "Настройка HBCI завершена"
+msgstr "Перевод на европейский (SEPA) счет"
 
 #: ../src/import-export/aqb/gnc-ab-transfer.c:223
 #, fuzzy
 msgid "Online Banking European (SEPA) Debit Note"
-msgstr "Название счёта интернет-банкинга"
+msgstr "Наименование счета в Интернет-банкинге"
 
 #: ../src/import-export/aqb/gnc-ab-transfer.c:229
 msgid "Online Banking Transaction"
-msgstr ""
+msgstr "Транзакция в Интернет-банкинге"
 
 #: ../src/import-export/aqb/gnc-ab-transfer.c:294
-msgid ""
-"An error occurred while executing the job. Please check the log window for the exact error message.\n"
+msgid "An error occurred while executing the job. Please check the log window for the exact error message.\n"
 "\n"
 "Do you want to enter the job again?"
-msgstr ""
-"Во время проведения операции произошла ошибка. Пожалуйста посмотрите окно журнала для детального сообщения об ошибке.\n"
+msgstr "Во время проведения операции произошла ошибка. Посмотрите подробное описание ошибки в журнале\n"
 "\n"
-"Вы хотите ввести операцию заново?"
+"Выполнить операцию заново?"
 
 #: ../src/import-export/aqb/gnc-ab-utils.c:409
 #: ../src/import-export/qif-imp/qif-dialog-utils.scm:89
@@ -13958,29 +13966,31 @@ msgid "Unspecified"
 msgstr "Не указано"
 
 #: ../src/import-export/aqb/gnc-ab-utils.c:662
-msgid ""
-"The backend found an error during the preparation of the job. It is not possible to execute this job. \n"
+msgid "The backend found an error during the preparation of the job. It is not possible to execute this job. \n"
 "\n"
 "Most probably the bank does not support your chosen job or your Online Banking account does not have the permission to execute this job. More error messages might be visible on your console log.\n"
 "\n"
 "Do you want to enter the job again?"
-msgstr ""
+msgstr "В ходе подготовки задания были обнаружены ошибки. Задание не может быть выполнено\n"
+"Наиболее вероятно, что банк не поддерживает выбранное задание или для счета в Интернет-банкинге недостаточно прав для выполнения данного задания. Более подробные сообщения о данной ошибке могут отображаться в журнале.\n"
+"\n"
+"Хотите повторить выполнение задания?"
 
 #: ../src/import-export/aqb/gnc-ab-utils.c:754
-msgid ""
-"The bank has sent transaction information in its response.\n"
+msgid "The bank has sent transaction information in its response.\n"
 "Do you want to import it?"
-msgstr ""
+msgstr "Банк направил информацию о транзакции\n"
+"Импортировать информацию?"
 
 #: ../src/import-export/aqb/gnc-ab-utils.c:781
 msgid "No Online Banking account found for this gnucash account. These transactions will not be executed by Online Banking."
-msgstr ""
+msgstr "Для данного счета GnuCash отсутствует счет для Интернет-банкинга"
 
 #: ../src/import-export/aqb/gnc-ab-utils.c:858
-msgid ""
-"The bank has sent balance information in its response.\n"
+msgid "The bank has sent balance information in its response.\n"
 "Do you want to import it?"
-msgstr ""
+msgstr "Банк направил информацию о транзакции\n"
+"Импортировать информацию?"
 
 #. Translators: Strings from this file are needed only in
 #. * countries that have one of aqbanking's Online Banking
@@ -13990,31 +14000,34 @@ msgstr ""
 #. * in your country, you may safely ignore strings from the
 #. * import-export/hbci subdirectory.
 #: ../src/import-export/aqb/gnc-ab-utils.c:946
-msgid ""
-"The downloaded Online Banking Balance was zero.\n"
+msgid "The downloaded Online Banking Balance was zero.\n"
 "\n"
 "Either this is the correct balance, or your bank does not support Balance download in this Online Banking version. In the latter case you should choose a different Online Banking version number in the Online Banking (AqBanking or HBCI) Setup. After that, try again to download the Online Banking Balance."
-msgstr ""
+msgstr "Баланс, загруженный из Интернет-банкинга, равен нулю.\n"
+"\n"
+"Или это корректный баланс, или ваш банк не поддерживает загрузку данных с помощью Интернет-банкинга. В последнем случае необходимо использовать другую версию Интернет-банкинга (AqBanking или HBCI). После переустановки попытайтесь еще раз загрузить баланс через Интернет-банкинг"
 
 #: ../src/import-export/aqb/gnc-ab-utils.c:963
 #, c-format
-msgid ""
-"Result of Online Banking job: \n"
+msgid "Result of Online Banking job: \n"
 "Account booked balance is %s"
-msgstr ""
+msgstr "Результат работы Интернет-банкинга: \n"
+"Зарезервированный баланс на счете %s"
 
 #: ../src/import-export/aqb/gnc-ab-utils.c:969
 #, c-format
 msgid "For your information: This account also has a noted balance of %s\n"
-msgstr ""
+""
+msgstr "Для информации: У данного счета имеется также баланс %s\n"
+""
 
 #: ../src/import-export/aqb/gnc-ab-utils.c:976
 msgid "The booked balance is identical to the current reconciled balance of the account."
-msgstr ""
+msgstr "Плановый баланс идентичен сверенному балансу счета"
 
 #: ../src/import-export/aqb/gnc-ab-utils.c:991
 msgid "Reconcile account now?"
-msgstr "Согласова ть счет сейчас?"
+msgstr "Сверить счет сейчас?"
 
 #: ../src/import-export/aqb/gnc-file-aqb-import.c:94
 msgid "Select a file to import"
@@ -14022,61 +14035,68 @@ msgstr "Выберите файл для импорта"
 
 #: ../src/import-export/aqb/gnc-file-aqb-import.c:140
 msgid "Import module for DTAUS import not found."
-msgstr ""
+msgstr "Модуль импорта для импорта DTAUS не найден"
 
 #: ../src/import-export/aqb/gnc-file-aqb-import.c:293
 #, c-format
 msgid "Job %d status %d - %s: %s \n"
-msgstr ""
+""
+msgstr "Статус %d операции %d - %s: %s \n"
+""
 
 #. indicate that additional failures exist
 #: ../src/import-export/aqb/gnc-file-aqb-import.c:304
 msgid "...\n"
+""
 msgstr "...\n"
+""
 
 #: ../src/import-export/aqb/gnc-file-aqb-import.c:318
 #, c-format
-msgid ""
-"An error occurred while executing jobs: %d of %d failed. Please check the log window or gnucash.trace for the exact error message.\n"
+msgid "An error occurred while executing jobs: %d of %d failed. Please check the log window or gnucash.trace for the exact error message.\n"
 "\n"
 "%s"
-msgstr ""
+msgstr "Во время выполнения операции произошла ошибка: %d из %d окончилось неудачно. Обратитесь к журналу или трассировщику GnuCash за более подробной информацией об ошибке\n"
+"\n"
+"%s"
 
 #: ../src/import-export/aqb/gnc-file-aqb-import.c:328
 msgid "No jobs to be send."
-msgstr "Нет заданий для отправки."
+msgstr "Отсутствуют задания для отправки"
 
 #: ../src/import-export/aqb/gnc-file-aqb-import.c:334
 #, c-format
 msgid "The job was executed successfully, but as a precaution please check the log window for potential errors."
 msgid_plural "All %d jobs were executed successfully, but as a precaution please check the log window for potential errors."
 msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
 
 #: ../src/import-export/aqb/gnc-gwen-gui.c:1069
 #, c-format
-msgid ""
-"The PIN needs to be at least %d characters \n"
+msgid "The PIN needs to be at least %d characters \n"
 "long. Do you want to try again?"
-msgstr ""
+msgstr "PIN-код должен содержать как минимум %d символов \n"
+"Повторить ввод?"
 
 #: ../src/import-export/aqb/gnc-gwen-gui.c:1565
 msgid "The Online Banking job is still running; are you sure you want to cancel?"
-msgstr "Идет обработка данных Интернет-банкинга. Вы действительно хотите отменить?"
+msgstr "Выполняется обработка данных Интернет-банкинга. Отменить операцию?"
 
 #: ../src/import-export/aqb/gncmod-aqbanking.c:79
 #: ../src/import-export/gncmod-generic-import.c:79
 #: ../src/import-export/qif-imp/gnc-plugin-qif-import.c:162
 msgid "Online Banking"
-msgstr "Интернет банкинг"
+msgstr "Интернет-банкинг"
 
 #. Menus
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:94
 msgid "_Online Actions"
-msgstr "_Интернет-операции"
+msgstr "Операции в _Интернет-банкинге"
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:98
 msgid "_Online Banking Setup..."
-msgstr "Настройка _интернет-банкинга..."
+msgstr "Настройка _Интернет-банкинга..."
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:99
 msgid "Initial setup of Online Banking access (HBCI, or OFX DirectConnect, using AqBanking)"
@@ -14088,7 +14108,7 @@ msgstr "Получить _баланс"
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:104
 msgid "Get the account balance online through Online Banking"
-msgstr ""
+msgstr "Получить баланс счета из Интернет-банкинга"
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:108
 msgid "Get _Transactions..."
@@ -14096,24 +14116,24 @@ msgstr "Получить проводки..."
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:109
 msgid "Get the transactions online through Online Banking"
-msgstr ""
+msgstr "Получить проводки из Интернет-банкинга"
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:113
 msgid "_Issue Transaction..."
-msgstr ""
+msgstr "_Запрос проводки..."
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:114
 msgid "Issue a new transaction online through Online Banking"
-msgstr ""
+msgstr "Запрос новой проводки из Интернет-банкинга"
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:118
 #, fuzzy
 msgid "_Issue SEPA Transaction..."
-msgstr "Получить проводки..."
+msgstr "Получить проводки (зона Евро)..."
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:119
 msgid "Issue a new international European (SEPA) transaction online through Online Banking"
-msgstr ""
+msgstr "Запрос международной проводки зоны Евро через Интернет-банкинг"
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:123
 msgid "I_nternal Transaction..."
@@ -14121,7 +14141,7 @@ msgstr "Вн_утренняя проводка..."
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:124
 msgid "Issue a new bank-internal transaction online through Online Banking"
-msgstr ""
+msgstr "Запуск новой внутренней транзакции банка через Интернет-банкинг"
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:128
 msgid "_Direct Debit..."
@@ -14129,56 +14149,56 @@ msgstr "_Прямой дебет..."
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:129
 msgid "Issue a new direct debit note online through Online Banking"
-msgstr ""
+msgstr "Запрос на прямое дебетование через Интернет-банкинг"
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:133
 #, fuzzy
 msgid "_Issue SEPA Direct Debit..."
-msgstr "_Прямой дебет..."
+msgstr "_Прямой дебет в зоне Евро..."
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:134
 msgid "Issue a new international European (SEPA) direct debit note online through Online Banking"
-msgstr ""
+msgstr "Запрос на прямое дебетование в зоне Евро через Интернет-банкинг"
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:140
 msgid "Import _MT940"
-msgstr ""
+msgstr "Импорт _MT940"
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:141
 msgid "Import a MT940 file into GnuCash"
-msgstr ""
+msgstr "Импорт файла MT940 в программу GnuCash"
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:145
 msgid "Import MT94_2"
-msgstr ""
+msgstr "Импорт MT94_2"
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:146
 msgid "Import a MT942 file into GnuCash"
-msgstr ""
+msgstr "Импорт файла MT942 в GnuCash"
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:150
 msgid "Import _DTAUS"
-msgstr ""
+msgstr "Импорт _DTAUS"
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:151
 msgid "Import a DTAUS file into GnuCash"
-msgstr ""
+msgstr "Импорт файла DTAUS в программу GnuCash"
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:163
 msgid "Import DTAUS and _send..."
-msgstr ""
+msgstr "Импорт и передача DTAU_S"
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:164
 msgid "Import a DTAUS file into GnuCash and send the transfers online through Online Banking"
-msgstr ""
+msgstr "Импорт файла DTAUS в программу GnuCash и передача данных через Интернет-банкинг"
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:174
 msgid "Show _log window"
-msgstr "Показывать окно _лога"
+msgstr "Показывать окно _журнала"
 
 #: ../src/import-export/aqb/gnc-plugin-aqbanking.c:175
 msgid "Show the online banking log window."
-msgstr "Отображать окно лога интернет-банкинга."
+msgstr "Отображать окно журнала Интернет-банкинга"
 
 #: ../src/import-export/aqb/gschemas/org.gnucash.dialogs.import.hbci.gschema.xml.in.in.h:3
 msgid "Close window when finished"
@@ -14186,7 +14206,7 @@ msgstr "Закрыть окно после завершения"
 
 #: ../src/import-export/aqb/gschemas/org.gnucash.dialogs.import.hbci.gschema.xml.in.in.h:4
 msgid "If active, the window will be closed automatically when you finish the HBCI/AqBanking import process. Otherwise it will stay open."
-msgstr ""
+msgstr "Если флажок установлен, после завершения процесса импорта данных окно будет закрыто автоматически. В противном случае окно останется открытым"
 
 #: ../src/import-export/aqb/gschemas/org.gnucash.dialogs.import.hbci.gschema.xml.in.in.h:5
 msgid "Remember the PIN in memory"
@@ -14194,23 +14214,23 @@ msgstr "Запомнить PIN-код"
 
 #: ../src/import-export/aqb/gschemas/org.gnucash.dialogs.import.hbci.gschema.xml.in.in.h:6
 msgid "If active, the PIN for HBCI/AqBanking actions will be remembered in memory during a session. Otherwise it will have to be entered again each time during a session when it is needed."
-msgstr ""
+msgstr "Если флажок установлен, PIN-код для операции HBCI/AqBanking будет сохранен в памяти на время сессии. В противном случае, при необходимости каждый раз придется вводить PIN-код заново"
 
 #: ../src/import-export/aqb/gschemas/org.gnucash.dialogs.import.hbci.gschema.xml.in.in.h:7
 msgid "Verbose HBCI debug messages"
-msgstr ""
+msgstr "Подробные сообщения отладки HBCI"
 
 #: ../src/import-export/aqb/gschemas/org.gnucash.dialogs.import.hbci.gschema.xml.in.in.h:8
 msgid "Enables verbose debug messages for HBCI/AqBanking Online Banking."
-msgstr ""
+msgstr "Флажок устанавливает наличие подробных сообщений отладки операций HBCI/AqBanking в Интернет-банкинге"
 
 #: ../src/import-export/aqb/gschemas/org.gnucash.dialogs.import.hbci.gschema.xml.in.in.h:9
 msgid "DTAUS import data format"
-msgstr ""
+msgstr "Импорт данных в формате DTAUS"
 
 #: ../src/import-export/aqb/gschemas/org.gnucash.dialogs.import.hbci.gschema.xml.in.in.h:10
 msgid "This setting specifies the data format when importing DTAUS files. The AqBanking library offers various import formats (called \"profiles\") of which you can choose one here."
-msgstr ""
+msgstr "Данная установка определяет формат данных при импорте DTAUS-файлов. Библиотека AqBanking предлагает различные форматы импорта, так называемые \"профили\", которые можно здесь выбрать"
 
 #: ../src/import-export/aqb/gschemas/org.gnucash.dialogs.import.hbci.gschema.xml.in.in.h:11
 msgid "CSV import data format"
@@ -14218,91 +14238,93 @@ msgstr "формат импортируемого файла CSV"
 
 #: ../src/import-export/aqb/gschemas/org.gnucash.dialogs.import.hbci.gschema.xml.in.in.h:12
 msgid "This setting specifies the data format when importing CSV files. The AqBanking library offers various import formats (called \"profiles\") of which you can choose one here."
-msgstr ""
+msgstr "Данный параметр определяет формат данных при импорте CSV-файлов. Библиотека AqBanking предлагает различные форматы импорта, так называемые \"профили\", которые можно здесь выбрать"
 
 #: ../src/import-export/aqb/gschemas/org.gnucash.dialogs.import.hbci.gschema.xml.in.in.h:13
 msgid "SWIFT MT940 import data format"
-msgstr ""
+msgstr "Импорт данных в формате SWIFT MT940"
 
 #: ../src/import-export/aqb/gschemas/org.gnucash.dialogs.import.hbci.gschema.xml.in.in.h:14
 msgid "This setting specifies the data format when importing SWIFT MT940 files. The AqBanking library offers various import formats (called \"profiles\") of which you can choose one here."
-msgstr ""
+msgstr "Данный параметр определяет формат данных при импорте SWIFT MT940. Библиотека AqBanking предлагает различные форматы импорта, так называемые \"профили\", которые можно здесь выбрать"
 
 #: ../src/import-export/aqb/gschemas/org.gnucash.dialogs.import.hbci.gschema.xml.in.in.h:15
 msgid "SWIFT MT942 import data format"
-msgstr ""
+msgstr "Импорт данных в формате SWIFT MT942"
 
 #: ../src/import-export/aqb/gschemas/org.gnucash.dialogs.import.hbci.gschema.xml.in.in.h:16
 msgid "This setting specifies the data format when importing SWIFT MT942 files. The AqBanking library offers various import formats (called \"profiles\") of which you can choose one here."
-msgstr ""
+msgstr "Данный параметр определяет формат данных при импорте файлов SWIFT MT942. Библиотека AqBanking предлагает различные форматы импорта, так называемые \"профили\", которые можно здесь выбрать"
 
 #. Translators: %s is the file name string.
 #: ../src/import-export/csv-exp/assistant-csv-export.c:79
 #, c-format
-msgid ""
-"The account tree will be exported to the file '%s' when you click 'Apply'.\n"
+msgid "The account tree will be exported to the file '%s' when you click 'Apply'.\n"
 "\n"
 "You can also go back and verify your selections by clicking on 'Back' or 'Cancel' to Abort Export.\n"
-msgstr ""
-"Нажмите кнопку \"Применить\", чтобы экспортировать иерархию счетов в файл '%s'.\n"
+""
+msgstr "Нажмите кнопку \"Применить\", чтобы экспортировать иерархию счетов в файл '%s'.\n"
 "\n"
-"Вы также можете вернуться назад и проверить параметры, нажав на кнопку \"Назад\", или отменить экспорт, нажав на кнопку \"Отмена\".\n"
+"Вы также можете вернуться назад и проверить параметры, нажав на кнопку \"Назад\", или отменить экспорт, нажав на кнопку \"Отмена\"\n"
+""
 
 #. Translators: %s is the file name string and %u the number of accounts.
 #: ../src/import-export/csv-exp/assistant-csv-export.c:85
 #, c-format
-msgid ""
-"When you click 'Apply', the transactions will be exported to the file '%s' and the number of accounts exported is %u.\n"
+msgid "When you click 'Apply', the transactions will be exported to the file '%s' and the number of accounts exported is %u.\n"
 "\n"
 "You can also go back and verify your selections by clicking on 'Back' or 'Cancel' to Abort Export.\n"
-msgstr ""
-"Нажмите кнопку \"Применить\", чтобы экспортировать проводки в файл '%s'. Число счетов которые включены экспорт: %u.\n"
+""
+msgstr "Нажмите кнопку \"Применить\", чтобы экспортировать проводки в файл '%s'. Число счетов которые включены экспорт: %u.\n"
 "\n"
 "Вы также можете вернуться назад и проверить параметры, нажав на кнопку \"Назад\", или отменить экспорт, нажав на кнопку \"Отмена\".\n"
+""
 
 #: ../src/import-export/csv-exp/assistant-csv-export.c:91
-msgid ""
-"This assistant will help you export the Account Tree to a file.\n"
+msgid "This assistant will help you export the Account Tree to a file.\n"
 "\n"
 "Select the settings you require for the file and then click 'Forward' to proceed or 'Cancel' to Abort Export.\n"
-msgstr ""
-"Этот мастер поможет вам экспортировать иерархию счетов в файл.\n"
+""
+msgstr "Этот мастер поможет вам экспортировать иерархию счетов в файл.\n"
 "\n"
 "Установите требуемые параметры экспорта и затем нажмите на кнопку \"Вперёд\" или нажмите \"Отмена\", чтобы прервать экспорт.\n"
+""
 
 #: ../src/import-export/csv-exp/assistant-csv-export.c:96
-msgid ""
-"This assistant will help you export the Transactions to a file.\n"
+msgid "This assistant will help you export the Transactions to a file.\n"
 "\n"
 "Select the settings you require for the file and then click 'Forward' to proceed or 'Cancel' to Abort Export.\n"
-msgstr ""
-"Этот мастер поможет вам экспортировать проводки в файл.\n"
+""
+msgstr "Этот мастер поможет вам экспортировать проводки в файл.\n"
 "\n"
 "Установите требуемые параметры экспорта и затем нажмите на кнопку \"Вперёд\" или нажмите \"Отмена\", чтобы прервать экспорт.\n"
+""
 
 #: ../src/import-export/csv-exp/assistant-csv-export.c:737
-msgid ""
-"There was a problem with the export, this could be due to lack of space, permissions or unable to access folder. Check the trace file for further logging!\n"
+msgid "There was a problem with the export, this could be due to lack of space, permissions or unable to access folder. Check the trace file for further logging!\n"
 "You may need to enable debugging.\n"
-msgstr ""
-"Не удалось выполнить экспорт. Это может быть связано с недостатком свободного места, нехваткой прав доступа или невозможностью получить доступ к директории. Для получения подробностей обратитесь к файлу лога!\n"
-"Возможно вам потребуется включить режим отладки.\n"
+""
+msgstr "Не удалось выполнить экспорт. Это может быть связано с недостатком свободного места, нехваткой прав доступа или невозможностью получить доступ к директории. Для получения подробностей обратитесь к файлу лога!\n"
+"Возможно вам потребуется включить режим отладки\n"
+""
 
 #: ../src/import-export/csv-exp/assistant-csv-export.c:741
 msgid "File exported successfully!\n"
+""
 msgstr "Файл был успешно экспортирован!\n"
+""
 
 #: ../src/import-export/csv-exp/assistant-csv-export.glade.h:1
 msgid "CSV Export Assistant"
 msgstr "Мастер экспорта в CSV"
 
 #: ../src/import-export/csv-exp/assistant-csv-export.glade.h:2
-msgid ""
-"\n"
+msgid "\n"
 "Select the type of Export required and the separator that will be used.\n"
-msgstr ""
-"\n"
-"Выберите требуемый тип экспорта и используемый разделитель.\n"
+""
+msgstr "\n"
+"Выберите требуемый тип экспорта и используемый разделитель\n"
+""
 
 #: ../src/import-export/csv-exp/assistant-csv-export.glade.h:5
 msgid "Quotes"
@@ -14338,7 +14360,7 @@ msgstr "Выберите параметры экспорта"
 
 #: ../src/import-export/csv-exp/assistant-csv-export.glade.h:13
 msgid "Select the accounts to be exported and date range if required."
-msgstr "Выберите счета для экспорта и, при необходимости, диапазон дат."
+msgstr "Выберите счета для экспорта и, при необходимости, диапазон дат"
 
 #: ../src/import-export/csv-exp/assistant-csv-export.glade.h:22
 msgid "<b>_Dates</b>"
@@ -14350,12 +14372,12 @@ msgid "Account Selection"
 msgstr "Выбор счета"
 
 #: ../src/import-export/csv-exp/assistant-csv-export.glade.h:34
-msgid ""
-"\n"
+msgid "\n"
 "Enter file name and location for the Export...\n"
-msgstr ""
-"\n"
+""
+msgstr "\n"
 "Введите имя файла и его расположение для экспорта...\n"
+""
 
 #: ../src/import-export/csv-exp/assistant-csv-export.glade.h:37
 msgid "Choose File Name for Export"
@@ -14363,12 +14385,10 @@ msgstr "Выберите имя файла для экспорта"
 
 #: ../src/import-export/csv-exp/assistant-csv-export.glade.h:38
 #: ../src/import-export/csv-imp/assistant-csv-account-import.glade.h:22
-msgid ""
-"Press Apply to create export file.\n"
+msgid "Press Apply to create export file.\n"
 "Cancel to abort."
-msgstr ""
-"Для создания экспортирования данных в файл, нажмите \"Применить\".\n"
-"Нажмите \"Отмена\", чтобы отменить экспорт."
+msgstr "Для создания экспортирования данных в файл, нажмите \"Применить\".\n"
+"Нажмите на кнопку \"Отмена\", чтобы отменить экспорт"
 
 #: ../src/import-export/csv-exp/assistant-csv-export.glade.h:40
 msgid "Export Now..."
@@ -14417,11 +14437,11 @@ msgstr "тип"
 
 #: ../src/import-export/csv-exp/csv-tree-export.c:155
 msgid "full_name"
-msgstr "полное_название"
+msgstr "полное_наименование"
 
 #: ../src/import-export/csv-exp/csv-tree-export.c:155
 msgid "name"
-msgstr "название"
+msgstr "наименовние"
 
 #: ../src/import-export/csv-exp/csv-tree-export.c:156
 msgid "code"
@@ -14437,7 +14457,7 @@ msgstr "цвет"
 
 #: ../src/import-export/csv-exp/csv-tree-export.c:157
 msgid "notes"
-msgstr "заметки"
+msgstr "примечание"
 
 #: ../src/import-export/csv-exp/csv-tree-export.c:157
 msgid "commoditym"
@@ -14461,11 +14481,11 @@ msgstr "виртуальный"
 
 #: ../src/import-export/csv-exp/gnc-plugin-csv-export.c:47
 msgid "Export Account T_ree to CSV..."
-msgstr "Экспорт _иерархии счетов в CSV..."
+msgstr "Экспорт плана счетов в CSV..."
 
 #: ../src/import-export/csv-exp/gnc-plugin-csv-export.c:48
 msgid "Export the Account Tree to a CSV file"
-msgstr "Экспортировать иерархию счетов в CSV файл"
+msgstr "Экспортировать план счетов в CSV-файл"
 
 #: ../src/import-export/csv-exp/gnc-plugin-csv-export.c:52
 msgid "Export _Transactions to CSV..."
@@ -14473,7 +14493,7 @@ msgstr "Экспорт _проводок в CSV..."
 
 #: ../src/import-export/csv-exp/gnc-plugin-csv-export.c:53
 msgid "Export the Transactions to a CSV file"
-msgstr "Экспортировать проводки в CSV файл"
+msgstr "Экспортировать проводки в CSV-файл"
 
 #: ../src/import-export/csv-exp/gschemas/org.gnucash.dialogs.export.csv.gschema.xml.in.in.h:5
 msgid "Window geometry"
@@ -14481,39 +14501,39 @@ msgstr "Геометрия окна"
 
 #: ../src/import-export/csv-exp/gschemas/org.gnucash.dialogs.export.csv.gschema.xml.in.in.h:6
 msgid "The position of paned window when it was last closed."
-msgstr "Расположение диалога при последнем его закрытии."
+msgstr "Расположение диалогового окна при последнем его закрытии"
 
 #: ../src/import-export/csv-imp/assistant-csv-account-import.c:70
 #, c-format
-msgid ""
-"The accounts will be imported from the file '%s' when you click 'Apply'.\n"
+msgid "The accounts will be imported from the file '%s' when you click 'Apply'.\n"
 "\n"
 "You can also go back and verify your selections by clicking on 'Back' or 'Cancel' to Abort Import.\n"
-msgstr ""
-"Нажмите кнопку \"Применить\", чтобы импортировать счета из файла '%s'.\n"
+""
+msgstr "Нажмите кнопку \"Применить\", чтобы импортировать счета из файла '%s'.\n"
 "\n"
 "Вы также можете вернуться назад и проверить параметры, нажав на кнопку \"Назад\", или отменить импорт, нажав на кнопку \"Отмена\".\n"
+""
 
 #: ../src/import-export/csv-imp/assistant-csv-account-import.c:75
 #, c-format
-msgid ""
-"The accounts will be imported from the file '%s' when you click 'Apply'.\n"
+msgid "The accounts will be imported from the file '%s' when you click 'Apply'.\n"
 "\n"
 "You can also go back and verify your selections by clicking on 'Back' or 'Cancel' to Abort Import.\n"
 "\n"
 "If this is your initial import into a new file, you will first see a dialog for setting book options, since these can affect how imported data are converted to GnuCash transactions. If this is an existing file, the dialog will not be shown.\n"
-msgstr ""
-"Нажмите кнопку \"Применить\", чтобы импортировать счета из файла '%s'.\n"
+""
+msgstr "Нажмите кнопку \"Применить\", чтобы импортировать счета из файла '%s'.\n"
 "\n"
 "Вы также можете вернуться назад и проверить параметры, нажав на кнопку \"Назад\", или отменить импорт, нажав на кнопку \"Отмена\".\n"
 "\n"
-"Если это первый импорт счетов в новый файл, сначала вы увидите диалог настроек книги, так как эти настройки могут повлиять на то, как импортируемые данные преобразуется в проводки GnuCash. Если импорт производится в существующий файл, диалог настроек показан не будет.\n"
+"Если это первый импорт счетов в новый файл, то сначала вы увидите диалоговое окно настроек книги, так как эти настройки могут повлиять на преобразование импортируемых данных в проводки GnuCash. Если импорт производится в существующий файл, диалоговое окно настроек выводиться не будет\n"
+""
 
 #: ../src/import-export/csv-imp/assistant-csv-account-import.c:172
 #: ../src/plugins/bi_import/dialog-bi-import-gui.c:219
 #: ../src/plugins/customer_import/dialog-customer-import-gui.c:205
 msgid "The input file can not be opened."
-msgstr "Не удалось открыть исходный файл."
+msgstr "Не удалось открыть исходный файл"
 
 #: ../src/import-export/csv-imp/assistant-csv-account-import.c:261
 #: ../src/plugins/bi_import/dialog-bi-import-gui.c:334
@@ -14525,18 +14545,18 @@ msgstr "Изменить регулярное выражение использ�
 #: ../src/plugins/bi_import/dialog-bi-import-gui.c:334
 #: ../src/plugins/customer_import/dialog-customer-import-gui.c:319
 msgid "This regular expression is used to parse the import file. Modify according to your needs.\n"
-msgstr "Это регулярное выражение используется для обработки импортируемого файла. Измените согласно вашим требованиям.\n"
+""
+msgstr "Это регулярное выражение используется для обработки импортируемого файла. Измените настройки согласно вашим требованиям\n"
+""
 
 #: ../src/import-export/csv-imp/assistant-csv-account-import.c:466
 #, c-format
-msgid ""
-"Import completed but with errors!\n"
+msgid "Import completed but with errors!\n"
 "\n"
 "The number of Accounts added was %u and updated was %u.\n"
 "\n"
 "See below for errors..."
-msgstr ""
-"Импорт завершен, но в процессе возникали ошибки!\n"
+msgstr "Операция импорта завершена, но в процессе импорта возникали ошибки!\n"
 "\n"
 "Число счетов добавлено: %u. Число счетов обновлено: %u.\n"
 "\n"
@@ -14558,31 +14578,31 @@ msgid "CSV Import Assistant"
 msgstr "Мастер импорта CSV файлов"
 
 #: ../src/import-export/csv-imp/assistant-csv-account-import.glade.h:2
-msgid ""
-"\n"
+msgid "\n"
 "This assistant will help you import Accounts from a file.\n"
 "\n"
 "The file must be in the same format as that exported as this is a fixed format import. If the account is missing, based on the full account name, it will be added as long as the security / currency specified exists. If the account exists, then four fields will be updated. These are code, description, notes and color.\n"
 "\n"
 "Click on 'Forward' to proceed or 'Cancel' to Abort Import.\n"
-msgstr ""
-"\n"
-"Этот мастер поможет вам импортировать счета из файла.\n"
+""
+msgstr "\n"
+"Этот мастер поможет вам импортировать счета из файла\n"
 "\n"
 "Формат файла фиксирован, поэтому импортируемый файл должен иметь формат, в точности совпадающий с экспортируемым. Если счет, соответствующий полному имени импортируемого счета, не найден, он будет добавлен, при условии что для него указана валюта/тип ценных бумаг. Если счет существует, то у него будут обновлены следующие четыре поля: код, описание, заметки и цвет\n"
-"Нажмите \"Вперёд\" для начала или \"Отмена\", чтобы прервать импорт.\n"
+"Нажмите на кнопку \"Вперед\" для начала операции импорта или на кнопку \"Отмена\", чтобы отменить импорт\n"
+""
 
 #: ../src/import-export/csv-imp/assistant-csv-account-import.glade.h:9
 msgid "Import Account Assistant"
 msgstr "Мастер импорта счетов"
 
 #: ../src/import-export/csv-imp/assistant-csv-account-import.glade.h:10
-msgid ""
-"\n"
+msgid "\n"
 "Enter file name and location for the Import...\n"
-msgstr ""
-"\n"
+""
+msgstr "\n"
 "Выберите файл для импорта...\n"
+""
 
 #: ../src/import-export/csv-imp/assistant-csv-account-import.glade.h:13
 msgid "Choose File to Import"
